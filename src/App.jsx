@@ -1,4 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
 const MODEL = "claude-sonnet-4-20250514";
 let generatedBank = [];
@@ -227,6 +236,7 @@ export default function App() {
         await generateMoreWords(1, 10);
         all = [...generatedBank];
       }
+      all = shuffle(all);
       setWordBank(all);
       generatedBank = all;
       setLoading(false);
@@ -276,6 +286,9 @@ export default function App() {
     if (step > 0) { const d = [...stepDone]; d[step - 1] = false; setStepDone(d); setStep(s => s - 1); }
     else if (wordIndex > 0) { setWordIndex(i => i - 1); setStep(3); }
   };
+
+  const shuffledStep1Options = useMemo(() => word ? shuffle(word.step1_options) : [], [wordIndex, wordBank]);
+  const shuffledStep2Sentences = useMemo(() => word ? word.step2_sentences.map(s => ({ ...s, options: shuffle(s.options) })) : [], [wordIndex, wordBank]);
 
   const accuracy = score.total > 0 ? Math.round(score.correct / score.total * 100) : 0;
   const s2allDone = s2revealed.every(Boolean);
@@ -363,7 +376,7 @@ export default function App() {
             <div style={{ fontWeight: 700, fontSize: 16, marginBottom: 4 }}>Which is NOT a meaning of <InlineWord>{word.word}</InlineWord>?</div>
             <div style={{ color: sub, fontSize: 13, marginBottom: 20 }}>Select the option that does NOT belong.</div>
             <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-              {word.step1_options.map((opt, i) => {
+              {shuffledStep1Options.map((opt, i) => {
                 const isAns = !opt.correct, isSel = selected === i;
                 let bg2 = inputBg, bdr = border;
                 if (revealed) { if (isAns) { bg2 = "#10b98122"; bdr = "#10b981"; } else if (isSel) { bg2 = "#ef444422"; bdr = "#ef4444"; } }
@@ -393,7 +406,7 @@ export default function App() {
             <div style={{ fontWeight: 700, fontSize: 16, marginBottom: 4 }}>Match each sentence to the correct meaning of <InlineWord>{word.word}</InlineWord></div>
             <div style={{ color: sub, fontSize: 13, marginBottom: 20 }}>Which meaning is used in each sentence?</div>
             <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-              {word.step2_sentences.map((item, si) => {
+              {shuffledStep2Sentences.map((item, si) => {
                 const isRev = s2revealed[si];
                 return (
                   <div key={si} style={{ background: inputBg, borderRadius: 14, padding: 16, border: `1px solid ${border}` }}>
