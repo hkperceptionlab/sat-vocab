@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "001", "word": "QUALIFY",
+    "step1_options": [
+      {"text": "To reach a necessary standard", "correct": true},
+      {"text": "To limit or modify a statement", "correct": true},
+      {"text": "To describe something by its qualities", "correct": true},
+      {"text": "To strengthen an argument", "correct": false}
+    ],
+    "step1_incorrect": "To strengthen an argument",
+    "step2_sentences": [
+      {"sentence": "She qualified for the national championship after months of training.", "answer": "To meet a required standard", "options": ["To meet a required standard", "To limit a statement", "To describe/label something"]},
+      {"sentence": "The senator qualified her support by insisting on strict budget constraints.", "answer": "To limit a statement", "options": ["To meet a required standard", "To limit a statement", "To describe/label something"]},
+      {"sentence": "Critics qualified the novel as a 'minor masterpiece' of modern fiction.", "answer": "To describe/label something", "options": ["To meet a required standard", "To limit a statement", "To describe/label something"]}
+    ],
+    "step3_synonyms": [{"text": "Restrict", "correct": true}, {"text": "Temper", "correct": true}, {"text": "Amplify", "correct": false}, {"text": "Bolster", "correct": false}],
+    "step3_antonyms": [{"text": "Generalize", "correct": true}, {"text": "Moderate", "correct": false}, {"text": "Restrict", "correct": false}, {"text": "Absolve", "correct": false}],
+    "step4_clues": ["'Qualified praise/support' → Limited (added a 'but')", "'Qualified for an event/job' → Earned a spot", "Author tone 'Yes, but…' = Qualified support"],
+    "simple_popup": "(A) Good enough for a competition or job.\n(B) 'This is mostly true, BUT there are exceptions.'\n(C) To describe what something is like.\n❌ 'Strengthen' is the OPPOSITE of qualify-as-limit."
+  },
+  {
+    "id": "002", "word": "COMPROMISE",
+    "step1_options": [
+      {"text": "To settle by mutual concession", "correct": true},
+      {"text": "To expose to danger or harm", "correct": true},
+      {"text": "To undermine integrity", "correct": true},
+      {"text": "To improve or enhance", "correct": false}
+    ],
+    "step1_incorrect": "To improve or enhance",
+    "step2_sentences": [
+      {"sentence": "Both parties agreed to compromise on the terms of the treaty.", "answer": "To settle by mutual concession", "options": ["To settle by mutual concession", "To endanger/undermine", "To weaken standards"]},
+      {"sentence": "The leak compromised the entire intelligence network.", "answer": "To endanger/undermine", "options": ["To settle by mutual concession", "To endanger/undermine", "To weaken standards"]},
+      {"sentence": "Accepting the bribe compromised his professional integrity.", "answer": "To weaken standards", "options": ["To settle by mutual concession", "To endanger/undermine", "To weaken standards"]}
+    ],
+    "step3_synonyms": [{"text": "Jeopardize", "correct": true}, {"text": "Undermine", "correct": true}, {"text": "Protect", "correct": false}, {"text": "Strengthen", "correct": false}],
+    "step3_antonyms": [{"text": "Safeguard", "correct": true}, {"text": "Negotiate", "correct": false}, {"text": "Expose", "correct": false}, {"text": "Weaken", "correct": false}],
+    "step4_clues": ["'Compromised security/integrity' → endangered, not negotiated", "'Reach a compromise' → mutual agreement", "Key nouns nearby: 'system', 'safety', 'reputation'"],
+    "simple_popup": "'Compromised the system' ≠ negotiated.\nIt means DAMAGED or PUT AT RISK.\nThe SAT loves this trap!"
+  },
+  {
+    "id": "003", "word": "APPROPRIATE",
+    "step1_options": [
+      {"text": "Suitable or proper for a context", "correct": true},
+      {"text": "To take for one's own use without permission", "correct": true},
+      {"text": "To allocate funds officially", "correct": true},
+      {"text": "To give away freely", "correct": false}
+    ],
+    "step1_incorrect": "To give away freely",
+    "step2_sentences": [
+      {"sentence": "Congress appropriated $3 billion for disaster relief.", "answer": "To officially allocate funds", "options": ["To officially allocate funds", "To take without permission", "Suitable/proper"]},
+      {"sentence": "The designer was accused of appropriating indigenous patterns without credit.", "answer": "To take without permission", "options": ["To officially allocate funds", "To take without permission", "Suitable/proper"]},
+      {"sentence": "She chose an appropriate tone for the formal occasion.", "answer": "Suitable/proper", "options": ["To officially allocate funds", "To take without permission", "Suitable/proper"]}
+    ],
+    "step3_synonyms": [{"text": "Seize (verb)", "correct": true}, {"text": "Fitting (adj)", "correct": true}, {"text": "Donate", "correct": false}, {"text": "Reject", "correct": false}],
+    "step3_antonyms": [{"text": "Relinquish", "correct": true}, {"text": "Allocate", "correct": false}, {"text": "Retain", "correct": false}, {"text": "Assign", "correct": false}],
+    "step4_clues": ["'Appropriated funds' → officially set aside", "'Appropriated culture/ideas' → took without permission", "As adjective: 'appropriate response' = fitting"],
+    "simple_popup": "As VERB: to TAKE something (often without permission).\nAs ADJECTIVE: suitable, proper.\n⚠️ SAT trap: verb form carries a negative/critical tone!"
+  },
+  {
+    "id": "004", "word": "CONCEDE",
+    "step1_options": [
+      {"text": "To admit something reluctantly", "correct": true},
+      {"text": "To yield or surrender a point", "correct": true},
+      {"text": "To acknowledge the validity of an argument", "correct": true},
+      {"text": "To strongly deny a claim", "correct": false}
+    ],
+    "step1_incorrect": "To strongly deny a claim",
+    "step2_sentences": [
+      {"sentence": "I concede that your analysis is correct, but the implications remain unclear.", "answer": "To admit reluctantly", "options": ["To admit reluctantly", "To surrender/give up", "To grant a right"]},
+      {"sentence": "The general conceded the territory after weeks of fighting.", "answer": "To surrender/give up", "options": ["To admit reluctantly", "To surrender/give up", "To grant a right"]},
+      {"sentence": "The treaty conceded fishing rights to the neighboring nation.", "answer": "To grant a right", "options": ["To admit reluctantly", "To surrender/give up", "To grant a right"]}
+    ],
+    "step3_synonyms": [{"text": "Acknowledge", "correct": true}, {"text": "Yield", "correct": true}, {"text": "Dispute", "correct": false}, {"text": "Deny", "correct": false}],
+    "step3_antonyms": [{"text": "Contest", "correct": true}, {"text": "Admit", "correct": false}, {"text": "Surrender", "correct": false}, {"text": "Yield", "correct": false}],
+    "step4_clues": ["Almost always followed by 'but' or 'however'", "'Concede defeat' = admit loss", "Author tone signal: reluctant, partial agreement"],
+    "simple_popup": "To ADMIT something is true even when you don't want to.\nAlmost always followed by a 'but'.\nKey SAT signal for author's tone questions!"
+  },
+  {
+    "id": "005", "word": "VINDICATE",
+    "step1_options": [
+      {"text": "To clear someone of blame", "correct": true},
+      {"text": "To prove a theory or claim correct", "correct": true},
+      {"text": "To justify a past decision by new evidence", "correct": true},
+      {"text": "To blame or condemn someone", "correct": false}
+    ],
+    "step1_incorrect": "To blame or condemn someone",
+    "step2_sentences": [
+      {"sentence": "New DNA evidence vindicated the man convicted fifteen years earlier.", "answer": "To clear of blame", "options": ["To clear of blame", "To prove a theory correct", "To justify a decision"]},
+      {"sentence": "The successful launch vindicated years of the engineer's disputed calculations.", "answer": "To prove a theory correct", "options": ["To clear of blame", "To prove a theory correct", "To justify a decision"]},
+      {"sentence": "Rising sales vindicated the CEO's controversial restructuring plan.", "answer": "To justify a decision", "options": ["To clear of blame", "To prove a theory correct", "To justify a decision"]}
+    ],
+    "step3_synonyms": [{"text": "Exonerate", "correct": true}, {"text": "Corroborate", "correct": true}, {"text": "Incriminate", "correct": false}, {"text": "Condemn", "correct": false}],
+    "step3_antonyms": [{"text": "Incriminate", "correct": true}, {"text": "Justify", "correct": false}, {"text": "Exonerate", "correct": false}, {"text": "Prove", "correct": false}],
+    "step4_clues": ["'Evidence vindicated' → proved right or innocent", "Look for: 'evidence', 'data', 'results' + vindicate", "Antonym: incriminate"],
+    "simple_popup": "To prove someone is RIGHT or INNOCENT.\nA person or theory is vindicated BY evidence.\nPositive word — someone is cleared or proven correct."
+  },
+  {
+    "id": "006", "word": "SANCTION",
+    "step1_options": [
+      {"text": "Official permission or approval", "correct": true},
+      {"text": "A penalty imposed for breaking rules", "correct": true},
+      {"text": "To officially authorize an action", "correct": true},
+      {"text": "To secretly hide or conceal", "correct": false}
+    ],
+    "step1_incorrect": "To secretly hide or conceal",
+    "step2_sentences": [
+      {"sentence": "The UN imposed economic sanctions following the invasion.", "answer": "A penalty/punishment", "options": ["Official approval", "A penalty/punishment", "To officially authorize"]},
+      {"sentence": "The committee sanctioned the new research protocol after review.", "answer": "To officially authorize", "options": ["Official approval", "A penalty/punishment", "To officially authorize"]},
+      {"sentence": "The expedition proceeded with the full sanction of the government.", "answer": "Official approval", "options": ["Official approval", "A penalty/punishment", "To officially authorize"]}
+    ],
+    "step3_synonyms": [{"text": "Authorize", "correct": true}, {"text": "Penalize", "correct": true}, {"text": "Prohibit", "correct": false}, {"text": "Conceal", "correct": false}],
+    "step3_antonyms": [{"text": "Prohibit", "correct": true}, {"text": "Penalize", "correct": false}, {"text": "Ratify", "correct": false}, {"text": "Enforce", "correct": false}],
+    "step4_clues": ["'Economic/trade sanctions' → penalties", "'Sanctioned by law/committee' → authorized", "SAT trap: same word = both punishment AND permission"],
+    "simple_popup": "SANCTION = permission OR punishment (both!).\n'Sanctions' (plural) almost always = penalties.\n'Sanctioned' (past tense) often = officially approved."
+  },
+  {
+    "id": "007", "word": "RESERVE",
+    "step1_options": [
+      {"text": "To keep or set aside for future use", "correct": true},
+      {"text": "Caution or restraint in manner", "correct": true},
+      {"text": "A body of stored resources", "correct": true},
+      {"text": "To distribute or hand out freely", "correct": false}
+    ],
+    "step1_incorrect": "To distribute or hand out freely",
+    "step2_sentences": [
+      {"sentence": "She reserved judgment until all the facts were presented.", "answer": "To keep/withhold for later", "options": ["To keep/withhold for later", "Shyness or restraint", "A stored supply"]},
+      {"sentence": "His natural reserve made him seem cold at first, though he was warm once known.", "answer": "Shyness or restraint", "options": ["To keep/withhold for later", "Shyness or restraint", "A stored supply"]},
+      {"sentence": "The nation's oil reserves were estimated to last fifty years.", "answer": "A stored supply", "options": ["To keep/withhold for later", "Shyness or restraint", "A stored supply"]}
+    ],
+    "step3_synonyms": [{"text": "Retain", "correct": true}, {"text": "Reticence", "correct": true}, {"text": "Distribute", "correct": false}, {"text": "Expend", "correct": false}],
+    "step3_antonyms": [{"text": "Expend / Exhaust", "correct": true}, {"text": "Store", "correct": false}, {"text": "Withhold", "correct": false}, {"text": "Retain", "correct": false}],
+    "step4_clues": ["'Reserved manner/person' → quiet, restrained personality", "'Reserve the right' → keep for oneself", "'Oil/cash reserves' → stored supply"],
+    "simple_popup": "RESERVE has 3 SAT meanings:\n1. To save/keep back ('reserve judgment')\n2. Quiet, restrained personality ('natural reserve')\n3. A stored supply ('oil reserves')"
+  },
+  {
+    "id": "008", "word": "OBJECT",
+    "step1_options": [
+      {"text": "A physical thing or item", "correct": true},
+      {"text": "To protest or express opposition", "correct": true},
+      {"text": "A goal or purpose", "correct": true},
+      {"text": "To approve or endorse", "correct": false}
+    ],
+    "step1_incorrect": "To approve or endorse",
+    "step2_sentences": [
+      {"sentence": "The defense attorney objected to the admission of the evidence.", "answer": "To protest/oppose", "options": ["A physical thing", "To protest/oppose", "A goal or purpose"]},
+      {"sentence": "The object of the expedition was to map the unmapped coastline.", "answer": "A goal or purpose", "options": ["A physical thing", "To protest/oppose", "A goal or purpose"]},
+      {"sentence": "The curator placed the ancient object behind protective glass.", "answer": "A physical thing", "options": ["A physical thing", "To protest/oppose", "A goal or purpose"]}
+    ],
+    "step3_synonyms": [{"text": "Protest (verb)", "correct": true}, {"text": "Objective/goal (noun)", "correct": true}, {"text": "Agree", "correct": false}, {"text": "Accept", "correct": false}],
+    "step3_antonyms": [{"text": "Assent / Approve", "correct": true}, {"text": "Protest", "correct": false}, {"text": "Dispute", "correct": false}, {"text": "Reject", "correct": false}],
+    "step4_clues": ["'Object to a plan' → protest", "'The object of study' → purpose/goal", "'An object on a shelf' → physical item"],
+    "simple_popup": "OBJECT:\n(verb) To protest or disagree.\n(noun) A thing OR a goal.\nSAT often uses 'the object of' to mean purpose."
+  },
+  {
+    "id": "009", "word": "SUBJECT",
+    "step1_options": [
+      {"text": "A topic or area of study", "correct": true},
+      {"text": "To cause to undergo something unpleasant", "correct": true},
+      {"text": "Likely to be affected by something", "correct": true},
+      {"text": "To protect or shield from harm", "correct": false}
+    ],
+    "step1_incorrect": "To protect or shield from harm",
+    "step2_sentences": [
+      {"sentence": "The prisoners were subjected to harsh interrogation techniques.", "answer": "To cause to undergo something", "options": ["A topic of study", "To cause to undergo something", "Likely/conditional"]},
+      {"sentence": "All decisions are subject to the board's final approval.", "answer": "Likely/conditional", "options": ["A topic of study", "To cause to undergo something", "Likely/conditional"]},
+      {"sentence": "The subject of her thesis was early colonial trade routes.", "answer": "A topic of study", "options": ["A topic of study", "To cause to undergo something", "Likely/conditional"]}
+    ],
+    "step3_synonyms": [{"text": "Expose (verb)", "correct": true}, {"text": "Conditional (adj)", "correct": true}, {"text": "Shield", "correct": false}, {"text": "Protect", "correct": false}],
+    "step3_antonyms": [{"text": "Exempt", "correct": true}, {"text": "Expose", "correct": false}, {"text": "Condition", "correct": false}, {"text": "Topic", "correct": false}],
+    "step4_clues": ["'Subject to approval/change' → dependent on, conditional", "'Subjected to treatment' → forced to undergo", "'Subject of debate' → topic"],
+    "simple_popup": "SUBJECT:\n(verb) To force someone to experience something.\n(adj) 'Subject to' = conditional, dependent on.\n(noun) A topic."
+  },
+  {
+    "id": "010", "word": "AFFECT",
+    "step1_options": [
+      {"text": "To have an influence on something", "correct": true},
+      {"text": "To pretend or put on a false manner", "correct": true},
+      {"text": "Emotion or feeling (psychology term)", "correct": true},
+      {"text": "To produce or create something new", "correct": false}
+    ],
+    "step1_incorrect": "To produce or create something new",
+    "step2_sentences": [
+      {"sentence": "The drought severely affected crop yields across the region.", "answer": "To influence", "options": ["To influence", "To pretend/fake", "Emotion (psych)"]},
+      {"sentence": "He affected an air of indifference, though he was clearly upset.", "answer": "To pretend/fake", "options": ["To influence", "To pretend/fake", "Emotion (psych)"]},
+      {"sentence": "The patient displayed flat affect, showing little emotional response.", "answer": "Emotion (psych)", "options": ["To influence", "To pretend/fake", "Emotion (psych)"]}
+    ],
+    "step3_synonyms": [{"text": "Influence (verb)", "correct": true}, {"text": "Feign/Simulate", "correct": true}, {"text": "Ignore", "correct": false}, {"text": "Create", "correct": false}],
+    "step3_antonyms": [{"text": "Leave unaffected", "correct": true}, {"text": "Influence", "correct": false}, {"text": "Pretend", "correct": false}, {"text": "Feel", "correct": false}],
+    "step4_clues": ["'Affected a British accent' → faked it, put it on", "'Affected by the policy' → impacted", "Psychology: 'flat affect' = lack of emotion"],
+    "simple_popup": "AFFECT:\n1. To influence ('affected by drought')\n2. To fake/pretend ('affected an accent')\n3. Emotion in psychology ('flat affect')\n⚠️ Don't confuse with EFFECT (noun = result)."
+  },
+  {
+    "id": "011", "word": "STATE",
+    "step1_options": [
+      {"text": "A condition or situation", "correct": true},
+      {"text": "To declare or express clearly", "correct": true},
+      {"text": "A political nation or territory", "correct": true},
+      {"text": "To conceal or withhold information", "correct": false}
+    ],
+    "step1_incorrect": "To conceal or withhold information",
+    "step2_sentences": [
+      {"sentence": "The scientist stated that the results confirmed the hypothesis.", "answer": "To declare clearly", "options": ["A condition", "To declare clearly", "A nation/territory"]},
+      {"sentence": "The patient was in a critical state following the surgery.", "answer": "A condition", "options": ["A condition", "To declare clearly", "A nation/territory"]},
+      {"sentence": "The small state declared independence after decades of conflict.", "answer": "A nation/territory", "options": ["A condition", "To declare clearly", "A nation/territory"]}
+    ],
+    "step3_synonyms": [{"text": "Declare (verb)", "correct": true}, {"text": "Condition (noun)", "correct": true}, {"text": "Conceal", "correct": false}, {"text": "Question", "correct": false}],
+    "step3_antonyms": [{"text": "Imply / Suggest", "correct": true}, {"text": "Declare", "correct": false}, {"text": "Express", "correct": false}, {"text": "Condition", "correct": false}],
+    "step4_clues": ["'The author states' → clearly declares", "'State of mind/affairs' → condition", "'Nation-state' → political entity"],
+    "simple_popup": "STATE:\n(verb) To say clearly and directly.\n(noun) A condition ('state of emergency') OR a nation.\nSAT most often uses it as a verb meaning 'to declare.'"
+  },
+  {
+    "id": "012", "word": "MANIFEST",
+    "step1_options": [
+      {"text": "Clearly apparent or obvious", "correct": true},
+      {"text": "To show or demonstrate clearly", "correct": true},
+      {"text": "A list of cargo or passengers", "correct": true},
+      {"text": "Hidden or deliberately concealed", "correct": false}
+    ],
+    "step1_incorrect": "Hidden or deliberately concealed",
+    "step2_sentences": [
+      {"sentence": "Her talent manifested itself early, winning prizes before age ten.", "answer": "To show/demonstrate", "options": ["Clearly obvious (adj)", "To show/demonstrate", "A list (noun)"]},
+      {"sentence": "His manifest disregard for the rules angered the committee.", "answer": "Clearly obvious (adj)", "options": ["Clearly obvious (adj)", "To show/demonstrate", "A list (noun)"]},
+      {"sentence": "Customs officers checked the ship's manifest before allowing entry.", "answer": "A list (noun)", "options": ["Clearly obvious (adj)", "To show/demonstrate", "A list (noun)"]}
+    ],
+    "step3_synonyms": [{"text": "Evident (adj)", "correct": true}, {"text": "Display (verb)", "correct": true}, {"text": "Hidden", "correct": false}, {"text": "Obscure", "correct": false}],
+    "step3_antonyms": [{"text": "Latent / Hidden", "correct": true}, {"text": "Obvious", "correct": false}, {"text": "Apparent", "correct": false}, {"text": "Display", "correct": false}],
+    "step4_clues": ["'Manifest anxiety/talent' → clearly visible", "'Manifested as…' → appeared in a particular form", "Cargo manifest → a list"],
+    "simple_popup": "MANIFEST:\n(adj) Obvious, clearly visible.\n(verb) To show or reveal itself.\n(noun) A list of cargo.\nSAT loves: 'The problem manifested as…'"
+  },
+  {
+    "id": "013", "word": "ASSERT",
+    "step1_options": [
+      {"text": "To state or declare confidently", "correct": true},
+      {"text": "To insist on recognition of one's rights", "correct": true},
+      {"text": "To impose one's authority", "correct": true},
+      {"text": "To deny or refute a claim", "correct": false}
+    ],
+    "step1_incorrect": "To deny or refute a claim",
+    "step2_sentences": [
+      {"sentence": "The lawyer asserted that her client had been wrongfully detained.", "answer": "To declare confidently", "options": ["To declare confidently", "To insist on rights", "To impose authority"]},
+      {"sentence": "Workers began to assert their right to collective bargaining.", "answer": "To insist on rights", "options": ["To declare confidently", "To insist on rights", "To impose authority"]},
+      {"sentence": "The new manager quickly asserted her authority over the team.", "answer": "To impose authority", "options": ["To declare confidently", "To insist on rights", "To impose authority"]}
+    ],
+    "step3_synonyms": [{"text": "Declare", "correct": true}, {"text": "Maintain", "correct": true}, {"text": "Deny", "correct": false}, {"text": "Concede", "correct": false}],
+    "step3_antonyms": [{"text": "Deny / Retract", "correct": true}, {"text": "Declare", "correct": false}, {"text": "Maintain", "correct": false}, {"text": "Claim", "correct": false}],
+    "step4_clues": ["'Assert that…' → state as fact with confidence", "'Assert authority/dominance' → establish control", "Strong, active word — no doubt implied"],
+    "simple_popup": "ASSERT = state something with full confidence.\n'Assert authority' = take control.\n'Assert that' = claim as fact.\nNo hedging — stronger than 'suggest.'"
+  },
+  {
+    "id": "014", "word": "PRAGMATIC",
+    "step1_options": [
+      {"text": "Dealing with things practically and realistically", "correct": true},
+      {"text": "Guided by practical consequences rather than theory", "correct": true},
+      {"text": "Focused on what actually works", "correct": true},
+      {"text": "Based on idealistic or abstract principles", "correct": false}
+    ],
+    "step1_incorrect": "Based on idealistic or abstract principles",
+    "step2_sentences": [
+      {"sentence": "The CEO took a pragmatic approach, cutting costs before expanding.", "answer": "Practical, results-focused", "options": ["Practical, results-focused", "Philosophical doctrine", "Flexible/adaptive"]},
+      {"sentence": "As a pragmatist, she chose the solution that worked, not the elegant one.", "answer": "Practical, results-focused", "options": ["Practical, results-focused", "Philosophical doctrine", "Flexible/adaptive"]},
+      {"sentence": "The committee adopted a pragmatic policy that adapted to changing conditions.", "answer": "Flexible/adaptive", "options": ["Practical, results-focused", "Philosophical doctrine", "Flexible/adaptive"]}
+    ],
+    "step3_synonyms": [{"text": "Practical", "correct": true}, {"text": "Realistic", "correct": true}, {"text": "Idealistic", "correct": false}, {"text": "Theoretical", "correct": false}],
+    "step3_antonyms": [{"text": "Idealistic", "correct": true}, {"text": "Practical", "correct": false}, {"text": "Realistic", "correct": false}, {"text": "Efficient", "correct": false}],
+    "step4_clues": ["Opposite of idealistic or dogmatic", "Pragmatic person: 'Does it work? Then use it.'", "SAT contrast: pragmatic vs. principled/ideological"],
+    "simple_popup": "PRAGMATIC = practical, focused on what works.\nNot idealistic, not theoretical.\nSAT often contrasts pragmatic thinkers with idealists."
+  },
+  {
+    "id": "015", "word": "AMBIVALENT",
+    "step1_options": [
+      {"text": "Having mixed or contradictory feelings", "correct": true},
+      {"text": "Uncertain how to act due to conflicting emotions", "correct": true},
+      {"text": "Simultaneously attracted and repelled", "correct": true},
+      {"text": "Strongly committed to one position", "correct": false}
+    ],
+    "step1_incorrect": "Strongly committed to one position",
+    "step2_sentences": [
+      {"sentence": "She felt ambivalent about the promotion — excited, yet reluctant to leave her team.", "answer": "Mixed/conflicting feelings", "options": ["Mixed/conflicting feelings", "Indifferent/uncaring", "Uncertain about facts"]},
+      {"sentence": "The public remained ambivalent toward the policy despite months of debate.", "answer": "Mixed/conflicting feelings", "options": ["Mixed/conflicting feelings", "Indifferent/uncaring", "Uncertain about facts"]},
+      {"sentence": "His ambivalent response — neither fully approving nor rejecting — frustrated the board.", "answer": "Mixed/conflicting feelings", "options": ["Mixed/conflicting feelings", "Indifferent/uncaring", "Uncertain about facts"]}
+    ],
+    "step3_synonyms": [{"text": "Conflicted", "correct": true}, {"text": "Equivocal", "correct": true}, {"text": "Certain", "correct": false}, {"text": "Decisive", "correct": false}],
+    "step3_antonyms": [{"text": "Resolute / Decided", "correct": true}, {"text": "Conflicted", "correct": false}, {"text": "Uncertain", "correct": false}, {"text": "Neutral", "correct": false}],
+    "step4_clues": ["Two emotions present at once — not just unsure, but pulled both ways", "SAT trap: ambivalent ≠ indifferent (indifferent = doesn't care)", "'Ambivalent about' = want it AND don't want it simultaneously"],
+    "simple_popup": "AMBIVALENT = two opposing feelings at once.\n⚠️ NOT the same as indifferent (which means not caring).\nAmbivalent: 'I want this AND I don't want this.'"
+  },
+  {
+    "id": "016", "word": "ADVOCATE",
+    "step1_options": [
+      {"text": "To publicly support a cause or policy", "correct": true},
+      {"text": "A person who supports a cause", "correct": true},
+      {"text": "A lawyer or legal representative", "correct": true},
+      {"text": "To argue against or oppose a position", "correct": false}
+    ],
+    "step1_incorrect": "To argue against or oppose a position",
+    "step2_sentences": [
+      {"sentence": "She has long advocated for stronger environmental protections.", "answer": "To publicly support", "options": ["To publicly support", "A legal representative", "A supporter/champion"]},
+      {"sentence": "The accused had no advocate to represent him in court.", "answer": "A legal representative", "options": ["To publicly support", "A legal representative", "A supporter/champion"]},
+      {"sentence": "He became a tireless advocate for prison reform after his release.", "answer": "A supporter/champion", "options": ["To publicly support", "A legal representative", "A supporter/champion"]}
+    ],
+    "step3_synonyms": [{"text": "Champion (verb)", "correct": true}, {"text": "Proponent (noun)", "correct": true}, {"text": "Opponent", "correct": false}, {"text": "Critic", "correct": false}],
+    "step3_antonyms": [{"text": "Opponent / Critic", "correct": true}, {"text": "Supporter", "correct": false}, {"text": "Champion", "correct": false}, {"text": "Proponent", "correct": false}],
+    "step4_clues": ["'Advocate for' = actively support", "'An advocate' = a person who supports OR a lawyer", "Key signal: usually followed by 'for'"],
+    "simple_popup": "ADVOCATE:\n(verb) To publicly support something.\n(noun) A supporter OR a lawyer.\nAlways positive toward the cause it supports."
+  },
+  {
+    "id": "017", "word": "YIELD",
+    "step1_options": [
+      {"text": "To produce or generate a result", "correct": true},
+      {"text": "To give way or surrender", "correct": true},
+      {"text": "The amount produced by an investment or crop", "correct": true},
+      {"text": "To accelerate or increase output", "correct": false}
+    ],
+    "step1_incorrect": "To accelerate or increase output",
+    "step2_sentences": [
+      {"sentence": "The farmland yielded an exceptional harvest that season.", "answer": "To produce/generate", "options": ["To produce/generate", "To surrender/give way", "Amount produced"]},
+      {"sentence": "After hours of debate, the senator yielded the floor.", "answer": "To surrender/give way", "options": ["To produce/generate", "To surrender/give way", "Amount produced"]},
+      {"sentence": "The bond offered a yield of four percent annually.", "answer": "Amount produced", "options": ["To produce/generate", "To surrender/give way", "Amount produced"]}
+    ],
+    "step3_synonyms": [{"text": "Produce (verb)", "correct": true}, {"text": "Concede (verb)", "correct": true}, {"text": "Resist", "correct": false}, {"text": "Withhold", "correct": false}],
+    "step3_antonyms": [{"text": "Resist / Withstand", "correct": true}, {"text": "Produce", "correct": false}, {"text": "Concede", "correct": false}, {"text": "Generate", "correct": false}],
+    "step4_clues": ["'Yielded results/profit' → produced", "'Yield to pressure' → give in", "'Bond yield' → financial return"],
+    "simple_popup": "YIELD:\n1. To produce ('yielded a profit')\n2. To give way ('yield to pressure')\n3. Financial return ('bond yield')\nSAT often uses meaning 2 in argument/debate contexts."
+  },
+  {
+    "id": "018", "word": "CHECK",
+    "step1_options": [
+      {"text": "To stop or restrain something", "correct": true},
+      {"text": "To verify or inspect", "correct": true},
+      {"text": "A system that limits power", "correct": true},
+      {"text": "To accelerate or promote growth", "correct": false}
+    ],
+    "step1_incorrect": "To accelerate or promote growth",
+    "step2_sentences": [
+      {"sentence": "The new regulation checked the rapid expansion of the monopoly.", "answer": "To stop/restrain", "options": ["To stop/restrain", "To verify/inspect", "A limit on power"]},
+      {"sentence": "Scientists checked their data against three independent sources.", "answer": "To verify/inspect", "options": ["To stop/restrain", "To verify/inspect", "A limit on power"]},
+      {"sentence": "The system of checks and balances prevents any one branch from dominating.", "answer": "A limit on power", "options": ["To stop/restrain", "To verify/inspect", "A limit on power"]}
+    ],
+    "step3_synonyms": [{"text": "Restrain (verb)", "correct": true}, {"text": "Curb (verb)", "correct": true}, {"text": "Promote", "correct": false}, {"text": "Accelerate", "correct": false}],
+    "step3_antonyms": [{"text": "Promote / Accelerate", "correct": true}, {"text": "Restrain", "correct": false}, {"text": "Curb", "correct": false}, {"text": "Verify", "correct": false}],
+    "step4_clues": ["'Checked the spread of disease' → stopped/slowed it", "'Checks on power' → limits, constraints", "SAT trap: 'check' often means RESTRAIN, not verify"],
+    "simple_popup": "CHECK (SAT meaning):\nMost commonly = to RESTRAIN or STOP.\n'Checked the advance' = stopped it.\n'Checks and balances' = limits on power.\n⚠️ Not just 'to look at'!"
+  },
+  {
+    "id": "019", "word": "DISCRIMINATE",
+    "step1_options": [
+      {"text": "To treat people unfairly based on group identity", "correct": true},
+      {"text": "To recognize or perceive fine distinctions", "correct": true},
+      {"text": "To distinguish between things accurately", "correct": true},
+      {"text": "To combine or merge distinct categories", "correct": false}
+    ],
+    "step1_incorrect": "To combine or merge distinct categories",
+    "step2_sentences": [
+      {"sentence": "A trained ear can discriminate between subtle differences in pitch.", "answer": "To perceive fine distinctions", "options": ["To treat unfairly", "To perceive fine distinctions", "To distinguish accurately"]},
+      {"sentence": "The law prohibits employers from discriminating on the basis of age.", "answer": "To treat unfairly", "options": ["To treat unfairly", "To perceive fine distinctions", "To distinguish accurately"]},
+      {"sentence": "The sensor discriminates between genuine currency and counterfeits.", "answer": "To distinguish accurately", "options": ["To treat unfairly", "To perceive fine distinctions", "To distinguish accurately"]}
+    ],
+    "step3_synonyms": [{"text": "Distinguish", "correct": true}, {"text": "Differentiate", "correct": true}, {"text": "Merge", "correct": false}, {"text": "Combine", "correct": false}],
+    "step3_antonyms": [{"text": "Conflate / Blur distinctions", "correct": true}, {"text": "Distinguish", "correct": false}, {"text": "Separate", "correct": false}, {"text": "Bias", "correct": false}],
+    "step4_clues": ["'Discriminating taste' → refined, able to tell fine differences (POSITIVE)", "'Discriminate against' → unfair treatment (NEGATIVE)", "Context determines tone completely"],
+    "simple_popup": "DISCRIMINATE:\n(negative) To treat unfairly based on race, age, etc.\n(positive/neutral) To perceive fine differences.\n'A discriminating palate' = refined, perceptive.\nSAT often tests the POSITIVE meaning!"
+  },
+  {
+    "id": "020", "word": "DISINTERESTED",
+    "step1_options": [
+      {"text": "Impartial or unbiased", "correct": true},
+      {"text": "Having no personal stake in the outcome", "correct": true},
+      {"text": "Free from selfish motive", "correct": true},
+      {"text": "Bored or lacking interest", "correct": false}
+    ],
+    "step1_incorrect": "Bored or lacking interest",
+    "step2_sentences": [
+      {"sentence": "The case required a disinterested mediator with no ties to either party.", "answer": "Impartial/unbiased", "options": ["Impartial/unbiased", "Bored/unengaged", "Financially neutral"]},
+      {"sentence": "His advice was disinterested — he stood to gain nothing from our decision.", "answer": "Financially neutral", "options": ["Impartial/unbiased", "Bored/unengaged", "Financially neutral"]},
+      {"sentence": "A disinterested observer confirmed that both sides had acted fairly.", "answer": "Impartial/unbiased", "options": ["Impartial/unbiased", "Bored/unengaged", "Financially neutral"]}
+    ],
+    "step3_synonyms": [{"text": "Impartial", "correct": true}, {"text": "Unbiased", "correct": true}, {"text": "Bored", "correct": false}, {"text": "Apathetic", "correct": false}],
+    "step3_antonyms": [{"text": "Biased / Partial", "correct": true}, {"text": "Impartial", "correct": false}, {"text": "Neutral", "correct": false}, {"text": "Unengaged", "correct": false}],
+    "step4_clues": ["DISINTERESTED ≠ UNINTERESTED", "'Uninterested' = bored, doesn't care", "'Disinterested' = no personal stake, fair judge", "SAT classic trap: these two are NOT the same"],
+    "simple_popup": "DISINTERESTED = impartial, no personal stake.\nUNINTERESTED = bored, doesn't care.\n⚠️ The SAT LOVES this distinction.\n'A disinterested judge' = fair, not bored!"
+  },
+  {
+    "id": "021", "word": "PRECIPITATE",
+    "step1_options": [
+      {"text": "To cause something to happen suddenly", "correct": true},
+      {"text": "Acting rashly or hastily", "correct": true},
+      {"text": "A substance separated from a solution", "correct": true},
+      {"text": "To prevent or delay an event", "correct": false}
+    ],
+    "step1_incorrect": "To prevent or delay an event",
+    "step2_sentences": [
+      {"sentence": "The assassination precipitated a crisis that led to war.", "answer": "To cause suddenly", "options": ["To cause suddenly", "Rash/hasty", "Chemical substance"]},
+      {"sentence": "Her precipitate decision to resign shocked the entire department.", "answer": "Rash/hasty", "options": ["To cause suddenly", "Rash/hasty", "Chemical substance"]},
+      {"sentence": "The reaction produced a white precipitate at the bottom of the flask.", "answer": "Chemical substance", "options": ["To cause suddenly", "Rash/hasty", "Chemical substance"]}
+    ],
+    "step3_synonyms": [{"text": "Trigger (verb)", "correct": true}, {"text": "Rash (adj)", "correct": true}, {"text": "Prevent", "correct": false}, {"text": "Delay", "correct": false}],
+    "step3_antonyms": [{"text": "Prevent / Forestall", "correct": true}, {"text": "Trigger", "correct": false}, {"text": "Cause", "correct": false}, {"text": "Hasten", "correct": false}],
+    "step4_clues": ["'Precipitated a crisis' → suddenly triggered it", "'Precipitate action' (adj) → rash, done too quickly", "Chemistry: precipitate = solid that forms in a solution"],
+    "simple_popup": "PRECIPITATE:\n(verb) To bring about suddenly ('precipitated a war').\n(adj) Rash, hasty ('precipitate decision').\n(noun) Chemistry: a solid formed in a liquid.\nMost common SAT use: verb meaning 'to trigger.'"
+  },
+  {
+    "id": "022", "word": "NOMINAL",
+    "step1_options": [
+      {"text": "Existing in name only, not in reality", "correct": true},
+      {"text": "Very small in amount", "correct": true},
+      {"text": "Relating to a name or noun", "correct": true},
+      {"text": "Very large or significant in value", "correct": false}
+    ],
+    "step1_incorrect": "Very large or significant in value",
+    "step2_sentences": [
+      {"sentence": "The king held nominal power; the prime minister governed in practice.", "answer": "In name only, not real", "options": ["In name only, not real", "Very small amount", "Relating to a name"]},
+      {"sentence": "There was a nominal fee of one dollar to enter the exhibition.", "answer": "Very small amount", "options": ["In name only, not real", "Very small amount", "Relating to a name"]},
+      {"sentence": "The nominal GDP does not account for inflation.", "answer": "Relating to a name/label", "options": ["In name only, not real", "Very small amount", "Relating to a name/label"]}
+    ],
+    "step3_synonyms": [{"text": "Token (adj)", "correct": true}, {"text": "Titular", "correct": true}, {"text": "Substantial", "correct": false}, {"text": "Significant", "correct": false}],
+    "step3_antonyms": [{"text": "Substantial / Real", "correct": true}, {"text": "Token", "correct": false}, {"text": "Titular", "correct": false}, {"text": "Small", "correct": false}],
+    "step4_clues": ["'Nominal leader' → leader in name only, no real power", "'Nominal fee' → very small/token amount", "SAT passage: look for gap between name and reality"],
+    "simple_popup": "NOMINAL:\n1. In name only ('nominal authority' = no real power).\n2. Very small ('a nominal fee').\n3. Economics: not adjusted for inflation.\nSAT most common: 'nominal' = not the real thing."
+  },
+  {
+    "id": "023", "word": "CONTEND",
+    "step1_options": [
+      {"text": "To struggle or compete", "correct": true},
+      {"text": "To assert or argue", "correct": true},
+      {"text": "To deal with a difficulty", "correct": true},
+      {"text": "To agree or concede a point", "correct": false}
+    ],
+    "step1_incorrect": "To agree or concede a point",
+    "step2_sentences": [
+      {"sentence": "The scientist contends that the current model is fundamentally flawed.", "answer": "To assert/argue", "options": ["To assert/argue", "To compete", "To deal with difficulty"]},
+      {"sentence": "Three nations contended for control of the disputed territory.", "answer": "To compete", "options": ["To assert/argue", "To compete", "To deal with difficulty"]},
+      {"sentence": "She had to contend with budget cuts while managing the project.", "answer": "To deal with difficulty", "options": ["To assert/argue", "To compete", "To deal with difficulty"]}
+    ],
+    "step3_synonyms": [{"text": "Assert (verb)", "correct": true}, {"text": "Compete (verb)", "correct": true}, {"text": "Agree", "correct": false}, {"text": "Concede", "correct": false}],
+    "step3_antonyms": [{"text": "Concede / Agree", "correct": true}, {"text": "Argue", "correct": false}, {"text": "Compete", "correct": false}, {"text": "Struggle", "correct": false}],
+    "step4_clues": ["'Contends that…' → argues/claims (common in SAT passages)", "'Contend for a title' → compete", "'Contend with obstacles' → cope with, deal with"],
+    "simple_popup": "CONTEND:\n1. To argue/claim ('contends that the theory is wrong').\n2. To compete ('contend for power').\n3. To deal with ('contend with challenges').\nSAT most common: 'The author contends that…' = argues."
+  },
+  {
+    "id": "024", "word": "ARBITRARY",
+    "step1_options": [
+      {"text": "Based on random choice, not reason", "correct": true},
+      {"text": "Subject to individual will, not fixed law", "correct": true},
+      {"text": "Unpredictable and inconsistent", "correct": true},
+      {"text": "Based on careful analysis and logic", "correct": false}
+    ],
+    "step1_incorrect": "Based on careful analysis and logic",
+    "step2_sentences": [
+      {"sentence": "The judge's arbitrary rulings made it impossible to predict outcomes.", "answer": "Random/unpredictable", "options": ["Random/unpredictable", "Based on personal power", "Inconsistent"]},
+      {"sentence": "The king exercised arbitrary power with no legal constraints.", "answer": "Based on personal power", "options": ["Random/unpredictable", "Based on personal power", "Inconsistent"]},
+      {"sentence": "The cutoff date seemed completely arbitrary, with no logical basis.", "answer": "Random/unpredictable", "options": ["Random/unpredictable", "Based on personal power", "Inconsistent"]}
+    ],
+    "step3_synonyms": [{"text": "Capricious", "correct": true}, {"text": "Random", "correct": true}, {"text": "Reasoned", "correct": false}, {"text": "Systematic", "correct": false}],
+    "step3_antonyms": [{"text": "Principled / Reasoned", "correct": true}, {"text": "Random", "correct": false}, {"text": "Capricious", "correct": false}, {"text": "Unpredictable", "correct": false}],
+    "step4_clues": ["Arbitrary decisions = based on whim, not logic", "Political use: 'arbitrary power' = unchecked, tyrannical", "SAT key: arbitrary always carries a NEGATIVE connotation"],
+    "simple_popup": "ARBITRARY = decided randomly or by personal whim.\nNot based on logic, rules, or principles.\n'Arbitrary power' = unchecked authority.\nAlways negative in tone on the SAT."
+  },
+  {
+    "id": "025", "word": "UNIFORM",
+    "step1_options": [
+      {"text": "Consistent and unchanging throughout", "correct": true},
+      {"text": "A standard outfit worn by a group", "correct": true},
+      {"text": "Without variation in form or character", "correct": true},
+      {"text": "Highly varied or diverse", "correct": false}
+    ],
+    "step1_incorrect": "Highly varied or diverse",
+    "step2_sentences": [
+      {"sentence": "The temperature across the region was remarkably uniform throughout the month.", "answer": "Consistent/unchanging", "options": ["Consistent/unchanging", "A standard outfit", "Without variation"]},
+      {"sentence": "Students were required to wear a school uniform every day.", "answer": "A standard outfit", "options": ["Consistent/unchanging", "A standard outfit", "Without variation"]},
+      {"sentence": "The policy ensured uniform application of the rules across all departments.", "answer": "Without variation", "options": ["Consistent/unchanging", "A standard outfit", "Without variation"]}
+    ],
+    "step3_synonyms": [{"text": "Consistent", "correct": true}, {"text": "Homogeneous", "correct": true}, {"text": "Variable", "correct": false}, {"text": "Diverse", "correct": false}],
+    "step3_antonyms": [{"text": "Variable / Diverse", "correct": true}, {"text": "Consistent", "correct": false}, {"text": "Homogeneous", "correct": false}, {"text": "Standard", "correct": false}],
+    "step4_clues": ["'Uniform distribution' → even, no variation", "'Uniform standards' → same rules for everyone", "SAT uses 'uniform' as adjective meaning 'consistent'"],
+    "simple_popup": "UNIFORM:\n(adj) Consistent, the same throughout.\n(noun) A standard outfit.\nSAT almost always uses it as an adjective.\n'Uniform application' = applied equally to all."
+  },
+  {
+    "id": "026", "word": "TEMPER",
+    "step1_options": [
+      {"text": "To moderate or soften something", "correct": true},
+      {"text": "A person's characteristic mood or disposition", "correct": true},
+      {"text": "To strengthen metal by heating and cooling", "correct": true},
+      {"text": "To intensify or amplify an emotion", "correct": false}
+    ],
+    "step1_incorrect": "To intensify or amplify an emotion",
+    "step2_sentences": [
+      {"sentence": "The judge's enthusiasm was tempered by the sobering statistics.", "answer": "To moderate/soften", "options": ["To moderate/soften", "Mood/disposition", "To harden metal"]},
+      {"sentence": "She had an even temper that helped her navigate difficult negotiations.", "answer": "Mood/disposition", "options": ["To moderate/soften", "Mood/disposition", "To harden metal"]},
+      {"sentence": "The blacksmith tempered the blade to increase its durability.", "answer": "To harden metal", "options": ["To moderate/soften", "Mood/disposition", "To harden metal"]}
+    ],
+    "step3_synonyms": [{"text": "Moderate (verb)", "correct": true}, {"text": "Disposition (noun)", "correct": true}, {"text": "Inflame", "correct": false}, {"text": "Intensify", "correct": false}],
+    "step3_antonyms": [{"text": "Inflame / Intensify", "correct": true}, {"text": "Moderate", "correct": false}, {"text": "Soften", "correct": false}, {"text": "Calm", "correct": false}],
+    "step4_clues": ["'Tempered by experience' → moderated, made more balanced", "'Even temper' → calm personality", "SAT most common: verb meaning to SOFTEN or MODERATE"],
+    "simple_popup": "TEMPER (SAT verb meaning):\nTo MODERATE or SOFTEN.\n'Enthusiasm tempered by caution' = reduced, balanced.\n⚠️ Not 'to make angry' — that's 'lose one's temper.'"
+  },
+  {
+    "id": "027", "word": "OBSERVE",
+    "step1_options": [
+      {"text": "To watch carefully or notice", "correct": true},
+      {"text": "To follow or comply with a rule", "correct": true},
+      {"text": "To say or remark", "correct": true},
+      {"text": "To ignore or overlook a law", "correct": false}
+    ],
+    "step1_incorrect": "To ignore or overlook a law",
+    "step2_sentences": [
+      {"sentence": "Scientists observed the comet's trajectory over several months.", "answer": "To watch/notice", "options": ["To watch/notice", "To follow a rule", "To remark/say"]},
+      {"sentence": "All visitors are required to observe the park's safety regulations.", "answer": "To follow a rule", "options": ["To watch/notice", "To follow a rule", "To remark/say"]},
+      {"sentence": "'The results are surprising,' the researcher observed.", "answer": "To remark/say", "options": ["To watch/notice", "To follow a rule", "To remark/say"]}
+    ],
+    "step3_synonyms": [{"text": "Comply with (verb)", "correct": true}, {"text": "Remark (verb)", "correct": true}, {"text": "Violate", "correct": false}, {"text": "Ignore", "correct": false}],
+    "step3_antonyms": [{"text": "Violate / Disregard", "correct": true}, {"text": "Notice", "correct": false}, {"text": "Follow", "correct": false}, {"text": "Remark", "correct": false}],
+    "step4_clues": ["'Observe the law/custom' → follow, comply with", "'The scientist observed' → watched OR remarked", "SAT passage: look at the object after 'observed'"],
+    "simple_popup": "OBSERVE:\n1. To watch ('observe the stars').\n2. To follow rules ('observe the law').\n3. To say/remark ('she observed that…').\nSAT trap: 'observe a tradition' = follow it, not watch it."
+  },
+  {
+    "id": "028", "word": "FACILITATE",
+    "step1_options": [
+      {"text": "To make an action or process easier", "correct": true},
+      {"text": "To help bring about a result", "correct": true},
+      {"text": "To act as a neutral guide in a process", "correct": true},
+      {"text": "To create obstacles or hinder progress", "correct": false}
+    ],
+    "step1_incorrect": "To create obstacles or hinder progress",
+    "step2_sentences": [
+      {"sentence": "The new software facilitates communication between remote teams.", "answer": "To make easier", "options": ["To make easier", "To bring about", "To guide neutrally"]},
+      {"sentence": "The treaty facilitated trade by reducing tariffs between nations.", "answer": "To bring about", "options": ["To make easier", "To bring about", "To guide neutrally"]},
+      {"sentence": "A trained counselor facilitated the mediation between the two parties.", "answer": "To guide neutrally", "options": ["To make easier", "To bring about", "To guide neutrally"]}
+    ],
+    "step3_synonyms": [{"text": "Enable", "correct": true}, {"text": "Expedite", "correct": true}, {"text": "Hinder", "correct": false}, {"text": "Obstruct", "correct": false}],
+    "step3_antonyms": [{"text": "Hinder / Impede", "correct": true}, {"text": "Enable", "correct": false}, {"text": "Expedite", "correct": false}, {"text": "Assist", "correct": false}],
+    "step4_clues": ["Facilitate = make easier (not DO the thing itself)", "'Facilitated by technology' → made possible/easier", "Facilitator = neutral guide, not a participant"],
+    "simple_popup": "FACILITATE = make something easier or possible.\nThe facilitator doesn't do the work — they help it happen.\n'Facilitate communication' = enable, smooth the process."
+  },
+  {
+    "id": "029", "word": "ENUMERATE",
+    "step1_options": [
+      {"text": "To list items one by one", "correct": true},
+      {"text": "To count or calculate a number", "correct": true},
+      {"text": "To specify or name in detail", "correct": true},
+      {"text": "To summarize without specific detail", "correct": false}
+    ],
+    "step1_incorrect": "To summarize without specific detail",
+    "step2_sentences": [
+      {"sentence": "The report enumerated twelve specific failures in the safety protocol.", "answer": "To list in detail", "options": ["To list in detail", "To count exactly", "To specify rights"]},
+      {"sentence": "The census enumerated every household in the district.", "answer": "To count exactly", "options": ["To list in detail", "To count exactly", "To specify rights"]},
+      {"sentence": "The Constitution enumerates the specific powers granted to Congress.", "answer": "To specify rights/powers", "options": ["To list in detail", "To count exactly", "To specify rights/powers"]}
+    ],
+    "step3_synonyms": [{"text": "List", "correct": true}, {"text": "Itemize", "correct": true}, {"text": "Summarize", "correct": false}, {"text": "Generalize", "correct": false}],
+    "step3_antonyms": [{"text": "Summarize / Generalize", "correct": true}, {"text": "List", "correct": false}, {"text": "Itemize", "correct": false}, {"text": "Count", "correct": false}],
+    "step4_clues": ["'Enumerated powers' (Constitution) → specifically listed", "'Enumerate the reasons' → list them one by one", "Always specific — the opposite of vague"],
+    "simple_popup": "ENUMERATE = list things one by one, specifically.\n'Enumerated powers' = powers specifically listed in law.\nAlways detailed and specific — never vague."
+  },
+  {
+    "id": "030", "word": "EXPLICIT",
+    "step1_options": [
+      {"text": "Stated clearly and in detail", "correct": true},
+      {"text": "Leaving nothing implied", "correct": true},
+      {"text": "Direct and fully expressed", "correct": true},
+      {"text": "Implied or suggested indirectly", "correct": false}
+    ],
+    "step1_incorrect": "Implied or suggested indirectly",
+    "step2_sentences": [
+      {"sentence": "The contract included explicit instructions about delivery timelines.", "answer": "Clearly stated", "options": ["Clearly stated", "Sexually graphic", "Fully detailed"]},
+      {"sentence": "The law gives explicit permission for citizens to appeal decisions.", "answer": "Fully detailed/direct", "options": ["Clearly stated", "Sexually graphic", "Fully detailed/direct"]},
+      {"sentence": "The author's message was explicit — no interpretation was needed.", "answer": "Leaving nothing implied", "options": ["Leaving nothing implied", "Sexually graphic", "Fully detailed"]}
+    ],
+    "step3_synonyms": [{"text": "Unambiguous", "correct": true}, {"text": "Express (adj)", "correct": true}, {"text": "Implied", "correct": false}, {"text": "Vague", "correct": false}],
+    "step3_antonyms": [{"text": "Implicit / Implied", "correct": true}, {"text": "Clear", "correct": false}, {"text": "Direct", "correct": false}, {"text": "Stated", "correct": false}],
+    "step4_clues": ["EXPLICIT ↔ IMPLICIT (SAT classic pair)", "'Explicit instructions' = no guessing required", "'Explicit in stating' = very direct and clear"],
+    "simple_popup": "EXPLICIT = clearly and fully stated.\nOpposite: IMPLICIT = implied, not directly stated.\nSAT often contrasts 'explicit' vs 'implicit' claims."
+  },
+  {
+    "id": "031", "word": "IMPLICIT",
+    "step1_options": [
+      {"text": "Implied but not directly stated", "correct": true},
+      {"text": "Complete and unquestioning (as in trust)", "correct": true},
+      {"text": "Understood without being expressed", "correct": true},
+      {"text": "Stated openly and clearly", "correct": false}
+    ],
+    "step1_incorrect": "Stated openly and clearly",
+    "step2_sentences": [
+      {"sentence": "There was an implicit agreement that no one would discuss the incident.", "answer": "Understood without being stated", "options": ["Understood without being stated", "Complete/absolute", "Hidden meaning"]},
+      {"sentence": "She had implicit trust in her mentor's judgment.", "answer": "Complete/absolute", "options": ["Understood without being stated", "Complete/absolute", "Hidden meaning"]},
+      {"sentence": "The implicit message of the poem was one of loss and regret.", "answer": "Hidden/underlying meaning", "options": ["Understood without being stated", "Complete/absolute", "Hidden/underlying meaning"]}
+    ],
+    "step3_synonyms": [{"text": "Implied", "correct": true}, {"text": "Tacit", "correct": true}, {"text": "Explicit", "correct": false}, {"text": "Direct", "correct": false}],
+    "step3_antonyms": [{"text": "Explicit", "correct": true}, {"text": "Implied", "correct": false}, {"text": "Tacit", "correct": false}, {"text": "Inferred", "correct": false}],
+    "step4_clues": ["'Implicit in the argument' → suggested but not said", "'Implicit trust' = total, absolute (not implied!)", "SAT question: 'What does the author implicitly suggest?'"],
+    "simple_popup": "IMPLICIT:\n1. Implied, not stated ('implicit criticism').\n2. Absolute, unquestioning ('implicit trust').\nSAT most common: meaning 1 — the opposite of explicit."
+  },
+  {
+    "id": "032", "word": "UNDERMINE",
+    "step1_options": [
+      {"text": "To weaken gradually and secretly", "correct": true},
+      {"text": "To erode the foundation of something", "correct": true},
+      {"text": "To damage authority or credibility", "correct": true},
+      {"text": "To strengthen or reinforce", "correct": false}
+    ],
+    "step1_incorrect": "To strengthen or reinforce",
+    "step2_sentences": [
+      {"sentence": "Repeated scandals undermined public trust in the institution.", "answer": "To damage credibility gradually", "options": ["To damage credibility gradually", "To dig beneath", "To secretly sabotage"]},
+      {"sentence": "The river's current gradually undermined the cliff, causing erosion.", "answer": "To erode a foundation", "options": ["To damage credibility gradually", "To erode a foundation", "To secretly sabotage"]},
+      {"sentence": "The whistleblower's testimony undermined the company's entire defense.", "answer": "To weaken/destroy an argument", "options": ["To damage credibility gradually", "To erode a foundation", "To weaken/destroy an argument"]}
+    ],
+    "step3_synonyms": [{"text": "Erode", "correct": true}, {"text": "Subvert", "correct": true}, {"text": "Reinforce", "correct": false}, {"text": "Strengthen", "correct": false}],
+    "step3_antonyms": [{"text": "Reinforce / Bolster", "correct": true}, {"text": "Erode", "correct": false}, {"text": "Subvert", "correct": false}, {"text": "Weaken", "correct": false}],
+    "step4_clues": ["'Undermined the argument' → weakened it", "'Undermined authority' → reduced its power gradually", "Usually implies gradual, covert weakening"],
+    "simple_popup": "UNDERMINE = weaken gradually, often from within.\n'Undermined the case' = made it weaker.\n'Undermines trust' = damages it slowly.\nAlways negative — something is being damaged."
+  },
+  {
+    "id": "033", "word": "REFUTE",
+    "step1_options": [
+      {"text": "To prove a statement or theory false", "correct": true},
+      {"text": "To counter with evidence or argument", "correct": true},
+      {"text": "To disprove decisively", "correct": true},
+      {"text": "To support or confirm a claim", "correct": false}
+    ],
+    "step1_incorrect": "To support or confirm a claim",
+    "step2_sentences": [
+      {"sentence": "The new data refuted the long-standing hypothesis about climate patterns.", "answer": "To prove false with evidence", "options": ["To prove false with evidence", "To dispute without proof", "To dismiss verbally"]},
+      {"sentence": "She refuted every charge against her with documented evidence.", "answer": "To counter with evidence", "options": ["To prove false with evidence", "To counter with evidence", "To dismiss verbally"]},
+      {"sentence": "Opponents claimed to refute the theory, though they provided little evidence.", "answer": "To dispute (claimed, not proven)", "options": ["To prove false with evidence", "To counter with evidence", "To dispute (claimed, not proven)"]}
+    ],
+    "step3_synonyms": [{"text": "Disprove", "correct": true}, {"text": "Rebut", "correct": true}, {"text": "Confirm", "correct": false}, {"text": "Support", "correct": false}],
+    "step3_antonyms": [{"text": "Confirm / Corroborate", "correct": true}, {"text": "Disprove", "correct": false}, {"text": "Rebut", "correct": false}, {"text": "Counter", "correct": false}],
+    "step4_clues": ["REFUTE requires EVIDENCE — not just denial", "SAT trap: 'He refuted the claims' often misused to mean 'denied'", "True refutation = proven false, not just disputed"],
+    "simple_popup": "REFUTE = prove something is false WITH evidence.\nNot just 'deny' or 'argue against' — must be proven.\nSAT often tests whether 'refute' is used correctly."
+  },
+  {
+    "id": "034", "word": "ASCRIBE",
+    "step1_options": [
+      {"text": "To attribute something to a cause", "correct": true},
+      {"text": "To credit an action to a person", "correct": true},
+      {"text": "To assign a quality to something", "correct": true},
+      {"text": "To deny or reject an attribution", "correct": false}
+    ],
+    "step1_incorrect": "To deny or reject an attribution",
+    "step2_sentences": [
+      {"sentence": "Scholars ascribe the anonymous text to a seventeenth-century monk.", "answer": "To credit to an author", "options": ["To credit to an author", "To attribute to a cause", "To assign a quality"]},
+      {"sentence": "She ascribed her success to years of disciplined practice.", "answer": "To attribute to a cause", "options": ["To credit to an author", "To attribute to a cause", "To assign a quality"]},
+      {"sentence": "Early cultures ascribed supernatural powers to natural phenomena.", "answer": "To assign a quality", "options": ["To credit to an author", "To attribute to a cause", "To assign a quality"]}
+    ],
+    "step3_synonyms": [{"text": "Attribute", "correct": true}, {"text": "Credit", "correct": true}, {"text": "Deny", "correct": false}, {"text": "Dispute", "correct": false}],
+    "step3_antonyms": [{"text": "Dissociate / Disavow", "correct": true}, {"text": "Attribute", "correct": false}, {"text": "Assign", "correct": false}, {"text": "Credit", "correct": false}],
+    "step4_clues": ["'Ascribed to' = attributed to, credited to", "'Ascribe success to hard work' → give credit to hard work", "Always followed by 'to'"],
+    "simple_popup": "ASCRIBE = to attribute to a cause or person.\n'Ascribed the painting to Rembrandt' = credited him.\nAlways used with 'to': 'ascribed [X] to [Y].'"
+  },
+  {
+    "id": "035", "word": "LITERAL",
+    "step1_options": [
+      {"text": "Taking words in their exact, primary meaning", "correct": true},
+      {"text": "Following the exact words without exaggeration", "correct": true},
+      {"text": "Factually accurate and precise", "correct": true},
+      {"text": "Using figurative or metaphorical language", "correct": false}
+    ],
+    "step1_incorrect": "Using figurative or metaphorical language",
+    "step2_sentences": [
+      {"sentence": "The literal meaning of 'salary' derives from the Latin word for salt.", "answer": "Exact/primary meaning", "options": ["Exact/primary meaning", "Non-figurative", "Factually accurate"]},
+      {"sentence": "He took her sarcastic comment completely literally and was offended.", "answer": "Without figurative interpretation", "options": ["Exact/primary meaning", "Without figurative interpretation", "Factually accurate"]},
+      {"sentence": "The translation was too literal, losing the nuance of the original.", "answer": "Word-for-word, exact", "options": ["Exact/primary meaning", "Without figurative interpretation", "Word-for-word, exact"]}
+    ],
+    "step3_synonyms": [{"text": "Exact", "correct": true}, {"text": "Word-for-word", "correct": true}, {"text": "Figurative", "correct": false}, {"text": "Metaphorical", "correct": false}],
+    "step3_antonyms": [{"text": "Figurative / Metaphorical", "correct": true}, {"text": "Exact", "correct": false}, {"text": "Word-for-word", "correct": false}, {"text": "Precise", "correct": false}],
+    "step4_clues": ["LITERAL ↔ FIGURATIVE (key SAT pair)", "'Literal interpretation' = no metaphor, take it at face value", "SAT reading: 'literally' means the plain, direct sense"],
+    "simple_popup": "LITERAL = exact, word-for-word, no metaphor.\nOpposite: FIGURATIVE = non-literal, symbolic.\nSAT: 'What does the author literally mean?' = plain sense."
+  },
+  {
+    "id": "036", "word": "ABSTRACT",
+    "step1_options": [
+      {"text": "Existing as a concept, not a physical form", "correct": true},
+      {"text": "A brief summary of an article", "correct": true},
+      {"text": "To remove or extract something", "correct": true},
+      {"text": "Concrete and physically tangible", "correct": false}
+    ],
+    "step1_incorrect": "Concrete and physically tangible",
+    "step2_sentences": [
+      {"sentence": "Justice is an abstract concept that different societies define differently.", "answer": "Existing as an idea/concept", "options": ["Existing as an idea/concept", "A summary", "To extract"]},
+      {"sentence": "The student submitted an abstract before writing the full paper.", "answer": "A brief summary", "options": ["Existing as an idea/concept", "A brief summary", "To extract"]},
+      {"sentence": "The spy abstracted key documents from the filing cabinet.", "answer": "To remove/extract", "options": ["Existing as an idea/concept", "A brief summary", "To remove/extract"]}
+    ],
+    "step3_synonyms": [{"text": "Conceptual (adj)", "correct": true}, {"text": "Summary (noun)", "correct": true}, {"text": "Concrete", "correct": false}, {"text": "Tangible", "correct": false}],
+    "step3_antonyms": [{"text": "Concrete / Tangible", "correct": true}, {"text": "Conceptual", "correct": false}, {"text": "Theoretical", "correct": false}, {"text": "Summary", "correct": false}],
+    "step4_clues": ["'Abstract idea' → conceptual, not physical", "'Research abstract' → short summary", "'Abstracted from' → removed/extracted"],
+    "simple_popup": "ABSTRACT:\n(adj) Conceptual, not physical ('abstract art').\n(noun) A summary of a paper.\n(verb) To extract or remove.\nSAT most common: adjective meaning 'not concrete.'"
+  },
+  {
+    "id": "037", "word": "NOVEL",
+    "step1_options": [
+      {"text": "New and original; not previously known", "correct": true},
+      {"text": "A long fictional narrative", "correct": true},
+      {"text": "Strikingly new or unusual", "correct": true},
+      {"text": "Familiar and well-established", "correct": false}
+    ],
+    "step1_incorrect": "Familiar and well-established",
+    "step2_sentences": [
+      {"sentence": "The research team developed a novel approach to treating antibiotic resistance.", "answer": "New and original (adj)", "options": ["New and original (adj)", "A fictional book", "Surprisingly different"]},
+      {"sentence": "Her debut novel won three major literary awards.", "answer": "A long fictional book", "options": ["New and original (adj)", "A long fictional book", "Surprisingly different"]},
+      {"sentence": "The novel technique allowed surgeons to operate with greater precision.", "answer": "New/innovative (adj)", "options": ["New and original (adj)", "A long fictional book", "New/innovative (adj)"]}
+    ],
+    "step3_synonyms": [{"text": "Innovative (adj)", "correct": true}, {"text": "Unprecedented (adj)", "correct": true}, {"text": "Familiar", "correct": false}, {"text": "Conventional", "correct": false}],
+    "step3_antonyms": [{"text": "Conventional / Familiar", "correct": true}, {"text": "Innovative", "correct": false}, {"text": "Original", "correct": false}, {"text": "Unprecedented", "correct": false}],
+    "step4_clues": ["'Novel approach/method/idea' → new, innovative (adjective)", "SAT frequently uses 'novel' as an ADJECTIVE, not a noun", "'A novel solution' = one never tried before"],
+    "simple_popup": "NOVEL (SAT adjective meaning):\nNew, original, unprecedented.\n'A novel approach' = a new method.\nSAT almost always uses 'novel' as an ADJECTIVE."
+  },
+  {
+    "id": "038", "word": "CULTIVATE",
+    "step1_options": [
+      {"text": "To prepare land for growing crops", "correct": true},
+      {"text": "To develop a skill or quality", "correct": true},
+      {"text": "To nurture a relationship", "correct": true},
+      {"text": "To destroy or abandon a practice", "correct": false}
+    ],
+    "step1_incorrect": "To destroy or abandon a practice",
+    "step2_sentences": [
+      {"sentence": "Farmers cultivated the rocky hillside for the first time in decades.", "answer": "To prepare land for crops", "options": ["To prepare land for crops", "To develop a skill", "To nurture relationships"]},
+      {"sentence": "She cultivated a reputation for fairness over many years.", "answer": "To develop/build gradually", "options": ["To prepare land for crops", "To develop/build gradually", "To nurture relationships"]},
+      {"sentence": "The diplomat carefully cultivated relationships with foreign leaders.", "answer": "To nurture relationships", "options": ["To prepare land for crops", "To develop/build gradually", "To nurture relationships"]}
+    ],
+    "step3_synonyms": [{"text": "Foster", "correct": true}, {"text": "Develop", "correct": true}, {"text": "Neglect", "correct": false}, {"text": "Abandon", "correct": false}],
+    "step3_antonyms": [{"text": "Neglect / Abandon", "correct": true}, {"text": "Foster", "correct": false}, {"text": "Develop", "correct": false}, {"text": "Nurture", "correct": false}],
+    "step4_clues": ["'Cultivate a skill/talent' → develop through effort", "'Cultivate relationships' → carefully build them", "Always implies deliberate, sustained effort"],
+    "simple_popup": "CULTIVATE = develop or nurture through sustained effort.\n'Cultivate a habit' = build it deliberately.\n'Cultivate allies' = carefully develop relationships.\nAlways intentional — never accidental."
+  },
+  {
+    "id": "039", "word": "ELABORATE",
+    "step1_options": [
+      {"text": "To provide more detail or explanation", "correct": true},
+      {"text": "Detailed and complex in design", "correct": true},
+      {"text": "To develop something with great care", "correct": true},
+      {"text": "To simplify or reduce in complexity", "correct": false}
+    ],
+    "step1_incorrect": "To simplify or reduce in complexity",
+    "step2_sentences": [
+      {"sentence": "The professor asked the student to elaborate on her argument.", "answer": "To add more detail", "options": ["To add more detail", "Complex/detailed (adj)", "To develop carefully"]},
+      {"sentence": "The bride wore an elaborate gown covered in handmade lace.", "answer": "Detailed and complex", "options": ["To add more detail", "Detailed and complex", "To develop carefully"]},
+      {"sentence": "The composer elaborated the theme across six variations.", "answer": "To develop carefully", "options": ["To add more detail", "Detailed and complex", "To develop carefully"]}
+    ],
+    "step3_synonyms": [{"text": "Expand (verb)", "correct": true}, {"text": "Intricate (adj)", "correct": true}, {"text": "Simplify", "correct": false}, {"text": "Condense", "correct": false}],
+    "step3_antonyms": [{"text": "Simplify / Condense", "correct": true}, {"text": "Expand", "correct": false}, {"text": "Intricate", "correct": false}, {"text": "Develop", "correct": false}],
+    "step4_clues": ["'Please elaborate' → explain in more detail", "'Elaborate design/ceremony' → highly detailed", "SAT: used as verb ('elaborate on') and adjective"],
+    "simple_popup": "ELABORATE:\n(verb) To explain or describe in more detail.\n(adj) Highly detailed, complex ('elaborate ceremony').\nSAT often uses: 'The author elaborates on this idea by…'"
+  },
+  {
+    "id": "040", "word": "CURRENCY",
+    "step1_options": [
+      {"text": "Money used in a particular country", "correct": true},
+      {"text": "The state of being current or widely accepted", "correct": true},
+      {"text": "General acceptance or circulation of an idea", "correct": true},
+      {"text": "Something that is outdated or obsolete", "correct": false}
+    ],
+    "step1_incorrect": "Something that is outdated or obsolete",
+    "step2_sentences": [
+      {"sentence": "The euro serves as the official currency of nineteen nations.", "answer": "Official money", "options": ["Official money", "Wide acceptance", "Being current/relevant"]},
+      {"sentence": "The theory gained currency among economists during the 1980s.", "answer": "Wide acceptance/circulation", "options": ["Official money", "Wide acceptance/circulation", "Being current/relevant"]},
+      {"sentence": "Social media has given new currency to ideas that once seemed marginal.", "answer": "Relevance and circulation", "options": ["Official money", "Wide acceptance/circulation", "Relevance and circulation"]}
+    ],
+    "step3_synonyms": [{"text": "Prevalence (abstract)", "correct": true}, {"text": "Circulation", "correct": true}, {"text": "Obsolescence", "correct": false}, {"text": "Irrelevance", "correct": false}],
+    "step3_antonyms": [{"text": "Obscurity / Irrelevance", "correct": true}, {"text": "Acceptance", "correct": false}, {"text": "Circulation", "correct": false}, {"text": "Money", "correct": false}],
+    "step4_clues": ["'Gained currency' → became widely accepted", "'Ideas with currency' → currently influential ideas", "SAT trap: 'currency' in humanities passages ≠ money"],
+    "simple_popup": "CURRENCY (SAT abstract meaning):\n'Gained currency' = became widely accepted.\n'Ideas with currency' = ideas that are influential NOW.\nNot always about money — check the context!"
+  },
+  {
+    "id": "041", "word": "ILLUSTRATE",
+    "step1_options": [
+      {"text": "To draw pictures to accompany text", "correct": true},
+      {"text": "To clarify by using examples", "correct": true},
+      {"text": "To demonstrate or make clear", "correct": true},
+      {"text": "To obscure or make difficult to understand", "correct": false}
+    ],
+    "step1_incorrect": "To obscure or make difficult to understand",
+    "step2_sentences": [
+      {"sentence": "The graph illustrates the dramatic rise in temperatures over the past century.", "answer": "To demonstrate/show clearly", "options": ["To demonstrate/show clearly", "To draw pictures", "To give examples"]},
+      {"sentence": "She illustrated her point with a memorable anecdote.", "answer": "To clarify with examples", "options": ["To demonstrate/show clearly", "To draw pictures", "To clarify with examples"]},
+      {"sentence": "The children's book was beautifully illustrated with watercolor paintings.", "answer": "To draw/add images", "options": ["To demonstrate/show clearly", "To draw/add images", "To clarify with examples"]}
+    ],
+    "step3_synonyms": [{"text": "Demonstrate", "correct": true}, {"text": "Exemplify", "correct": true}, {"text": "Obscure", "correct": false}, {"text": "Confuse", "correct": false}],
+    "step3_antonyms": [{"text": "Obscure / Confuse", "correct": true}, {"text": "Show", "correct": false}, {"text": "Demonstrate", "correct": false}, {"text": "Clarify", "correct": false}],
+    "step4_clues": ["'The data illustrates' → shows, makes clear", "'Illustrate a point' → demonstrate with example", "SAT: 'This passage mainly illustrates…' = shows/demonstrates"],
+    "simple_popup": "ILLUSTRATE:\n1. To clarify using examples.\n2. To demonstrate or show.\n3. To add pictures to text.\nSAT most common: 'illustrates the idea that…' = demonstrates."
+  },
+  {
+    "id": "042", "word": "ADDRESS",
+    "step1_options": [
+      {"text": "To speak to a person or group formally", "correct": true},
+      {"text": "To deal with or attend to a problem", "correct": true},
+      {"text": "The location of a building", "correct": true},
+      {"text": "To ignore or avoid a problem", "correct": false}
+    ],
+    "step1_incorrect": "To ignore or avoid a problem",
+    "step2_sentences": [
+      {"sentence": "The policy fails to address the root causes of inequality.", "answer": "To deal with a problem", "options": ["To deal with a problem", "To speak to formally", "A location"]},
+      {"sentence": "The president addressed the nation from the Oval Office.", "answer": "To speak to formally", "options": ["To deal with a problem", "To speak to formally", "A location"]},
+      {"sentence": "Please send the package to the address on file.", "answer": "A physical location", "options": ["To deal with a problem", "To speak to formally", "A physical location"]}
+    ],
+    "step3_synonyms": [{"text": "Tackle (verb)", "correct": true}, {"text": "Speak to (verb)", "correct": true}, {"text": "Avoid", "correct": false}, {"text": "Ignore", "correct": false}],
+    "step3_antonyms": [{"text": "Avoid / Ignore", "correct": true}, {"text": "Tackle", "correct": false}, {"text": "Confront", "correct": false}, {"text": "Speak", "correct": false}],
+    "step4_clues": ["'Address the issue' → deal with it, confront it", "'Address an audience' → speak formally to them", "SAT: 'The author addresses the concern that…' = deals with"],
+    "simple_popup": "ADDRESS (SAT verb):\n'Address a problem' = deal with it, not avoid it.\n'Address an audience' = speak to them formally.\nMost common in SAT: 'address' = to tackle or deal with."
+  },
+  {
+    "id": "043", "word": "DISTINGUISH",
+    "step1_options": [
+      {"text": "To perceive a difference between things", "correct": true},
+      {"text": "To make someone or something stand out", "correct": true},
+      {"text": "To be a characteristic feature of", "correct": true},
+      {"text": "To blend or merge different things together", "correct": false}
+    ],
+    "step1_incorrect": "To blend or merge different things together",
+    "step2_sentences": [
+      {"sentence": "Can you distinguish between the two nearly identical compounds?", "answer": "To perceive differences", "options": ["To perceive differences", "To make stand out", "To characterize"]},
+      {"sentence": "Her courage distinguished her from others in the field.", "answer": "To make stand out", "options": ["To perceive differences", "To make stand out", "To characterize"]},
+      {"sentence": "Rational thought is what distinguishes humans from other animals.", "answer": "To characterize/define", "options": ["To perceive differences", "To make stand out", "To characterize/define"]}
+    ],
+    "step3_synonyms": [{"text": "Differentiate", "correct": true}, {"text": "Set apart", "correct": true}, {"text": "Conflate", "correct": false}, {"text": "Merge", "correct": false}],
+    "step3_antonyms": [{"text": "Conflate / Confuse", "correct": true}, {"text": "Differentiate", "correct": false}, {"text": "Identify", "correct": false}, {"text": "Separate", "correct": false}],
+    "step4_clues": ["'Distinguished herself' → stood out, became notable", "'Distinguish between' → identify the difference", "'What distinguishes X from Y?' → what makes X unique?"],
+    "simple_popup": "DISTINGUISH:\n1. To see the difference between things.\n2. To stand out or become notable.\n3. To be the defining feature of something.\nAll meanings involve SETTING APART."
+  },
+  {
+    "id": "044", "word": "REFLECT",
+    "step1_options": [
+      {"text": "To mirror or bounce back light", "correct": true},
+      {"text": "To think carefully about something", "correct": true},
+      {"text": "To be an indication or result of", "correct": true},
+      {"text": "To ignore or fail to consider", "correct": false}
+    ],
+    "step1_incorrect": "To ignore or fail to consider",
+    "step2_sentences": [
+      {"sentence": "The lake reflected the mountains perfectly on a still morning.", "answer": "To mirror/bounce back", "options": ["To mirror/bounce back", "To think carefully", "To indicate/show"]},
+      {"sentence": "She paused to reflect on the decision before signing.", "answer": "To think carefully", "options": ["To mirror/bounce back", "To think carefully", "To indicate/show"]},
+      {"sentence": "The data reflects a significant shift in public opinion.", "answer": "To indicate or show", "options": ["To mirror/bounce back", "To think carefully", "To indicate/show"]}
+    ],
+    "step3_synonyms": [{"text": "Contemplate (verb)", "correct": true}, {"text": "Indicate (verb)", "correct": true}, {"text": "Ignore", "correct": false}, {"text": "Distort", "correct": false}],
+    "step3_antonyms": [{"text": "Distort / Misrepresent", "correct": true}, {"text": "Indicate", "correct": false}, {"text": "Contemplate", "correct": false}, {"text": "Mirror", "correct": false}],
+    "step4_clues": ["'Reflects the author's view' → indicates/shows it", "'Reflect on' → think carefully about", "SAT: 'This reflects a broader trend' = indicates, shows"],
+    "simple_popup": "REFLECT:\n1. Mirror ('reflects light').\n2. Think deeply ('reflect on the past').\n3. Indicate ('reflects a trend').\nSAT most common: meaning 3 — 'reflects' = shows or indicates."
+  },
+  {
+    "id": "045", "word": "PROFOUND",
+    "step1_options": [
+      {"text": "Deep in thought or meaning", "correct": true},
+      {"text": "Intense or far-reaching in effect", "correct": true},
+      {"text": "Requiring great knowledge or insight", "correct": true},
+      {"text": "Shallow or superficial in meaning", "correct": false}
+    ],
+    "step1_incorrect": "Shallow or superficial in meaning",
+    "step2_sentences": [
+      {"sentence": "The philosopher's words had a profound effect on generations of thinkers.", "answer": "Intense/far-reaching", "options": ["Deep in meaning", "Intense/far-reaching", "Requiring insight"]},
+      {"sentence": "He fell into a profound silence after receiving the news.", "answer": "Deep/intense", "options": ["Deep in meaning", "Deep/intense", "Requiring insight"]},
+      {"sentence": "The book raises profound questions about human identity.", "answer": "Deep, requiring insight", "options": ["Deep in meaning", "Deep/intense", "Requiring insight/thought"]}
+    ],
+    "step3_synonyms": [{"text": "Deep", "correct": true}, {"text": "Far-reaching", "correct": true}, {"text": "Superficial", "correct": false}, {"text": "Shallow", "correct": false}],
+    "step3_antonyms": [{"text": "Superficial / Shallow", "correct": true}, {"text": "Deep", "correct": false}, {"text": "Significant", "correct": false}, {"text": "Intense", "correct": false}],
+    "step4_clues": ["'Profound impact/change' → very significant, far-reaching", "'Profound thinker' → deep, insightful", "Always implies depth — never trivial or minor"],
+    "simple_popup": "PROFOUND = deep, significant, far-reaching.\n'Profound impact' = major, lasting effect.\n'Profound question' = deep, requiring serious thought.\nOpposite: superficial, shallow."
+  },
+  {
+    "id": "046", "word": "DERIVE",
+    "step1_options": [
+      {"text": "To obtain something from a source", "correct": true},
+      {"text": "To trace the origin of a word", "correct": true},
+      {"text": "To reach a conclusion by reasoning", "correct": true},
+      {"text": "To contribute to or donate toward a source", "correct": false}
+    ],
+    "step1_incorrect": "To contribute to or donate toward a source",
+    "step2_sentences": [
+      {"sentence": "The company derived most of its revenue from overseas markets.", "answer": "To obtain from a source", "options": ["To obtain from a source", "To trace word origin", "To reach by reasoning"]},
+      {"sentence": "'Salary' is derived from the Latin word for salt.", "answer": "To trace origin of", "options": ["To obtain from a source", "To trace origin of", "To reach by reasoning"]},
+      {"sentence": "From these premises, we can derive a general principle.", "answer": "To reach by reasoning", "options": ["To obtain from a source", "To trace origin of", "To reach by reasoning"]}
+    ],
+    "step3_synonyms": [{"text": "Obtain", "correct": true}, {"text": "Deduce", "correct": true}, {"text": "Contribute", "correct": false}, {"text": "Donate", "correct": false}],
+    "step3_antonyms": [{"text": "Contribute / Donate", "correct": true}, {"text": "Obtain", "correct": false}, {"text": "Deduce", "correct": false}, {"text": "Source", "correct": false}],
+    "step4_clues": ["'Derived from' = came from, originated in", "'Derive benefit/pleasure' = obtain it from something", "'Derive a conclusion' = reason your way to it"],
+    "simple_popup": "DERIVE = to get or obtain from a source.\n'Derived from Latin' = originated in Latin.\n'Derive satisfaction from' = get satisfaction from.\nAlways implies a source or origin."
+  },
+  {
+    "id": "047", "word": "RADICAL",
+    "step1_options": [
+      {"text": "Favoring fundamental or extreme change", "correct": true},
+      {"text": "Relating to the root or origin", "correct": true},
+      {"text": "Far-reaching and thorough", "correct": true},
+      {"text": "Conservative and resistant to change", "correct": false}
+    ],
+    "step1_incorrect": "Conservative and resistant to change",
+    "step2_sentences": [
+      {"sentence": "The proposal called for radical reform of the entire tax system.", "answer": "Fundamental/extreme change", "options": ["Fundamental/extreme change", "Relating to roots", "Far-reaching"]},
+      {"sentence": "The treatment produced a radical improvement in the patient's condition.", "answer": "Thorough/complete", "options": ["Fundamental/extreme change", "Relating to roots", "Thorough/complete"]},
+      {"sentence": "The radical of a word carries its core meaning.", "answer": "Relating to the root", "options": ["Fundamental/extreme change", "Relating to roots", "Thorough/complete"]}
+    ],
+    "step3_synonyms": [{"text": "Fundamental", "correct": true}, {"text": "Sweeping", "correct": true}, {"text": "Conservative", "correct": false}, {"text": "Moderate", "correct": false}],
+    "step3_antonyms": [{"text": "Conservative / Incremental", "correct": true}, {"text": "Fundamental", "correct": false}, {"text": "Extreme", "correct": false}, {"text": "Thorough", "correct": false}],
+    "step4_clues": ["'Radical change' = complete, from the root up", "'Radical improvement' = dramatic, thorough (not necessarily political)", "Root word: Latin 'radix' = root"],
+    "simple_popup": "RADICAL:\n1. Favoring extreme change ('radical politics').\n2. Thorough, going to the root ('radical improvement').\n3. Relating to roots (linguistics/math).\nSAT: often means 'fundamental' or 'far-reaching.'"
+  },
+  {
+    "id": "048", "word": "CONVENTION",
+    "step1_options": [
+      {"text": "A rule or custom widely accepted", "correct": true},
+      {"text": "A large formal meeting or assembly", "correct": true},
+      {"text": "Standard practice in a field", "correct": true},
+      {"text": "A radical or novel departure from norms", "correct": false}
+    ],
+    "step1_incorrect": "A radical or novel departure from norms",
+    "step2_sentences": [
+      {"sentence": "By literary convention, a hero typically faces a defining moral challenge.", "answer": "Standard practice/custom", "options": ["Standard practice/custom", "A formal meeting", "A treaty/agreement"]},
+      {"sentence": "Delegates from all fifty states attended the national convention.", "answer": "A large formal meeting", "options": ["Standard practice/custom", "A large formal meeting", "A treaty/agreement"]},
+      {"sentence": "The Geneva Convention governs the treatment of prisoners of war.", "answer": "A formal agreement/treaty", "options": ["Standard practice/custom", "A large formal meeting", "A formal agreement/treaty"]}
+    ],
+    "step3_synonyms": [{"text": "Custom", "correct": true}, {"text": "Norm", "correct": true}, {"text": "Innovation", "correct": false}, {"text": "Departure", "correct": false}],
+    "step3_antonyms": [{"text": "Innovation / Departure", "correct": true}, {"text": "Custom", "correct": false}, {"text": "Norm", "correct": false}, {"text": "Tradition", "correct": false}],
+    "step4_clues": ["'By convention' → by accepted practice or tradition", "'Literary conventions' → standard techniques of a genre", "'Convention' in history = formal meeting OR treaty"],
+    "simple_popup": "CONVENTION:\n1. An accepted custom or norm.\n2. A large formal meeting.\n3. A formal agreement (e.g., Geneva Convention).\nSAT most common: 'by convention' = by accepted practice."
+  },
+  {
+    "id": "049", "word": "CHALLENGE",
+    "step1_options": [
+      {"text": "To question the validity of something", "correct": true},
+      {"text": "A difficult task requiring effort", "correct": true},
+      {"text": "To dispute or contest a ruling", "correct": true},
+      {"text": "To confirm or accept without question", "correct": false}
+    ],
+    "step1_incorrect": "To confirm or accept without question",
+    "step2_sentences": [
+      {"sentence": "The lawyer challenged the admissibility of the evidence.", "answer": "To dispute/contest", "options": ["To dispute/contest", "A difficult task", "To question validity"]},
+      {"sentence": "Learning a new language is a significant intellectual challenge.", "answer": "A difficult task", "options": ["To dispute/contest", "A difficult task", "To question validity"]},
+      {"sentence": "New findings challenge the previously accepted theory.", "answer": "To question validity", "options": ["To dispute/contest", "A difficult task", "To question validity"]}
+    ],
+    "step3_synonyms": [{"text": "Contest (verb)", "correct": true}, {"text": "Dispute (verb)", "correct": true}, {"text": "Accept", "correct": false}, {"text": "Confirm", "correct": false}],
+    "step3_antonyms": [{"text": "Confirm / Accept", "correct": true}, {"text": "Contest", "correct": false}, {"text": "Question", "correct": false}, {"text": "Dispute", "correct": false}],
+    "step4_clues": ["'Challenges the assumption' → disputes, questions it", "'Faces a challenge' → a difficult task or obstacle", "SAT: 'The author challenges the view that…' = disputes it"],
+    "simple_popup": "CHALLENGE (SAT verb):\nTo question or dispute, not just find difficult.\n'Challenges the claim' = argues against it.\n'A challenging task' = difficult.\nSAT most common: to question or contest."
+  },
+  {
+    "id": "050", "word": "DEMONSTRATE",
+    "step1_options": [
+      {"text": "To show clearly by evidence or example", "correct": true},
+      {"text": "To take part in a public protest", "correct": true},
+      {"text": "To prove a point through reasoning", "correct": true},
+      {"text": "To disprove or refute a claim", "correct": false}
+    ],
+    "step1_incorrect": "To disprove or refute a claim",
+    "step2_sentences": [
+      {"sentence": "The experiment demonstrated that the compound was stable at high temperatures.", "answer": "To show by evidence", "options": ["To show by evidence", "To protest publicly", "To prove by reasoning"]},
+      {"sentence": "Thousands gathered to demonstrate against the proposed legislation.", "answer": "To protest publicly", "options": ["To show by evidence", "To protest publicly", "To prove by reasoning"]},
+      {"sentence": "The proof demonstrates that no largest prime number exists.", "answer": "To prove formally", "options": ["To show by evidence", "To protest publicly", "To prove formally"]}
+    ],
+    "step3_synonyms": [{"text": "Illustrate", "correct": true}, {"text": "Prove", "correct": true}, {"text": "Disprove", "correct": false}, {"text": "Conceal", "correct": false}],
+    "step3_antonyms": [{"text": "Disprove / Refute", "correct": true}, {"text": "Show", "correct": false}, {"text": "Prove", "correct": false}, {"text": "Illustrate", "correct": false}],
+    "step4_clues": ["'Demonstrates that' = proves or shows clearly", "'Demonstrate against' = protest publicly", "SAT: most common meaning = to show or prove with evidence"],
+    "simple_popup": "DEMONSTRATE:\n1. To show or prove with evidence.\n2. To take part in a protest.\nSAT most common: 'demonstrates that' = shows/proves clearly."
+  },
+  {
+    "id": "051", "word": "CONSTRAIN",
+    "step1_options": [
+      {"text": "To restrict or limit freedom of action", "correct": true},
+      {"text": "To compel by force or circumstances", "correct": true},
+      {"text": "To hold back from a natural course", "correct": true},
+      {"text": "To expand or give freedom to", "correct": false}
+    ],
+    "step1_incorrect": "To expand or give freedom to",
+    "step2_sentences": [
+      {"sentence": "Budget cuts constrained the department's ability to hire new staff.", "answer": "To restrict/limit", "options": ["To restrict/limit", "To compel by force", "To hold back"]},
+      {"sentence": "She felt constrained by social expectations to remain silent.", "answer": "To compel/force", "options": ["To restrict/limit", "To compel/force", "To hold back"]},
+      {"sentence": "The narrow canyon constrained the river's flow into a powerful torrent.", "answer": "To hold back/confine", "options": ["To restrict/limit", "To compel/force", "To hold back/confine"]}
+    ],
+    "step3_synonyms": [{"text": "Restrict", "correct": true}, {"text": "Confine", "correct": true}, {"text": "Liberate", "correct": false}, {"text": "Enable", "correct": false}],
+    "step3_antonyms": [{"text": "Liberate / Enable", "correct": true}, {"text": "Restrict", "correct": false}, {"text": "Confine", "correct": false}, {"text": "Compel", "correct": false}],
+    "step4_clues": ["'Constrained by law/budget' → limited, restricted", "'Constrained smile/manner' → forced, unnatural", "Key: something external is doing the limiting"],
+    "simple_popup": "CONSTRAIN = to restrict or limit by external force.\n'Constrained by rules' = limited by them.\n'Constrained smile' = forced, not natural.\nSomething outside is doing the limiting."
+  },
+  {
+    "id": "052", "word": "IMPLY",
+    "step1_options": [
+      {"text": "To suggest without directly stating", "correct": true},
+      {"text": "To indicate logically", "correct": true},
+      {"text": "To involve as a necessary consequence", "correct": true},
+      {"text": "To state directly and explicitly", "correct": false}
+    ],
+    "step1_incorrect": "To state directly and explicitly",
+    "step2_sentences": [
+      {"sentence": "Her tone implied disapproval even as her words stayed neutral.", "answer": "To suggest without stating", "options": ["To suggest without stating", "To involve as consequence", "To indicate logically"]},
+      {"sentence": "Accepting the premise implies accepting the conclusion.", "answer": "To involve as a consequence", "options": ["To suggest without stating", "To involve as a consequence", "To indicate logically"]},
+      {"sentence": "Silence in this context implies consent.", "answer": "To indicate/signal", "options": ["To suggest without stating", "To involve as a consequence", "To indicate/signal"]}
+    ],
+    "step3_synonyms": [{"text": "Suggest", "correct": true}, {"text": "Insinuate", "correct": true}, {"text": "State", "correct": false}, {"text": "Declare", "correct": false}],
+    "step3_antonyms": [{"text": "State / Declare explicitly", "correct": true}, {"text": "Suggest", "correct": false}, {"text": "Indicate", "correct": false}, {"text": "Insinuate", "correct": false}],
+    "step4_clues": ["IMPLY (speaker hints) vs. INFER (reader concludes)", "'What does the author imply?' → what is hinted, not stated", "Implication = unstated meaning"],
+    "simple_popup": "IMPLY = suggest without directly stating.\nThe AUTHOR implies; the READER infers.\n'What does the passage imply?' = what is hinted at?"
+  },
+  {
+    "id": "053", "word": "INFER",
+    "step1_options": [
+      {"text": "To conclude from evidence or reasoning", "correct": true},
+      {"text": "To deduce from available information", "correct": true},
+      {"text": "To read between the lines", "correct": true},
+      {"text": "To directly state or declare", "correct": false}
+    ],
+    "step1_incorrect": "To directly state or declare",
+    "step2_sentences": [
+      {"sentence": "From the data, scientists inferred that temperatures had risen by two degrees.", "answer": "To conclude from evidence", "options": ["To conclude from evidence", "To state openly", "To assume without evidence"]},
+      {"sentence": "We can infer the author's attitude from the tone of the passage.", "answer": "To deduce from context", "options": ["To conclude from evidence", "To deduce from context", "To assume without evidence"]},
+      {"sentence": "She inferred from his silence that he disagreed.", "answer": "To read between the lines", "options": ["To conclude from evidence", "To deduce from context", "To read between the lines"]}
+    ],
+    "step3_synonyms": [{"text": "Deduce", "correct": true}, {"text": "Conclude", "correct": true}, {"text": "State", "correct": false}, {"text": "Assert", "correct": false}],
+    "step3_antonyms": [{"text": "State / Declare", "correct": true}, {"text": "Deduce", "correct": false}, {"text": "Conclude", "correct": false}, {"text": "Reason", "correct": false}],
+    "step4_clues": ["INFER (reader deduces) vs. IMPLY (writer hints)", "'What can be inferred from the passage?' = SAT staple question", "Inference = conclusion based on evidence, not stated fact"],
+    "simple_popup": "INFER = to conclude something not directly stated.\nThe READER infers; the AUTHOR implies.\n'What can you infer?' = what conclusion can you draw?"
+  },
+  {
+    "id": "054", "word": "SUPERFICIAL",
+    "step1_options": [
+      {"text": "On the surface; not deep or thorough", "correct": true},
+      {"text": "Apparent but lacking depth", "correct": true},
+      {"text": "Concerned only with appearances", "correct": true},
+      {"text": "Deep and thorough in analysis", "correct": false}
+    ],
+    "step1_incorrect": "Deep and thorough in analysis",
+    "step2_sentences": [
+      {"sentence": "Her analysis was superficial, ignoring the deeper structural causes.", "answer": "Lacking depth", "options": ["Lacking depth", "On the surface physically", "Concerned with looks"]},
+      {"sentence": "The wound was superficial and required only a bandage.", "answer": "On the surface, not serious", "options": ["Lacking depth", "On the surface, not serious", "Concerned with looks"]},
+      {"sentence": "His charm masked a superficial personality obsessed with status.", "answer": "Concerned only with appearances", "options": ["Lacking depth", "On the surface, not serious", "Concerned only with appearances"]}
+    ],
+    "step3_synonyms": [{"text": "Shallow", "correct": true}, {"text": "Cursory", "correct": true}, {"text": "Profound", "correct": false}, {"text": "Thorough", "correct": false}],
+    "step3_antonyms": [{"text": "Profound / Deep", "correct": true}, {"text": "Shallow", "correct": false}, {"text": "Surface-level", "correct": false}, {"text": "Cursory", "correct": false}],
+    "step4_clues": ["'Superficial analysis' → not thorough enough", "'Superficial wound' → not deep, not serious", "'Superficial person' → focused on appearances only"],
+    "simple_popup": "SUPERFICIAL = surface-level, lacking depth.\n'Superficial analysis' = not thorough.\n'Superficial wound' = minor, on the surface.\nOpposite: profound, thorough."
+  },
+  {
+    "id": "055", "word": "SUBTLE",
+    "step1_options": [
+      {"text": "Not obvious; requiring careful attention to notice", "correct": true},
+      {"text": "Making fine distinctions", "correct": true},
+      {"text": "Clever in a delicate way", "correct": true},
+      {"text": "Extremely obvious and easily noticed", "correct": false}
+    ],
+    "step1_incorrect": "Extremely obvious and easily noticed",
+    "step2_sentences": [
+      {"sentence": "There was a subtle difference in tone between the two drafts.", "answer": "Not obvious, fine distinction", "options": ["Not obvious, fine distinction", "Clever/cunning", "Hard to detect physically"]},
+      {"sentence": "She made a subtle argument that only careful readers would appreciate.", "answer": "Clever and refined", "options": ["Not obvious, fine distinction", "Clever and refined", "Hard to detect physically"]},
+      {"sentence": "A subtle change in lighting transformed the mood of the room.", "answer": "Small and not obvious", "options": ["Not obvious, fine distinction", "Clever and refined", "Small and not obvious"]}
+    ],
+    "step3_synonyms": [{"text": "Nuanced", "correct": true}, {"text": "Understated", "correct": true}, {"text": "Obvious", "correct": false}, {"text": "Blatant", "correct": false}],
+    "step3_antonyms": [{"text": "Obvious / Blatant", "correct": true}, {"text": "Nuanced", "correct": false}, {"text": "Understated", "correct": false}, {"text": "Delicate", "correct": false}],
+    "step4_clues": ["'Subtle hint/message' → not directly stated", "'Subtle distinction' → fine, hard to perceive", "Positive in SAT: subtlety = sophistication"],
+    "simple_popup": "SUBTLE = not obvious, requiring attention to notice.\n'Subtle argument' = sophisticated, not heavy-handed.\n'Subtle difference' = small but meaningful.\nPositive connotation on the SAT."
+  },
+  {
+    "id": "056", "word": "CONVENTIONAL",
+    "step1_options": [
+      {"text": "Following accepted standards or norms", "correct": true},
+      {"text": "Ordinary rather than innovative", "correct": true},
+      {"text": "Relating to widely accepted ways of behaving", "correct": true},
+      {"text": "Radical or unconventional in approach", "correct": false}
+    ],
+    "step1_incorrect": "Radical or unconventional in approach",
+    "step2_sentences": [
+      {"sentence": "She rejected conventional medicine in favor of alternative treatments.", "answer": "Standard/mainstream", "options": ["Standard/mainstream", "Relating to a convention", "Unoriginal"]},
+      {"sentence": "The novel defied conventional narrative structure.", "answer": "Following accepted norms", "options": ["Standard/mainstream", "Following accepted norms", "Unoriginal"]},
+      {"sentence": "His conventional thinking prevented him from seeing creative solutions.", "answer": "Ordinary, unoriginal", "options": ["Standard/mainstream", "Following accepted norms", "Ordinary, unoriginal"]}
+    ],
+    "step3_synonyms": [{"text": "Traditional", "correct": true}, {"text": "Orthodox", "correct": true}, {"text": "Radical", "correct": false}, {"text": "Innovative", "correct": false}],
+    "step3_antonyms": [{"text": "Unconventional / Radical", "correct": true}, {"text": "Traditional", "correct": false}, {"text": "Orthodox", "correct": false}, {"text": "Standard", "correct": false}],
+    "step4_clues": ["'Conventional wisdom' = widely accepted belief", "'Defy convention' = break from the norm", "SAT: often used to contrast with novel/innovative"],
+    "simple_popup": "CONVENTIONAL = following accepted norms.\n'Conventional wisdom' = what most people believe.\nOften contrasted with 'radical' or 'innovative' on the SAT."
+  },
+  {
+    "id": "057", "word": "DOMINANT",
+    "step1_options": [
+      {"text": "Most important or influential", "correct": true},
+      {"text": "Exercising control over others", "correct": true},
+      {"text": "Prevailing or most common", "correct": true},
+      {"text": "Weak or subordinate in influence", "correct": false}
+    ],
+    "step1_incorrect": "Weak or subordinate in influence",
+    "step2_sentences": [
+      {"sentence": "English became the dominant language of global commerce.", "answer": "Most prevalent/common", "options": ["Most prevalent/common", "Controlling others", "Most important"]},
+      {"sentence": "The dominant player in the market set prices for the entire industry.", "answer": "Most influential/powerful", "options": ["Most prevalent/common", "Most influential/powerful", "Genetics term"]},
+      {"sentence": "Brown eyes result from the dominant gene in eye color inheritance.", "answer": "Genetics: expressed over recessive", "options": ["Most prevalent/common", "Most influential/powerful", "Genetics: expressed over recessive"]}
+    ],
+    "step3_synonyms": [{"text": "Prevailing", "correct": true}, {"text": "Preeminent", "correct": true}, {"text": "Subordinate", "correct": false}, {"text": "Marginal", "correct": false}],
+    "step3_antonyms": [{"text": "Subordinate / Recessive", "correct": true}, {"text": "Prevailing", "correct": false}, {"text": "Preeminent", "correct": false}, {"text": "Powerful", "correct": false}],
+    "step4_clues": ["'Dominant culture/language' → most widespread and influential", "'Dominant gene' → biology: expressed over recessive", "'Dominant force/player' → most powerful"],
+    "simple_popup": "DOMINANT = most powerful, prevalent, or influential.\nBiology: dominant gene is expressed over recessive.\nSAT: 'dominant theme' = the main, most prominent one."
+  },
+  {
+    "id": "058", "word": "SUSTAIN",
+    "step1_options": [
+      {"text": "To maintain over time", "correct": true},
+      {"text": "To support or uphold", "correct": true},
+      {"text": "To suffer or experience (a loss)", "correct": true},
+      {"text": "To stop or bring to an end", "correct": false}
+    ],
+    "step1_incorrect": "To stop or bring to an end",
+    "step2_sentences": [
+      {"sentence": "The ecosystem could not sustain such a large population.", "answer": "To maintain/support over time", "options": ["To maintain/support over time", "To suffer/experience", "To uphold legally"]},
+      {"sentence": "The army sustained heavy losses during the winter campaign.", "answer": "To experience/suffer", "options": ["To maintain/support over time", "To experience/suffer", "To uphold legally"]},
+      {"sentence": "The court sustained the objection raised by the defense.", "answer": "To uphold/confirm legally", "options": ["To maintain/support over time", "To experience/suffer", "To uphold/confirm legally"]}
+    ],
+    "step3_synonyms": [{"text": "Maintain", "correct": true}, {"text": "Endure", "correct": true}, {"text": "Terminate", "correct": false}, {"text": "Abandon", "correct": false}],
+    "step3_antonyms": [{"text": "Abandon / Terminate", "correct": true}, {"text": "Maintain", "correct": false}, {"text": "Endure", "correct": false}, {"text": "Support", "correct": false}],
+    "step4_clues": ["'Sustained effort/growth' → maintained over time", "'Sustained injuries' → suffered them", "'Objection sustained' → legal: judge agrees with it"],
+    "simple_popup": "SUSTAIN:\n1. To maintain ('sustain growth').\n2. To suffer ('sustained injuries').\n3. Legal: 'sustained' = judge upholds the objection.\nSAT trap: 'sustained' often means SUFFERED."
+  },
+  {
+    "id": "059", "word": "SIGNIFICANT",
+    "step1_options": [
+      {"text": "Having great meaning or importance", "correct": true},
+      {"text": "Statistically meaningful and not due to chance", "correct": true},
+      {"text": "Sufficiently large to be noteworthy", "correct": true},
+      {"text": "Trivial or unimportant in scope", "correct": false}
+    ],
+    "step1_incorrect": "Trivial or unimportant in scope",
+    "step2_sentences": [
+      {"sentence": "The discovery was the most significant archaeological find in decades.", "answer": "Important/meaningful", "options": ["Important/meaningful", "Statistically meaningful", "Large enough to notice"]},
+      {"sentence": "The results were statistically significant, ruling out chance.", "answer": "Statistically meaningful", "options": ["Important/meaningful", "Statistically meaningful", "Large enough to notice"]},
+      {"sentence": "There was a significant increase in enrollment following the new policy.", "answer": "Large enough to be noteworthy", "options": ["Important/meaningful", "Statistically meaningful", "Large enough to be noteworthy"]}
+    ],
+    "step3_synonyms": [{"text": "Substantial", "correct": true}, {"text": "Noteworthy", "correct": true}, {"text": "Trivial", "correct": false}, {"text": "Negligible", "correct": false}],
+    "step3_antonyms": [{"text": "Negligible / Trivial", "correct": true}, {"text": "Substantial", "correct": false}, {"text": "Notable", "correct": false}, {"text": "Meaningful", "correct": false}],
+    "step4_clues": ["Science context: 'significant' = statistically meaningful", "'Significant finding' = important and noteworthy", "Often paired with 'statistically' in science passages"],
+    "simple_popup": "SIGNIFICANT:\n1. Important ('significant discovery').\n2. Statistics: not due to chance ('statistically significant').\n3. Large enough to matter ('significant increase').\nCheck context — especially in science passages."
+  },
+  {
+    "id": "060", "word": "SPECULATE",
+    "step1_options": [
+      {"text": "To form a theory without firm evidence", "correct": true},
+      {"text": "To invest in risky ventures for profit", "correct": true},
+      {"text": "To conjecture or hypothesize", "correct": true},
+      {"text": "To make a claim based on proven facts", "correct": false}
+    ],
+    "step1_incorrect": "To make a claim based on proven facts",
+    "step2_sentences": [
+      {"sentence": "Scientists speculated that the anomaly was caused by a rare atmospheric event.", "answer": "To theorize without proof", "options": ["To theorize without proof", "To invest riskily", "To consider possibilities"]},
+      {"sentence": "He had speculated heavily in real estate before the market crashed.", "answer": "To invest in risky ventures", "options": ["To theorize without proof", "To invest in risky ventures", "To consider possibilities"]},
+      {"sentence": "It would be premature to speculate about the outcome at this stage.", "answer": "To guess or conjecture", "options": ["To theorize without proof", "To invest in risky ventures", "To guess or conjecture"]}
+    ],
+    "step3_synonyms": [{"text": "Conjecture", "correct": true}, {"text": "Hypothesize", "correct": true}, {"text": "Confirm", "correct": false}, {"text": "Prove", "correct": false}],
+    "step3_antonyms": [{"text": "Confirm / Prove", "correct": true}, {"text": "Guess", "correct": false}, {"text": "Theorize", "correct": false}, {"text": "Hypothesize", "correct": false}],
+    "step4_clues": ["'Speculate that…' → guess or theorize, not proven", "'Speculate in markets' → risky financial investment", "SAT: author speculation ≠ established fact"],
+    "simple_popup": "SPECULATE:\n1. To guess or theorize ('speculate about causes').\n2. To make risky investments ('speculate in stocks').\nSAT: 'The author speculates' = proposes without full proof."
+  },
+  {
+    "id": "061", "word": "GENERATE",
+    "step1_options": [
+      {"text": "To produce or create", "correct": true},
+      {"text": "To cause or bring about", "correct": true},
+      {"text": "To give rise to a result", "correct": true},
+      {"text": "To destroy or eliminate completely", "correct": false}
+    ],
+    "step1_incorrect": "To destroy or eliminate completely",
+    "step2_sentences": [
+      {"sentence": "Solar panels generate electricity without emitting carbon dioxide.", "answer": "To produce/create", "options": ["To produce/create", "To cause/bring about", "To give rise to"]},
+      {"sentence": "The scandal generated significant controversy.", "answer": "To cause/bring about", "options": ["To produce/create", "To cause/bring about", "To give rise to"]},
+      {"sentence": "The algorithm generates a unique solution for each input.", "answer": "To produce through a process", "options": ["To produce/create", "To cause/bring about", "To produce through a process"]}
+    ],
+    "step3_synonyms": [{"text": "Produce", "correct": true}, {"text": "Yield", "correct": true}, {"text": "Destroy", "correct": false}, {"text": "Eliminate", "correct": false}],
+    "step3_antonyms": [{"text": "Destroy / Consume", "correct": true}, {"text": "Produce", "correct": false}, {"text": "Create", "correct": false}, {"text": "Yield", "correct": false}],
+    "step4_clues": ["'Generates revenue/power' → produces it", "'Generated debate/interest' → caused it", "Always implies something new is created or started"],
+    "simple_popup": "GENERATE = to produce or bring into existence.\n'Generate power' = produce it.\n'Generate controversy' = cause it.\nAlways implies creation or production."
+  },
+  {
+    "id": "062", "word": "EXPLOIT",
+    "step1_options": [
+      {"text": "To use unfairly for one's own benefit", "correct": true},
+      {"text": "To make productive use of a resource", "correct": true},
+      {"text": "A notable or heroic act", "correct": true},
+      {"text": "To protect or conserve a resource", "correct": false}
+    ],
+    "step1_incorrect": "To protect or conserve a resource",
+    "step2_sentences": [
+      {"sentence": "The company was accused of exploiting workers in overseas factories.", "answer": "To use unfairly/selfishly", "options": ["To use unfairly/selfishly", "To use productively", "A heroic act"]},
+      {"sentence": "The region began to exploit its vast natural gas reserves.", "answer": "To use productively", "options": ["To use unfairly/selfishly", "To use productively", "A heroic act"]},
+      {"sentence": "The general's wartime exploits became legendary.", "answer": "A daring or heroic act", "options": ["To use unfairly/selfishly", "To use productively", "A daring or heroic act"]}
+    ],
+    "step3_synonyms": [{"text": "Utilize (neutral/positive)", "correct": true}, {"text": "Take advantage of (negative)", "correct": true}, {"text": "Protect", "correct": false}, {"text": "Conserve", "correct": false}],
+    "step3_antonyms": [{"text": "Protect / Conserve", "correct": true}, {"text": "Use", "correct": false}, {"text": "Utilize", "correct": false}, {"text": "Take advantage", "correct": false}],
+    "step4_clues": ["'Exploit workers' → negative: use unfairly", "'Exploit resources' → can be neutral: develop and use", "'Exploit (noun)' → a brave achievement"],
+    "simple_popup": "EXPLOIT:\n(negative verb) To take unfair advantage.\n(neutral verb) To make productive use of.\n(noun) A brave or daring deed.\nSAT: determine tone from context."
+  },
+  {
+    "id": "063", "word": "PROMOTE",
+    "step1_options": [
+      {"text": "To help something grow or develop", "correct": true},
+      {"text": "To raise in rank or position", "correct": true},
+      {"text": "To publicize or market", "correct": true},
+      {"text": "To hinder or suppress development", "correct": false}
+    ],
+    "step1_incorrect": "To hinder or suppress development",
+    "step2_sentences": [
+      {"sentence": "Exercise promotes cardiovascular health and reduces stress.", "answer": "To encourage/develop", "options": ["To encourage/develop", "To raise in rank", "To publicize"]},
+      {"sentence": "After ten years of service, she was promoted to director.", "answer": "To raise in rank", "options": ["To encourage/develop", "To raise in rank", "To publicize"]},
+      {"sentence": "The campaign was designed to promote awareness of climate change.", "answer": "To publicize/spread", "options": ["To encourage/develop", "To raise in rank", "To publicize/spread"]}
+    ],
+    "step3_synonyms": [{"text": "Foster", "correct": true}, {"text": "Advance", "correct": true}, {"text": "Hinder", "correct": false}, {"text": "Suppress", "correct": false}],
+    "step3_antonyms": [{"text": "Hinder / Impede", "correct": true}, {"text": "Foster", "correct": false}, {"text": "Advance", "correct": false}, {"text": "Support", "correct": false}],
+    "step4_clues": ["'Promotes health/growth' → supports, encourages", "'Promoted to manager' → raised in rank", "'Promote a product' → advertise it"],
+    "simple_popup": "PROMOTE:\n1. To encourage or help develop ('promotes learning').\n2. To raise in rank ('promoted to captain').\n3. To publicize ('promote a film').\nSAT most common: meaning 1 — to support or encourage."
+  },
+  {
+    "id": "064", "word": "FUNDAMENTAL",
+    "step1_options": [
+      {"text": "Serving as an essential foundation", "correct": true},
+      {"text": "Central to the nature of something", "correct": true},
+      {"text": "Of primary importance", "correct": true},
+      {"text": "Secondary or peripheral in importance", "correct": false}
+    ],
+    "step1_incorrect": "Secondary or peripheral in importance",
+    "step2_sentences": [
+      {"sentence": "Freedom of speech is a fundamental right in democratic societies.", "answer": "Essential/foundational", "options": ["Essential/foundational", "Primary/most important", "Basic level"]},
+      {"sentence": "The two theories differ in their fundamental assumptions.", "answer": "Central to the nature", "options": ["Essential/foundational", "Central to the nature", "Basic level"]},
+      {"sentence": "The course covers the fundamentals of calculus.", "answer": "Basic principles/foundations", "options": ["Essential/foundational", "Central to the nature", "Basic principles/foundations"]}
+    ],
+    "step3_synonyms": [{"text": "Essential", "correct": true}, {"text": "Core", "correct": true}, {"text": "Peripheral", "correct": false}, {"text": "Minor", "correct": false}],
+    "step3_antonyms": [{"text": "Peripheral / Incidental", "correct": true}, {"text": "Essential", "correct": false}, {"text": "Core", "correct": false}, {"text": "Basic", "correct": false}],
+    "step4_clues": ["'Fundamental right/principle' → most basic, essential", "'Fundamentals of' → the core basics of a subject", "Implies: if you remove this, the whole thing collapses"],
+    "simple_popup": "FUNDAMENTAL = essential, at the very base.\n'Fundamental principle' = the most basic and important.\n'Fundamentals' (noun) = the basic core elements of something."
+  },
+  {
+    "id": "065", "word": "EVOLVE",
+    "step1_options": [
+      {"text": "To develop gradually over time", "correct": true},
+      {"text": "To change through biological adaptation", "correct": true},
+      {"text": "To become more complex or advanced", "correct": true},
+      {"text": "To remain static and unchanged", "correct": false}
+    ],
+    "step1_incorrect": "To remain static and unchanged",
+    "step2_sentences": [
+      {"sentence": "The company's strategy evolved significantly over the past decade.", "answer": "To develop/change gradually", "options": ["To develop/change gradually", "Biological adaptation", "To become more complex"]},
+      {"sentence": "Whales evolved from land-dwelling mammals over millions of years.", "answer": "Biological evolution", "options": ["To develop/change gradually", "Biological evolution", "To become more complex"]},
+      {"sentence": "Our understanding of the disease has evolved with new research.", "answer": "To advance/deepen over time", "options": ["To develop/change gradually", "Biological evolution", "To advance/deepen over time"]}
+    ],
+    "step3_synonyms": [{"text": "Develop", "correct": true}, {"text": "Adapt", "correct": true}, {"text": "Stagnate", "correct": false}, {"text": "Remain fixed", "correct": false}],
+    "step3_antonyms": [{"text": "Stagnate / Remain fixed", "correct": true}, {"text": "Develop", "correct": false}, {"text": "Adapt", "correct": false}, {"text": "Change", "correct": false}],
+    "step4_clues": ["Not just biology — 'evolved' often means 'changed gradually' in SAT passages", "'The policy evolved' = changed and developed over time", "Always implies a process, not a sudden change"],
+    "simple_popup": "EVOLVE = to change or develop gradually.\nNot just biology — 'ideas evolve,' 'strategies evolve.'\nSAT: 'evolved' often means 'changed over time.'"
+  },
+  {
+    "id": "066", "word": "CONTROVERSY",
+    "step1_options": [
+      {"text": "A prolonged public disagreement", "correct": true},
+      {"text": "A dispute involving opposing viewpoints", "correct": true},
+      {"text": "A matter that arouses strong disagreement", "correct": true},
+      {"text": "A widely agreed-upon consensus", "correct": false}
+    ],
+    "step1_incorrect": "A widely agreed-upon consensus",
+    "step2_sentences": [
+      {"sentence": "The policy generated significant controversy among scientists.", "answer": "Public disagreement/dispute", "options": ["Public disagreement/dispute", "A legal dispute", "A minor misunderstanding"]},
+      {"sentence": "The author avoided controversy by staying neutral on divisive issues.", "answer": "Contentious debate", "options": ["Public disagreement/dispute", "Contentious debate", "A minor misunderstanding"]},
+      {"sentence": "The controversy over the painting's authenticity lasted for decades.", "answer": "A prolonged dispute", "options": ["Public disagreement/dispute", "A legal dispute", "A prolonged dispute"]}
+    ],
+    "step3_synonyms": [{"text": "Dispute", "correct": true}, {"text": "Contention", "correct": true}, {"text": "Consensus", "correct": false}, {"text": "Agreement", "correct": false}],
+    "step3_antonyms": [{"text": "Consensus / Agreement", "correct": true}, {"text": "Dispute", "correct": false}, {"text": "Disagreement", "correct": false}, {"text": "Contention", "correct": false}],
+    "step4_clues": ["'Controversy surrounds…' → strong public disagreement", "'Controversial claim' → one many people dispute", "Synonyms: contention, debate, dispute"],
+    "simple_popup": "CONTROVERSY = a prolonged public disagreement.\n'Generate controversy' = spark debate and disagreement.\nAntonym: consensus (everyone agrees)."
+  },
+  {
+    "id": "067", "word": "PERSPECTIVE",
+    "step1_options": [
+      {"text": "A particular point of view or way of thinking", "correct": true},
+      {"text": "The technique of representing depth in art", "correct": true},
+      {"text": "The ability to see things in their true proportion", "correct": true},
+      {"text": "An objective fact independent of viewpoint", "correct": false}
+    ],
+    "step1_incorrect": "An objective fact independent of viewpoint",
+    "step2_sentences": [
+      {"sentence": "The book examines the war from the perspective of ordinary soldiers.", "answer": "A point of view", "options": ["A point of view", "Artistic technique", "Proportion/balance"]},
+      {"sentence": "Renaissance painters mastered the use of perspective to create depth.", "answer": "Artistic technique for depth", "options": ["A point of view", "Artistic technique for depth", "Proportion/balance"]},
+      {"sentence": "Travel helped her gain perspective on her own cultural assumptions.", "answer": "A balanced sense of proportion", "options": ["A point of view", "Artistic technique for depth", "A balanced sense of proportion"]}
+    ],
+    "step3_synonyms": [{"text": "Viewpoint", "correct": true}, {"text": "Standpoint", "correct": true}, {"text": "Fact", "correct": false}, {"text": "Certainty", "correct": false}],
+    "step3_antonyms": [{"text": "Objectivity / Fact", "correct": true}, {"text": "Viewpoint", "correct": false}, {"text": "Standpoint", "correct": false}, {"text": "Angle", "correct": false}],
+    "step4_clues": ["'From the perspective of' → from the point of view of", "'Gain perspective' → see things in proper proportion", "SAT: always implies subjectivity — someone's way of seeing"],
+    "simple_popup": "PERSPECTIVE:\n1. A point of view ('from her perspective').\n2. Art technique for showing depth.\n3. A sense of proportion ('gain perspective').\nSAT most common: a subjective point of view."
+  },
+  {
+    "id": "068", "word": "RATIONAL",
+    "step1_options": [
+      {"text": "Based on reason and logic", "correct": true},
+      {"text": "Able to think clearly and sensibly", "correct": true},
+      {"text": "Mathematically expressible as a fraction", "correct": true},
+      {"text": "Guided by emotion rather than reason", "correct": false}
+    ],
+    "step1_incorrect": "Guided by emotion rather than reason",
+    "step2_sentences": [
+      {"sentence": "A rational decision-maker considers all available evidence.", "answer": "Based on reason/logic", "options": ["Based on reason/logic", "Math: expressible as fraction", "Clear-headed"]},
+      {"sentence": "The square root of two is not a rational number.", "answer": "Mathematics: ratio of integers", "options": ["Based on reason/logic", "Mathematics: ratio of integers", "Clear-headed"]},
+      {"sentence": "After a night's sleep, she approached the problem with a more rational mind.", "answer": "Calm and clear-thinking", "options": ["Based on reason/logic", "Mathematics: ratio of integers", "Calm and clear-thinking"]}
+    ],
+    "step3_synonyms": [{"text": "Logical", "correct": true}, {"text": "Reasonable", "correct": true}, {"text": "Irrational", "correct": false}, {"text": "Emotional", "correct": false}],
+    "step3_antonyms": [{"text": "Irrational / Emotional", "correct": true}, {"text": "Logical", "correct": false}, {"text": "Reasonable", "correct": false}, {"text": "Sensible", "correct": false}],
+    "step4_clues": ["'Rational argument' → based on logic, not emotion", "'Rational number' → math: can be expressed as a/b", "SAT: rational = reasoned, logical, not emotional"],
+    "simple_popup": "RATIONAL:\n1. Logical, based on reason ('rational argument').\n2. Math: a number expressible as a fraction.\nSAT: most often means logical, not driven by emotion."
+  },
+  {
+    "id": "069", "word": "INTEGRITY",
+    "step1_options": [
+      {"text": "Moral uprightness and honesty", "correct": true},
+      {"text": "The state of being whole and undivided", "correct": true},
+      {"text": "The soundness and reliability of a system", "correct": true},
+      {"text": "The state of being corrupt or dishonest", "correct": false}
+    ],
+    "step1_incorrect": "The state of being corrupt or dishonest",
+    "step2_sentences": [
+      {"sentence": "She was known throughout her career for her personal integrity.", "answer": "Moral honesty", "options": ["Moral honesty", "Being whole/undivided", "System reliability"]},
+      {"sentence": "The flood damaged the structural integrity of the bridge.", "answer": "Soundness/wholeness", "options": ["Moral honesty", "Soundness/wholeness", "System reliability"]},
+      {"sentence": "The data integrity was confirmed by multiple independent audits.", "answer": "Accuracy and reliability", "options": ["Moral honesty", "Soundness/wholeness", "Accuracy and reliability"]}
+    ],
+    "step3_synonyms": [{"text": "Honesty (moral)", "correct": true}, {"text": "Wholeness (structural)", "correct": true}, {"text": "Corruption", "correct": false}, {"text": "Dishonesty", "correct": false}],
+    "step3_antonyms": [{"text": "Corruption / Dishonesty", "correct": true}, {"text": "Honesty", "correct": false}, {"text": "Wholeness", "correct": false}, {"text": "Soundness", "correct": false}],
+    "step4_clues": ["'Personal integrity' → moral virtue", "'Structural integrity' → physical soundness", "'Data integrity' → accuracy, not been corrupted"],
+    "simple_popup": "INTEGRITY:\n1. Moral honesty ('acts with integrity').\n2. Structural wholeness ('bridge integrity').\n3. Data reliability ('data integrity').\nAll meanings share the idea of being SOUND and WHOLE."
+  },
+  {
+    "id": "070", "word": "APPARENT",
+    "step1_options": [
+      {"text": "Clearly visible or obvious", "correct": true},
+      {"text": "Seeming but perhaps not real", "correct": true},
+      {"text": "According to appearances, but possibly misleading", "correct": true},
+      {"text": "Hidden or not visible to the eye", "correct": false}
+    ],
+    "step1_incorrect": "Hidden or not visible to the eye",
+    "step2_sentences": [
+      {"sentence": "The apparent contradiction resolves itself once you read the footnote.", "answer": "Seeming but perhaps not real", "options": ["Seeming but perhaps not real", "Clearly visible", "Obvious to all"]},
+      {"sentence": "Her distress was apparent to everyone in the room.", "answer": "Clearly visible/obvious", "options": ["Seeming but perhaps not real", "Clearly visible/obvious", "Obvious to all"]},
+      {"sentence": "For no apparent reason, the machine stopped working.", "answer": "Visible, detectable reason", "options": ["Seeming but perhaps not real", "Clearly visible/obvious", "Visible, detectable reason"]}
+    ],
+    "step3_synonyms": [{"text": "Evident", "correct": true}, {"text": "Ostensible", "correct": true}, {"text": "Hidden", "correct": false}, {"text": "Obscure", "correct": false}],
+    "step3_antonyms": [{"text": "Hidden / Obscure", "correct": true}, {"text": "Evident", "correct": false}, {"text": "Obvious", "correct": false}, {"text": "Ostensible", "correct": false}],
+    "step4_clues": ["'Apparent contradiction' → looks like one, may not be", "'For no apparent reason' → no visible reason", "SAT trap: 'apparent' can mean SEEMINGLY, not truly"],
+    "simple_popup": "APPARENT:\n1. Clearly visible ('her anger was apparent').\n2. Seeming but perhaps not real ('apparent contradiction').\nSAT trap: 'apparent' meaning 2 = looks real but may not be."
+  },
+  {
+    "id": "071", "word": "COMPLEX",
+    "step1_options": [
+      {"text": "Made up of many interrelated parts", "correct": true},
+      {"text": "Difficult to understand or analyze", "correct": true},
+      {"text": "A group of related buildings or facilities", "correct": true},
+      {"text": "Simple and easy to understand", "correct": false}
+    ],
+    "step1_incorrect": "Simple and easy to understand",
+    "step2_sentences": [
+      {"sentence": "The relationship between poverty and crime is complex.", "answer": "Difficult, many factors involved", "options": ["Difficult, many factors involved", "A group of buildings", "Psychological pattern"]},
+      {"sentence": "Workers were housed in a residential complex near the factory.", "answer": "A group of related buildings", "options": ["Difficult, many factors involved", "A group of related buildings", "Psychological pattern"]},
+      {"sentence": "His inferiority complex affected every relationship he formed.", "answer": "A psychological pattern", "options": ["Difficult, many factors involved", "A group of related buildings", "A psychological pattern"]}
+    ],
+    "step3_synonyms": [{"text": "Intricate", "correct": true}, {"text": "Multifaceted", "correct": true}, {"text": "Simple", "correct": false}, {"text": "Straightforward", "correct": false}],
+    "step3_antonyms": [{"text": "Simple / Straightforward", "correct": true}, {"text": "Intricate", "correct": false}, {"text": "Multifaceted", "correct": false}, {"text": "Complicated", "correct": false}],
+    "step4_clues": ["'Complex issue' → many interacting parts, hard to resolve simply", "'Apartment/sports complex' → a group of buildings", "'Inferiority complex' → psychology: obsessive mental pattern"],
+    "simple_popup": "COMPLEX:\n(adj) Having many interconnected parts, difficult.\n(noun) A group of buildings OR a psychological fixation.\nSAT: 'complex relationship' = many factors, not simple."
+  },
+  {
+    "id": "072", "word": "CHALLENGE",
+    "step1_options": [
+      {"text": "A task requiring great effort or skill", "correct": true},
+      {"text": "To question or dispute", "correct": true},
+      {"text": "To invite to compete or fight", "correct": true},
+      {"text": "To confirm or accept without questioning", "correct": false}
+    ],
+    "step1_incorrect": "To confirm or accept without questioning",
+    "step2_sentences": [
+      {"sentence": "The study challenges the widely accepted view on dietary fat.", "answer": "To question/dispute", "options": ["To question/dispute", "A difficult task", "To invite competition"]},
+      {"sentence": "The chess prodigy challenged the reigning world champion.", "answer": "To invite to compete", "options": ["To question/dispute", "A difficult task", "To invite to compete"]},
+      {"sentence": "Learning a new language in one year is a formidable challenge.", "answer": "A difficult task", "options": ["To question/dispute", "A difficult task", "To invite to compete"]}
+    ],
+    "step3_synonyms": [{"text": "Contest", "correct": true}, {"text": "Dispute", "correct": true}, {"text": "Accept", "correct": false}, {"text": "Confirm", "correct": false}],
+    "step3_antonyms": [{"text": "Accept / Affirm", "correct": true}, {"text": "Dispute", "correct": false}, {"text": "Contest", "correct": false}, {"text": "Question", "correct": false}],
+    "step4_clues": ["'The author challenges' → disputes, argues against", "'Face a challenge' → a difficult obstacle", "SAT: 'challenges the assumption that…' = argues against it"],
+    "simple_popup": "CHALLENGE (SAT verb):\nTo question or argue against a claim.\n'Challenges the premise' = disputes it.\nNot just 'to find difficult.'"
+  },
+  {
+    "id": "073", "word": "MEASURE",
+    "step1_options": [
+      {"text": "To determine the size or quantity of", "correct": true},
+      {"text": "A course of action taken to achieve a goal", "correct": true},
+      {"text": "A degree or extent", "correct": true},
+      {"text": "To ignore or avoid quantifying", "correct": false}
+    ],
+    "step1_incorrect": "To ignore or avoid quantifying",
+    "step2_sentences": [
+      {"sentence": "The government introduced measures to reduce carbon emissions.", "answer": "A course of action/policy", "options": ["A course of action/policy", "To determine size", "A degree/extent"]},
+      {"sentence": "Scientists measured the distance between two galaxies.", "answer": "To determine quantity/size", "options": ["A course of action/policy", "To determine quantity/size", "A degree/extent"]},
+      {"sentence": "Her success was due in large measure to her persistence.", "answer": "A degree or extent", "options": ["A course of action/policy", "To determine quantity/size", "A degree or extent"]}
+    ],
+    "step3_synonyms": [{"text": "Assess (verb)", "correct": true}, {"text": "Policy/step (noun)", "correct": true}, {"text": "Ignore", "correct": false}, {"text": "Overlook", "correct": false}],
+    "step3_antonyms": [{"text": "Ignore / Overlook", "correct": true}, {"text": "Assess", "correct": false}, {"text": "Quantify", "correct": false}, {"text": "Step/action", "correct": false}],
+    "step4_clues": ["'Take measures' → take steps/actions to achieve something", "'In large measure' → to a great extent/degree", "'Measure the impact' → assess and quantify it"],
+    "simple_popup": "MEASURE:\n(verb) To assess or quantify.\n(noun) A policy step ('take measures').\n(noun) A degree or extent ('in large measure').\nSAT: 'measures were taken' = steps/actions."
+  },
+  {
+    "id": "074", "word": "ACKNOWLEDGE",
+    "step1_options": [
+      {"text": "To admit the existence of something", "correct": true},
+      {"text": "To express gratitude for", "correct": true},
+      {"text": "To recognize the authority of", "correct": true},
+      {"text": "To deny or dispute a claim", "correct": false}
+    ],
+    "step1_incorrect": "To deny or dispute a claim",
+    "step2_sentences": [
+      {"sentence": "The politician acknowledged that the policy had failed.", "answer": "To admit the existence of", "options": ["To admit the existence of", "To express gratitude", "To recognize authority"]},
+      {"sentence": "The author acknowledged the researchers whose work informed the book.", "answer": "To express recognition/thanks", "options": ["To admit the existence of", "To express recognition/thanks", "To recognize authority"]},
+      {"sentence": "The rebels refused to acknowledge the new government's legitimacy.", "answer": "To recognize authority", "options": ["To admit the existence of", "To express recognition/thanks", "To recognize authority"]}
+    ],
+    "step3_synonyms": [{"text": "Admit", "correct": true}, {"text": "Recognize", "correct": true}, {"text": "Deny", "correct": false}, {"text": "Dispute", "correct": false}],
+    "step3_antonyms": [{"text": "Deny / Dispute", "correct": true}, {"text": "Admit", "correct": false}, {"text": "Recognize", "correct": false}, {"text": "Concede", "correct": false}],
+    "step4_clues": ["'Acknowledges that…' → admits, does not deny", "'Acknowledge contributions' → thank or credit", "Weaker than 'assert' — more tentative"],
+    "simple_popup": "ACKNOWLEDGE = to admit or recognize.\n'Acknowledges that' = admits (often reluctantly).\n'Acknowledge someone's work' = give credit.\nAlways involves accepting something as real or true."
+  },
+  {
+    "id": "075", "word": "INDICATE",
+    "step1_options": [
+      {"text": "To point to or show the presence of", "correct": true},
+      {"text": "To be a sign or symptom of", "correct": true},
+      {"text": "To state briefly or suggest", "correct": true},
+      {"text": "To disprove or cast doubt on", "correct": false}
+    ],
+    "step1_incorrect": "To disprove or cast doubt on",
+    "step2_sentences": [
+      {"sentence": "The data indicates a strong correlation between diet and heart disease.", "answer": "To show/suggest (as evidence)", "options": ["To show/suggest (as evidence)", "To point physically", "To state briefly"]},
+      {"sentence": "He indicated the exit with a wave of his hand.", "answer": "To point to physically", "options": ["To show/suggest (as evidence)", "To point to physically", "To state briefly"]},
+      {"sentence": "The survey results indicate a growing dissatisfaction with the policy.", "answer": "To be a sign of", "options": ["To show/suggest (as evidence)", "To point to physically", "To be a sign of"]}
+    ],
+    "step3_synonyms": [{"text": "Suggest", "correct": true}, {"text": "Signal", "correct": true}, {"text": "Disprove", "correct": false}, {"text": "Contradict", "correct": false}],
+    "step3_antonyms": [{"text": "Contradict / Disprove", "correct": true}, {"text": "Suggest", "correct": false}, {"text": "Signal", "correct": false}, {"text": "Show", "correct": false}],
+    "step4_clues": ["'Data indicates' → serves as evidence for", "'Indicate a direction' → point toward", "SAT: 'indicate' is weaker than 'prove' — shows, not proves"],
+    "simple_popup": "INDICATE = to point to or suggest.\n'The data indicates' = serves as evidence for, but doesn't prove.\nSAT: weaker than 'demonstrate' or 'prove.'"
+  },
+  {
+    "id": "076", "word": "DIVERSE",
+    "step1_options": [
+      {"text": "Showing a great deal of variety", "correct": true},
+      {"text": "Including people of different backgrounds", "correct": true},
+      {"text": "Varied in form, character, or opinion", "correct": true},
+      {"text": "Uniform and identical throughout", "correct": false}
+    ],
+    "step1_incorrect": "Uniform and identical throughout",
+    "step2_sentences": [
+      {"sentence": "The city has a diverse population from over eighty countries.", "answer": "Varied backgrounds/origins", "options": ["Varied backgrounds/origins", "Varied in form/type", "Wide in range"]},
+      {"sentence": "The collection featured works from diverse artistic traditions.", "answer": "Varied in type/form", "options": ["Varied backgrounds/origins", "Varied in type/form", "Wide in range"]},
+      {"sentence": "The committee had diverse opinions on how to proceed.", "answer": "Varied and different", "options": ["Varied backgrounds/origins", "Varied in type/form", "Varied and different"]}
+    ],
+    "step3_synonyms": [{"text": "Varied", "correct": true}, {"text": "Heterogeneous", "correct": true}, {"text": "Uniform", "correct": false}, {"text": "Homogeneous", "correct": false}],
+    "step3_antonyms": [{"text": "Uniform / Homogeneous", "correct": true}, {"text": "Varied", "correct": false}, {"text": "Heterogeneous", "correct": false}, {"text": "Different", "correct": false}],
+    "step4_clues": ["'Diverse perspectives' → many different viewpoints", "'Biologically diverse' → many species", "Antonym: uniform, homogeneous"],
+    "simple_popup": "DIVERSE = varied, showing many differences.\n'Diverse perspectives' = many different viewpoints.\nOpposite: uniform, homogeneous."
+  },
+  {
+    "id": "077", "word": "PRINCIPLE",
+    "step1_options": [
+      {"text": "A fundamental rule or belief guiding behavior", "correct": true},
+      {"text": "A general law or truth underlying a field", "correct": true},
+      {"text": "A personal code of conduct", "correct": true},
+      {"text": "The head of a school (that's 'principal')", "correct": false}
+    ],
+    "step1_incorrect": "The head of a school (that's 'principal')",
+    "step2_sentences": [
+      {"sentence": "She refused to compromise her principles even under pressure.", "answer": "Personal moral code", "options": ["Personal moral code", "A scientific law", "A fundamental truth"]},
+      {"sentence": "The principle of supply and demand governs most markets.", "answer": "A fundamental law/rule", "options": ["Personal moral code", "A fundamental law/rule", "A fundamental truth"]},
+      {"sentence": "In principle, the plan sounds good, but practice may differ.", "answer": "In theory/fundamentally", "options": ["Personal moral code", "A fundamental law/rule", "In theory/fundamentally"]}
+    ],
+    "step3_synonyms": [{"text": "Tenet", "correct": true}, {"text": "Doctrine", "correct": true}, {"text": "Exception", "correct": false}, {"text": "Violation", "correct": false}],
+    "step3_antonyms": [{"text": "Exception / Violation", "correct": true}, {"text": "Tenet", "correct": false}, {"text": "Doctrine", "correct": false}, {"text": "Code", "correct": false}],
+    "step4_clues": ["'In principle' → in theory, at a basic level", "'Moral principles' → personal ethical code", "PRINCIPLE (rule) vs PRINCIPAL (main/head person)"],
+    "simple_popup": "PRINCIPLE = a rule or belief.\n'In principle' = in theory.\n'Moral principles' = ethical code.\n⚠️ PRINCIPAL = main/most important OR school head."
+  },
+  {
+    "id": "078", "word": "POTENTIAL",
+    "step1_options": [
+      {"text": "Capable of being but not yet in existence", "correct": true},
+      {"text": "Latent ability waiting to be developed", "correct": true},
+      {"text": "Physics: stored energy ready to do work", "correct": true},
+      {"text": "Currently active and fully realized", "correct": false}
+    ],
+    "step1_incorrect": "Currently active and fully realized",
+    "step2_sentences": [
+      {"sentence": "The young athlete showed enormous potential in her first season.", "answer": "Latent ability not yet developed", "options": ["Latent ability not yet developed", "Physics: stored energy", "Something possible but not certain"]},
+      {"sentence": "Water at the top of the dam has gravitational potential energy.", "answer": "Stored energy (physics)", "options": ["Latent ability not yet developed", "Stored energy (physics)", "Something possible but not certain"]},
+      {"sentence": "There is potential for disagreement between the two parties.", "answer": "Possibility, not certainty", "options": ["Latent ability not yet developed", "Stored energy (physics)", "Possibility, not certainty"]}
+    ],
+    "step3_synonyms": [{"text": "Latent", "correct": true}, {"text": "Prospective", "correct": true}, {"text": "Actual", "correct": false}, {"text": "Realized", "correct": false}],
+    "step3_antonyms": [{"text": "Actual / Realized", "correct": true}, {"text": "Latent", "correct": false}, {"text": "Prospective", "correct": false}, {"text": "Possible", "correct": false}],
+    "step4_clues": ["'Potential candidate' → possible, not confirmed", "'Reach your potential' → develop latent ability", "Physics: potential energy = stored, not yet in motion"],
+    "simple_popup": "POTENTIAL = possible but not yet realized.\n'Potential problem' = possible, not certain.\n'Show potential' = has latent ability.\nOpposite: actual, realized."
+  },
+  {
+    "id": "079", "word": "CONFORM",
+    "step1_options": [
+      {"text": "To comply with rules or standards", "correct": true},
+      {"text": "To behave in accordance with social expectations", "correct": true},
+      {"text": "To be similar in form or nature", "correct": true},
+      {"text": "To deviate from expected behavior", "correct": false}
+    ],
+    "step1_incorrect": "To deviate from expected behavior",
+    "step2_sentences": [
+      {"sentence": "The building must conform to the city's fire safety codes.", "answer": "To comply with rules", "options": ["To comply with rules", "To match expectations", "To be similar to"]},
+      {"sentence": "Teenagers often feel pressure to conform to peer expectations.", "answer": "To match social expectations", "options": ["To comply with rules", "To match social expectations", "To be similar to"]},
+      {"sentence": "The results conform to the predictions made by the model.", "answer": "To match or agree with", "options": ["To comply with rules", "To match social expectations", "To match or agree with"]}
+    ],
+    "step3_synonyms": [{"text": "Comply", "correct": true}, {"text": "Adhere", "correct": true}, {"text": "Deviate", "correct": false}, {"text": "Rebel", "correct": false}],
+    "step3_antonyms": [{"text": "Deviate / Rebel", "correct": true}, {"text": "Comply", "correct": false}, {"text": "Adhere", "correct": false}, {"text": "Follow", "correct": false}],
+    "step4_clues": ["'Conform to standards/rules' → comply with them", "'Conform to expectations' → meet them, match them", "Social conformity = going along with the group"],
+    "simple_popup": "CONFORM = to match, comply with, or fit into.\n'Conform to rules' = obey them.\n'Conform to expectations' = meet them.\nOpposite: deviate, rebel."
+  },
+  {
+    "id": "080", "word": "LIBERAL",
+    "step1_options": [
+      {"text": "Open to new ideas; favoring progress and reform", "correct": true},
+      {"text": "Given or occurring in large amounts", "correct": true},
+      {"text": "Not strict; free from prejudice", "correct": true},
+      {"text": "Narrow-minded and resistant to change", "correct": false}
+    ],
+    "step1_incorrect": "Narrow-minded and resistant to change",
+    "step2_sentences": [
+      {"sentence": "She took a liberal approach to grading, rewarding effort as well as results.", "answer": "Generous, not strict", "options": ["Generous, not strict", "Progressive/political", "Open-minded"]},
+      {"sentence": "The magazine applied a liberal amount of artistic license to the facts.", "answer": "In large amounts, generously", "options": ["Generous, not strict", "In large amounts, generously", "Open-minded"]},
+      {"sentence": "A liberal arts education encourages broad intellectual inquiry.", "answer": "Open and broad, not specialized", "options": ["Generous, not strict", "In large amounts, generously", "Open and broad, not specialized"]}
+    ],
+    "step3_synonyms": [{"text": "Generous", "correct": true}, {"text": "Open-minded", "correct": true}, {"text": "Restrictive", "correct": false}, {"text": "Narrow", "correct": false}],
+    "step3_antonyms": [{"text": "Restrictive / Narrow", "correct": true}, {"text": "Generous", "correct": false}, {"text": "Open-minded", "correct": false}, {"text": "Progressive", "correct": false}],
+    "step4_clues": ["'Liberal interpretation' → loose, not strict", "'A liberal amount' → generous, large quantity", "'Liberal arts' → broad, open curriculum", "SAT: not always political — often means generous or broad"],
+    "simple_popup": "LIBERAL:\n1. Progressive politically.\n2. Generous ('a liberal amount').\n3. Not strict ('liberal interpretation').\n4. Broad ('liberal education').\nSAT: often means generous or non-strict!"
+  },
+  {
+    "id": "081", "word": "CONSERVATIVE",
+    "step1_options": [
+      {"text": "Favoring traditional values and gradual change", "correct": true},
+      {"text": "Cautiously moderate; avoiding excess", "correct": true},
+      {"text": "A low estimate to avoid overstating", "correct": true},
+      {"text": "Radical or favoring sweeping change", "correct": false}
+    ],
+    "step1_incorrect": "Radical or favoring sweeping change",
+    "step2_sentences": [
+      {"sentence": "The conservative estimate put the cost at one million dollars.", "answer": "A cautious, low estimate", "options": ["A cautious, low estimate", "Traditional/political", "Avoiding excess"]},
+      {"sentence": "He dressed in a conservative style, preferring dark suits.", "answer": "Traditional, not flashy", "options": ["A cautious, low estimate", "Traditional, not flashy", "Avoiding excess"]},
+      {"sentence": "The financial advisor recommended a conservative investment strategy.", "answer": "Cautious, low-risk", "options": ["A cautious, low estimate", "Traditional, not flashy", "Cautious, low-risk"]}
+    ],
+    "step3_synonyms": [{"text": "Cautious", "correct": true}, {"text": "Traditional", "correct": true}, {"text": "Radical", "correct": false}, {"text": "Excessive", "correct": false}],
+    "step3_antonyms": [{"text": "Radical / Progressive", "correct": true}, {"text": "Cautious", "correct": false}, {"text": "Traditional", "correct": false}, {"text": "Moderate", "correct": false}],
+    "step4_clues": ["'Conservative estimate' → deliberately low to avoid overstating", "'Conservative style/dress' → traditional, restrained", "SAT: not just political — often means cautious or restrained"],
+    "simple_popup": "CONSERVATIVE:\n1. Traditional, resistant to change.\n2. Cautious estimate = deliberately low.\n3. Restrained in style ('conservative dress').\nSAT: often means 'cautious' or 'modest,' not political."
+  },
+  {
+    "id": "082", "word": "COMPLEMENT",
+    "step1_options": [
+      {"text": "Something that completes or makes perfect", "correct": true},
+      {"text": "To complete or enhance by adding what is lacking", "correct": true},
+      {"text": "A full number or quantity making a whole", "correct": true},
+      {"text": "An expression of praise or admiration (that's 'compliment')", "correct": false}
+    ],
+    "step1_incorrect": "An expression of praise or admiration (that's 'compliment')",
+    "step2_sentences": [
+      {"sentence": "The wine complemented the flavor of the dish perfectly.", "answer": "To complete/enhance", "options": ["To complete/enhance", "A full quantity", "To add what is lacking"]},
+      {"sentence": "The ship had its full complement of sailors on board.", "answer": "A full number/quantity", "options": ["To complete/enhance", "A full number/quantity", "To add what is lacking"]},
+      {"sentence": "His calm demeanor was a perfect complement to her energetic style.", "answer": "Something that completes", "options": ["To complete/enhance", "A full number/quantity", "Something that completes"]  }
+    ],
+    "step3_synonyms": [{"text": "Complete (verb)", "correct": true}, {"text": "Supplement", "correct": true}, {"text": "Clash with", "correct": false}, {"text": "Detract from", "correct": false}],
+    "step3_antonyms": [{"text": "Clash with / Detract from", "correct": true}, {"text": "Complete", "correct": false}, {"text": "Supplement", "correct": false}, {"text": "Enhance", "correct": false}],
+    "step4_clues": ["COMPLEMENT (completes) vs COMPLIMENT (praises)", "'Complementary colors' → opposites that work together", "'Full complement' → total number required"],
+    "simple_popup": "COMPLEMENT = something that completes or enhances.\nCOMPLIMENT = praise.\n'Complementary' = working well together to form a whole.\n⚠️ SAT classic spelling/meaning trap!"
+  },
+  {
+    "id": "083", "word": "MEDIUM",
+    "step1_options": [
+      {"text": "A middle state or degree", "correct": true},
+      {"text": "A channel or means of communication", "correct": true},
+      {"text": "A substance through which something travels", "correct": true},
+      {"text": "An extreme or maximum amount", "correct": false}
+    ],
+    "step1_incorrect": "An extreme or maximum amount",
+    "step2_sentences": [
+      {"sentence": "Television became the dominant medium for political campaigning.", "answer": "A channel of communication", "options": ["A channel of communication", "A middle degree", "A substance for travel"]},
+      {"sentence": "Sound travels through air as its primary medium.", "answer": "A substance through which something travels", "options": ["A channel of communication", "A middle degree", "A substance through which something travels"]},
+      {"sentence": "She preferred a medium level of difficulty — neither too easy nor too hard.", "answer": "A middle degree", "options": ["A channel of communication", "A middle degree", "A substance through which something travels"]}
+    ],
+    "step3_synonyms": [{"text": "Channel (noun)", "correct": true}, {"text": "Vehicle (noun)", "correct": true}, {"text": "Extreme", "correct": false}, {"text": "Maximum", "correct": false}],
+    "step3_antonyms": [{"text": "Extreme", "correct": true}, {"text": "Channel", "correct": false}, {"text": "Middle", "correct": false}, {"text": "Vehicle", "correct": false}],
+    "step4_clues": ["'Medium of exchange' → a means of trading", "'The medium of television' → the vehicle/channel of communication", "'Via what medium' → through what channel?"],
+    "simple_popup": "MEDIUM:\n1. Middle level ('medium difficulty').\n2. Channel of communication ('the medium of radio').\n3. Physical substance that transmits ('medium for sound').\nSAT art/history: 'medium' = the material an artist uses."
+  },
+  {
+    "id": "084", "word": "TENSION",
+    "step1_options": [
+      {"text": "A state of mental strain or anxiety", "correct": true},
+      {"text": "Conflict between opposing forces or ideas", "correct": true},
+      {"text": "The tightness of a rope, wire, or muscle", "correct": true},
+      {"text": "A state of relaxation and harmony", "correct": false}
+    ],
+    "step1_incorrect": "A state of relaxation and harmony",
+    "step2_sentences": [
+      {"sentence": "There is a fundamental tension between individual freedom and collective security.", "answer": "Conflict between opposing forces", "options": ["Conflict between opposing forces", "Physical tightness", "Mental anxiety"]},
+      {"sentence": "The tension in the room was palpable as the verdict was read.", "answer": "Mental anxiety/suspense", "options": ["Conflict between opposing forces", "Physical tightness", "Mental anxiety/suspense"]},
+      {"sentence": "Adjust the tension on the guitar string before playing.", "answer": "Physical tightness", "options": ["Conflict between opposing forces", "Physical tightness", "Mental anxiety/suspense"]}
+    ],
+    "step3_synonyms": [{"text": "Conflict", "correct": true}, {"text": "Strain", "correct": true}, {"text": "Harmony", "correct": false}, {"text": "Relaxation", "correct": false}],
+    "step3_antonyms": [{"text": "Harmony / Relaxation", "correct": true}, {"text": "Conflict", "correct": false}, {"text": "Strain", "correct": false}, {"text": "Anxiety", "correct": false}],
+    "step4_clues": ["'Tension between X and Y' → conflict, opposing forces", "SAT literary: 'narrative tension' = suspense", "'Racial/political tension' → social conflict and stress"],
+    "simple_popup": "TENSION:\n1. Conflict between opposing forces (most common SAT use).\n2. Mental strain or anxiety.\n3. Physical tightness.\nSAT: 'tension between ideas' = they pull in opposite directions."
+  },
+  {
+    "id": "085", "word": "CONSIDERABLE",
+    "step1_options": [
+      {"text": "Notably large in size or extent", "correct": true},
+      {"text": "Worthy of attention or thought", "correct": true},
+      {"text": "Significant in importance or effect", "correct": true},
+      {"text": "Tiny or negligible in size", "correct": false}
+    ],
+    "step1_incorrect": "Tiny or negligible in size",
+    "step2_sentences": [
+      {"sentence": "She had considerable experience managing large teams.", "answer": "Notably large/significant", "options": ["Notably large/significant", "Worthy of thought", "Significant in effect"]},
+      {"sentence": "The project required a considerable amount of time and resources.", "answer": "A large amount", "options": ["Notably large/significant", "A large amount", "Significant in effect"]},
+      {"sentence": "The loss was considerable and affected the entire organization.", "answer": "Significant, not small", "options": ["Notably large/significant", "A large amount", "Significant, not small"]}
+    ],
+    "step3_synonyms": [{"text": "Substantial", "correct": true}, {"text": "Significant", "correct": true}, {"text": "Negligible", "correct": false}, {"text": "Trivial", "correct": false}],
+    "step3_antonyms": [{"text": "Negligible / Trivial", "correct": true}, {"text": "Substantial", "correct": false}, {"text": "Significant", "correct": false}, {"text": "Large", "correct": false}],
+    "step4_clues": ["'Considerable effort/skill' → a lot of effort/skill", "'Considerably better' → by a large margin", "Always implies a significant, not trivial, amount"],
+    "simple_popup": "CONSIDERABLE = notably large or significant.\n'Considerable effort' = a lot of effort.\n'Considerably different' = very different.\nNot 'thoughtful' — that's a false cognate trap."
+  },
+  {
+    "id": "086", "word": "UNDERLIE",
+    "step1_options": [
+      {"text": "To be the cause or basis of", "correct": true},
+      {"text": "To exist beneath the surface of", "correct": true},
+      {"text": "To form the foundation of something", "correct": true},
+      {"text": "To remove or eliminate a foundation", "correct": false}
+    ],
+    "step1_incorrect": "To remove or eliminate a foundation",
+    "step2_sentences": [
+      {"sentence": "Economic inequality underlies many of the social tensions in the region.", "answer": "To be the cause/basis of", "options": ["To be the cause/basis of", "To exist beneath physically", "To form a foundation"]},
+      {"sentence": "Granite underlies most of the city's older buildings.", "answer": "To exist beneath physically", "options": ["To be the cause/basis of", "To exist beneath physically", "To form a foundation"]},
+      {"sentence": "A shared belief in justice underlies all democratic systems.", "answer": "To form the foundation", "options": ["To be the cause/basis of", "To exist beneath physically", "To form the foundation"]}
+    ],
+    "step3_synonyms": [{"text": "Support (verb)", "correct": true}, {"text": "Ground (verb)", "correct": true}, {"text": "Remove", "correct": false}, {"text": "Eliminate", "correct": false}],
+    "step3_antonyms": [{"text": "Undermine / Remove", "correct": true}, {"text": "Support", "correct": false}, {"text": "Ground", "correct": false}, {"text": "Foundation", "correct": false}],
+    "step4_clues": ["'The assumption underlying this argument' → beneath the surface, as a basis", "'What underlies this behavior?' → what is the root cause?", "Often implies hidden or not immediately obvious"],
+    "simple_popup": "UNDERLIE = to be the cause or basis of.\n'Underlying assumption' = a hidden belief the argument rests on.\n'Underlies the problem' = is the root cause.\nAlways about what is BENEATH the surface."
+  },
+  {
+    "id": "087", "word": "PREVALENT",
+    "step1_options": [
+      {"text": "Widespread and common", "correct": true},
+      {"text": "Existing widely in a particular area", "correct": true},
+      {"text": "Predominant at a given time", "correct": true},
+      {"text": "Rare and difficult to find", "correct": false}
+    ],
+    "step1_incorrect": "Rare and difficult to find",
+    "step2_sentences": [
+      {"sentence": "Misinformation is increasingly prevalent on social media.", "answer": "Widespread and common", "options": ["Widespread and common", "Predominant", "Present in a region"]},
+      {"sentence": "Malaria remains prevalent in many tropical regions.", "answer": "Common in a specific area", "options": ["Widespread and common", "Predominant", "Common in a specific area"]},
+      {"sentence": "The prevalent view among economists supported gradual reform.", "answer": "Most common/dominant at the time", "options": ["Widespread and common", "Most common/dominant at the time", "Common in a specific area"]}
+    ],
+    "step3_synonyms": [{"text": "Widespread", "correct": true}, {"text": "Predominant", "correct": true}, {"text": "Rare", "correct": false}, {"text": "Uncommon", "correct": false}],
+    "step3_antonyms": [{"text": "Rare / Uncommon", "correct": true}, {"text": "Widespread", "correct": false}, {"text": "Predominant", "correct": false}, {"text": "Common", "correct": false}],
+    "step4_clues": ["'Prevalent attitude' → the most common one", "'Increasingly prevalent' → becoming more widespread", "Antonym: rare, uncommon, scarce"],
+    "simple_popup": "PREVALENT = widespread, commonly found.\n'Prevalent attitude' = the most common view.\n'Increasingly prevalent' = becoming more common.\nOpposite: rare."
+  },
+  {
+    "id": "088", "word": "ISOLATE",
+    "step1_options": [
+      {"text": "To set apart from others", "correct": true},
+      {"text": "To identify a single variable or cause", "correct": true},
+      {"text": "To keep separate to study or treat", "correct": true},
+      {"text": "To combine or connect with others", "correct": false}
+    ],
+    "step1_incorrect": "To combine or connect with others",
+    "step2_sentences": [
+      {"sentence": "Scientists isolated the gene responsible for the condition.", "answer": "To identify and separate", "options": ["To identify and separate", "To keep apart socially", "To quarantine"]},
+      {"sentence": "The patient was isolated to prevent the spread of infection.", "answer": "To keep apart for safety", "options": ["To identify and separate", "To keep apart for safety", "To quarantine"]},
+      {"sentence": "The experiment was designed to isolate the effect of temperature.", "answer": "To identify a single variable", "options": ["To identify a single variable", "To keep apart for safety", "To quarantine"]}
+    ],
+    "step3_synonyms": [{"text": "Separate", "correct": true}, {"text": "Quarantine", "correct": true}, {"text": "Combine", "correct": false}, {"text": "Connect", "correct": false}],
+    "step3_antonyms": [{"text": "Integrate / Connect", "correct": true}, {"text": "Separate", "correct": false}, {"text": "Quarantine", "correct": false}, {"text": "Identify", "correct": false}],
+    "step4_clues": ["Science: 'isolate a variable' → separate it to study its effect", "'Isolate a community' → cut it off from contact", "Isolation = state of being alone or separated"],
+    "simple_popup": "ISOLATE = to separate from others.\nScience: 'isolate a variable' = control for it by separating.\n'Isolated community' = cut off from others.\nOpposite: integrate, connect."
+  },
+  {
+    "id": "089", "word": "IRONY",
+    "step1_options": [
+      {"text": "Expression where the meaning differs from literal words", "correct": true},
+      {"text": "A situation where the opposite of what is expected occurs", "correct": true},
+      {"text": "A literary device using incongruity for effect", "correct": true},
+      {"text": "A situation where what is expected actually occurs", "correct": false}
+    ],
+    "step1_incorrect": "A situation where what is expected actually occurs",
+    "step2_sentences": [
+      {"sentence": "The irony was that the safety inspector's office was the least safe room in the building.", "answer": "Situational: opposite of expected", "options": ["Situational: opposite of expected", "Verbal: saying opposite", "Dramatic: audience knows more"]},
+      {"sentence": "'Oh great, another Monday,' she said with obvious irony.", "answer": "Verbal: saying the opposite", "options": ["Situational: opposite of expected", "Verbal: saying the opposite", "Dramatic: audience knows more"]},
+      {"sentence": "In the play, the dramatic irony occurs when the audience knows the hero is walking into a trap.", "answer": "Dramatic: audience knows more than character", "options": ["Situational: opposite of expected", "Verbal: saying the opposite", "Dramatic: audience knows more than character"]}
+    ],
+    "step3_synonyms": [{"text": "Sarcasm (verbal)", "correct": true}, {"text": "Paradox (situational)", "correct": true}, {"text": "Sincerity", "correct": false}, {"text": "Literal meaning", "correct": false}],
+    "step3_antonyms": [{"text": "Sincerity / Literalness", "correct": true}, {"text": "Sarcasm", "correct": false}, {"text": "Paradox", "correct": false}, {"text": "Incongruity", "correct": false}],
+    "step4_clues": ["3 types: verbal, situational, dramatic", "SAT literary analysis: identify which type of irony is present", "Key: always involves a gap between expectation and reality"],
+    "simple_popup": "IRONY — 3 types tested on SAT:\n1. Verbal: saying the opposite of what you mean.\n2. Situational: the opposite of what's expected happens.\n3. Dramatic: audience knows more than the character.\nAll involve a gap between appearance and reality."
+  },
+  {
+    "id": "090", "word": "NARRATIVE",
+    "step1_options": [
+      {"text": "A spoken or written account of events", "correct": true},
+      {"text": "A particular interpretation presented as truth", "correct": true},
+      {"text": "The way a story is told", "correct": true},
+      {"text": "A purely statistical analysis without story", "correct": false}
+    ],
+    "step1_incorrect": "A purely statistical analysis without story",
+    "step2_sentences": [
+      {"sentence": "The film follows the narrative of a soldier returning from war.", "answer": "A story or account", "options": ["A story or account", "A controlling interpretation", "The technique of storytelling"]},
+      {"sentence": "The politician constructed a narrative of economic success to win votes.", "answer": "A controlling interpretation", "options": ["A story or account", "A controlling interpretation", "The technique of storytelling"]},
+      {"sentence": "The novel's narrative shifts between three different perspectives.", "answer": "The technique/structure of storytelling", "options": ["A story or account", "A controlling interpretation", "The technique/structure of storytelling"]}
+    ],
+    "step3_synonyms": [{"text": "Account", "correct": true}, {"text": "Story", "correct": true}, {"text": "Statistics", "correct": false}, {"text": "Analysis", "correct": false}],
+    "step3_antonyms": [{"text": "Data / Statistics", "correct": true}, {"text": "Account", "correct": false}, {"text": "Story", "correct": false}, {"text": "Interpretation", "correct": false}],
+    "step4_clues": ["'Dominant narrative' → the prevailing story or interpretation", "'Narrative structure' → how the story is organized", "Political use: 'shaping a narrative' = controlling the story people believe"],
+    "simple_popup": "NARRATIVE:\n1. A story or account.\n2. A particular interpretation of events ('the media narrative').\n3. Narrative technique = HOW a story is told.\nSAT: 'narrative' often = the interpretation being promoted."
+  },
+  {
+    "id": "091", "word": "ANALOGY",
+    "step1_options": [
+      {"text": "A comparison between two similar things", "correct": true},
+      {"text": "A form of reasoning from parallel cases", "correct": true},
+      {"text": "A similarity in function despite structural difference", "correct": true},
+      {"text": "A direct contradiction between two ideas", "correct": false}
+    ],
+    "step1_incorrect": "A direct contradiction between two ideas",
+    "step2_sentences": [
+      {"sentence": "She explained the immune system by drawing an analogy to an army.", "answer": "A comparison to clarify", "options": ["A comparison to clarify", "Reasoning from parallel cases", "Biological similarity in function"]},
+      {"sentence": "The lawyer's argument proceeded by analogy to a previous case.", "answer": "Reasoning from similar cases", "options": ["A comparison to clarify", "Reasoning from similar cases", "Biological similarity in function"]},
+      {"sentence": "The wings of bats and birds show analogy, not homology.", "answer": "Similarity in function, not origin", "options": ["A comparison to clarify", "Reasoning from similar cases", "Similarity in function, not origin"]}
+    ],
+    "step3_synonyms": [{"text": "Comparison", "correct": true}, {"text": "Parallel", "correct": true}, {"text": "Contradiction", "correct": false}, {"text": "Contrast", "correct": false}],
+    "step3_antonyms": [{"text": "Contrast / Contradiction", "correct": true}, {"text": "Comparison", "correct": false}, {"text": "Parallel", "correct": false}, {"text": "Similarity", "correct": false}],
+    "step4_clues": ["'By analogy' → using a comparison to reason or explain", "'Draw an analogy' → make a comparison to clarify", "SAT: analogies support arguments by comparing similar cases"],
+    "simple_popup": "ANALOGY = a comparison to show similarity.\n'By analogy' = reasoning from a similar case.\n'Draw an analogy' = compare to clarify a point.\nUsed to explain complex ideas through familiar ones."
+  },
+  {
+    "id": "092", "word": "IDEOLOGY",
+    "step1_options": [
+      {"text": "A system of ideas and beliefs guiding a group", "correct": true},
+      {"text": "The set of ideas underlying a political or social movement", "correct": true},
+      {"text": "A worldview that shapes how reality is interpreted", "correct": true},
+      {"text": "An individual personal preference with no social dimension", "correct": false}
+    ],
+    "step1_incorrect": "An individual personal preference with no social dimension",
+    "step2_sentences": [
+      {"sentence": "The revolution was driven by a powerful ideology of equality and liberty.", "answer": "A system of political ideas", "options": ["A system of political ideas", "A worldview", "Beliefs guiding a group"]},
+      {"sentence": "The company's ideology placed profit above all other considerations.", "answer": "A guiding set of beliefs", "options": ["A system of political ideas", "A guiding set of beliefs", "Beliefs guiding a group"]},
+      {"sentence": "Her writing challenges the dominant ideology of her time.", "answer": "A prevailing worldview/system of ideas", "options": ["A system of political ideas", "A guiding set of beliefs", "A prevailing worldview/system of ideas"]}
+    ],
+    "step3_synonyms": [{"text": "Doctrine", "correct": true}, {"text": "Worldview", "correct": true}, {"text": "Individual preference", "correct": false}, {"text": "Personal taste", "correct": false}],
+    "step3_antonyms": [{"text": "Pragmatism / Individual preference", "correct": true}, {"text": "Doctrine", "correct": false}, {"text": "Worldview", "correct": false}, {"text": "Belief system", "correct": false}],
+    "step4_clues": ["'Ideological conflict' → clash between belief systems", "'Dominant ideology' → the prevailing set of ideas in a society", "Ideology shapes how groups interpret facts and events"],
+    "simple_popup": "IDEOLOGY = a system of ideas that shapes how a group sees the world.\n'Dominant ideology' = the prevailing beliefs of a society.\n'Ideological' = relating to a system of beliefs."
+  },
+  {
+    "id": "093", "word": "BIAS",
+    "step1_options": [
+      {"text": "A tendency to favor one side unfairly", "correct": true},
+      {"text": "A systematic error in data or research", "correct": true},
+      {"text": "To influence in a particular direction", "correct": true},
+      {"text": "Complete objectivity and fairness", "correct": false}
+    ],
+    "step1_incorrect": "Complete objectivity and fairness",
+    "step2_sentences": [
+      {"sentence": "The study's results were skewed by a sampling bias.", "answer": "A systematic error/distortion", "options": ["A systematic error/distortion", "Favoring one side unfairly", "To influence unfairly"]},
+      {"sentence": "The judge was accused of bias toward the wealthier defendant.", "answer": "Unfair favoritism", "options": ["A systematic error/distortion", "Unfair favoritism", "To influence unfairly"]},
+      {"sentence": "Media coverage can bias public perception of an issue.", "answer": "To influence in one direction", "options": ["A systematic error/distortion", "Unfair favoritism", "To influence in one direction"]}
+    ],
+    "step3_synonyms": [{"text": "Prejudice (noun)", "correct": true}, {"text": "Skew (verb)", "correct": true}, {"text": "Objectivity", "correct": false}, {"text": "Neutrality", "correct": false}],
+    "step3_antonyms": [{"text": "Objectivity / Impartiality", "correct": true}, {"text": "Prejudice", "correct": false}, {"text": "Skew", "correct": false}, {"text": "Tendency", "correct": false}],
+    "step4_clues": ["'Sampling bias' → systematic error in research design", "'Cognitive bias' → mental tendency to think in a certain way", "'Biased reporting' → unfair, not objective"],
+    "simple_popup": "BIAS:\n1. An unfair tendency to favor one side.\n2. A systematic error in data ('sampling bias').\n3. To influence unfairly (verb).\nSAT science: 'bias' = a flaw in the study design."
+  },
+  {
+    "id": "094", "word": "COHERENT",
+    "step1_options": [
+      {"text": "Logical and consistent", "correct": true},
+      {"text": "Able to speak or think clearly", "correct": true},
+      {"text": "Holding together in a unified whole", "correct": true},
+      {"text": "Contradictory and internally inconsistent", "correct": false}
+    ],
+    "step1_incorrect": "Contradictory and internally inconsistent",
+    "step2_sentences": [
+      {"sentence": "After the shock, he was unable to give a coherent account of events.", "answer": "Clear and logical", "options": ["Clear and logical", "Holding together", "Internally consistent"]},
+      {"sentence": "The policy lacked a coherent strategy for long-term growth.", "answer": "Unified, well-organized", "options": ["Clear and logical", "Unified, well-organized", "Internally consistent"]},
+      {"sentence": "Light from a laser is coherent, unlike ordinary white light.", "answer": "Physics: waves in phase", "options": ["Clear and logical", "Unified, well-organized", "Physics: waves in phase"]}
+    ],
+    "step3_synonyms": [{"text": "Logical", "correct": true}, {"text": "Consistent", "correct": true}, {"text": "Incoherent", "correct": false}, {"text": "Contradictory", "correct": false}],
+    "step3_antonyms": [{"text": "Incoherent / Contradictory", "correct": true}, {"text": "Logical", "correct": false}, {"text": "Consistent", "correct": false}, {"text": "Unified", "correct": false}],
+    "step4_clues": ["'Coherent argument' → logically consistent, makes sense", "'Coherent policy' → unified, all parts work together", "Physics: coherent light = waves all in phase"],
+    "simple_popup": "COHERENT = logical, consistent, holding together.\n'Coherent argument' = one that makes sense logically.\n'Coherent policy' = unified, not contradictory.\nOpposite: incoherent, contradictory."
+  },
+  {
+    "id": "095", "word": "INFER",
+    "step1_options": [
+      {"text": "To conclude from evidence or reasoning", "correct": true},
+      {"text": "To deduce a fact from premises", "correct": true},
+      {"text": "To read between the lines", "correct": true},
+      {"text": "To state directly without reasoning", "correct": false}
+    ],
+    "step1_incorrect": "To state directly without reasoning",
+    "step2_sentences": [
+      {"sentence": "From the data, we can infer that temperatures are rising.", "answer": "To conclude from evidence", "options": ["To conclude from evidence", "To directly state", "To assume without proof"]},
+      {"sentence": "What can you infer about the character's motivation from this passage?", "answer": "To deduce from context", "options": ["To conclude from evidence", "To deduce from context", "To assume without proof"]},
+      {"sentence": "She inferred from his hesitation that he was hiding something.", "answer": "To read between the lines", "options": ["To conclude from evidence", "To deduce from context", "To read between the lines"]}
+    ],
+    "step3_synonyms": [{"text": "Deduce", "correct": true}, {"text": "Conclude", "correct": true}, {"text": "State", "correct": false}, {"text": "Assert", "correct": false}],
+    "step3_antonyms": [{"text": "Assert / State directly", "correct": true}, {"text": "Deduce", "correct": false}, {"text": "Conclude", "correct": false}, {"text": "Reason", "correct": false}],
+    "step4_clues": ["INFER (reader) vs IMPLY (author)", "'What can be inferred?' = most common SAT question type", "Inference ≠ stated fact; it is a reasoned conclusion"],
+    "simple_popup": "INFER = to conclude from evidence (not stated directly).\nThe READER infers. The AUTHOR implies.\n'What can be inferred?' = What logical conclusion can you draw?\nNever confuse with 'imply.'"
+  },
+  {
+    "id": "096", "word": "DEMONSTRATE",
+    "step1_options": [
+      {"text": "To show clearly by example or evidence", "correct": true},
+      {"text": "To protest publicly", "correct": true},
+      {"text": "To prove through logical reasoning", "correct": true},
+      {"text": "To disprove or refute", "correct": false}
+    ],
+    "step1_incorrect": "To disprove or refute",
+    "step2_sentences": [
+      {"sentence": "The study demonstrates a clear link between sleep and cognitive performance.", "answer": "To show with evidence", "options": ["To show with evidence", "To protest publicly", "To prove by reasoning"]},
+      {"sentence": "Thousands demonstrated in the capital against the new tax.", "answer": "To protest publicly", "options": ["To show with evidence", "To protest publicly", "To prove by reasoning"]},
+      {"sentence": "The theorem demonstrates that parallel lines never intersect.", "answer": "To prove formally", "options": ["To show with evidence", "To protest publicly", "To prove formally"]}
+    ],
+    "step3_synonyms": [{"text": "Illustrate", "correct": true}, {"text": "Prove", "correct": true}, {"text": "Disprove", "correct": false}, {"text": "Conceal", "correct": false}],
+    "step3_antonyms": [{"text": "Disprove / Refute", "correct": true}, {"text": "Show", "correct": false}, {"text": "Prove", "correct": false}, {"text": "Illustrate", "correct": false}],
+    "step4_clues": ["'Demonstrates that' → shows/proves", "'Demonstrate against' → protest", "SAT: 'The passage demonstrates that…' = shows evidence for"],
+    "simple_popup": "DEMONSTRATE:\n1. To show or prove with evidence.\n2. To protest publicly.\nSAT most common: 'demonstrates that' = shows through evidence."
+  },
+  {
+    "id": "097", "word": "TRANSITION",
+    "step1_options": [
+      {"text": "The process of changing from one state to another", "correct": true},
+      {"text": "A connecting passage in writing or music", "correct": true},
+      {"text": "A period of significant change", "correct": true},
+      {"text": "A state of permanence and stability", "correct": false}
+    ],
+    "step1_incorrect": "A state of permanence and stability",
+    "step2_sentences": [
+      {"sentence": "The country underwent a difficult transition to democracy.", "answer": "A process of change", "options": ["A process of change", "A linking passage", "A critical period"]},
+      {"sentence": "Use a transition sentence to connect these two paragraphs.", "answer": "A connecting passage in writing", "options": ["A process of change", "A connecting passage in writing", "A critical period"]},
+      {"sentence": "Adolescence is a transition between childhood and adulthood.", "answer": "A period of change between two states", "options": ["A process of change", "A connecting passage in writing", "A period of change between two states"]}
+    ],
+    "step3_synonyms": [{"text": "Shift", "correct": true}, {"text": "Change", "correct": true}, {"text": "Permanence", "correct": false}, {"text": "Stability", "correct": false}],
+    "step3_antonyms": [{"text": "Permanence / Stability", "correct": true}, {"text": "Shift", "correct": false}, {"text": "Change", "correct": false}, {"text": "Process", "correct": false}],
+    "step4_clues": ["'Transitional period' → time between two states", "'Transition words' → writing: words connecting ideas (however, therefore)", "'Democratic transition' → shift in governing system"],
+    "simple_popup": "TRANSITION = a change from one state to another.\n'Transitional period' = time of change between two states.\nWriting: transition words connect ideas (however, therefore, thus)."
+  },
+  {
+    "id": "098", "word": "ASSUME",
+    "step1_options": [
+      {"text": "To take for granted without proof", "correct": true},
+      {"text": "To take on a role or responsibility", "correct": true},
+      {"text": "To put on or adopt an appearance", "correct": true},
+      {"text": "To prove or verify through evidence", "correct": false}
+    ],
+    "step1_incorrect": "To prove or verify through evidence",
+    "step2_sentences": [
+      {"sentence": "We should not assume that all readers are familiar with the topic.", "answer": "To take for granted", "options": ["To take for granted", "To take on a role", "To adopt an appearance"]},
+      {"sentence": "She assumed the presidency following an unexpected resignation.", "answer": "To take on a role/position", "options": ["To take for granted", "To take on a role/position", "To adopt an appearance"]},
+      {"sentence": "He assumed an air of confidence he did not truly feel.", "answer": "To adopt/put on an appearance", "options": ["To take for granted", "To take on a role/position", "To adopt/put on an appearance"]}
+    ],
+    "step3_synonyms": [{"text": "Presume (verb)", "correct": true}, {"text": "Undertake (verb)", "correct": true}, {"text": "Prove", "correct": false}, {"text": "Verify", "correct": false}],
+    "step3_antonyms": [{"text": "Verify / Prove", "correct": true}, {"text": "Presume", "correct": false}, {"text": "Undertake", "correct": false}, {"text": "Take on", "correct": false}],
+    "step4_clues": ["'Assume office' → take on a position of authority", "'Assume an air of' → put on, pretend to have", "'Assume that' → take as fact without proof"],
+    "simple_popup": "ASSUME:\n1. To take for granted ('assume it's correct').\n2. To take on a role ('assume the presidency').\n3. To adopt an appearance ('assumed an air of calm').\nSAT: 'assumption' = an unproven premise in an argument."
+  },
+  {
+    "id": "099", "word": "CONSTITUTE",
+    "step1_options": [
+      {"text": "To make up or form", "correct": true},
+      {"text": "To be equivalent to or amount to", "correct": true},
+      {"text": "To establish formally or legally", "correct": true},
+      {"text": "To divide or separate into parts", "correct": false}
+    ],
+    "step1_incorrect": "To divide or separate into parts",
+    "step2_sentences": [
+      {"sentence": "Women constitute over fifty percent of the university's enrollment.", "answer": "To make up/form", "options": ["To make up/form", "To amount to", "To establish formally"]},
+      {"sentence": "This action constitutes a violation of the agreement.", "answer": "To be equivalent to/amount to", "options": ["To make up/form", "To be equivalent to/amount to", "To establish formally"]},
+      {"sentence": "The charter constituted a new form of self-governance.", "answer": "To establish formally", "options": ["To make up/form", "To be equivalent to/amount to", "To establish formally"]}
+    ],
+    "step3_synonyms": [{"text": "Comprise", "correct": true}, {"text": "Represent", "correct": true}, {"text": "Divide", "correct": false}, {"text": "Separate", "correct": false}],
+    "step3_antonyms": [{"text": "Divide / Separate", "correct": true}, {"text": "Comprise", "correct": false}, {"text": "Represent", "correct": false}, {"text": "Form", "correct": false}],
+    "step4_clues": ["'Constitutes a violation' → amounts to, equals", "'Women constitute 40%' → make up that percentage", "'The Constitution' → the document that formally establishes government"],
+    "simple_popup": "CONSTITUTE:\n1. To make up or form ('constitute 40%').\n2. To amount to or equal ('constitutes a crime').\n3. To formally establish ('constituted a new body').\nSAT: 'This constitutes…' = this counts as or equals."
+  },
+  {
+    "id": "100", "word": "CONTEXT",
+    "step1_options": [
+      {"text": "The circumstances surrounding an event or statement", "correct": true},
+      {"text": "The parts of a text that surround a word and clarify its meaning", "correct": true},
+      {"text": "The background conditions that give meaning to something", "correct": true},
+      {"text": "The isolated meaning of a word independent of any situation", "correct": false}
+    ],
+    "step1_incorrect": "The isolated meaning of a word independent of any situation",
+    "step2_sentences": [
+      {"sentence": "Without context, the remark seems offensive, but in context it was a joke.", "answer": "Surrounding circumstances", "options": ["Surrounding circumstances", "Text around a word", "Historical background"]},
+      {"sentence": "Use context clues to determine the meaning of unfamiliar words.", "answer": "Text surrounding a word", "options": ["Surrounding circumstances", "Text surrounding a word", "Historical background"]},
+      {"sentence": "The reforms must be understood within the context of post-war reconstruction.", "answer": "Historical/situational background", "options": ["Surrounding circumstances", "Text surrounding a word", "Historical/situational background"]}
+    ],
+    "step3_synonyms": [{"text": "Setting", "correct": true}, {"text": "Background", "correct": true}, {"text": "Isolation", "correct": false}, {"text": "Vacuum", "correct": false}],
+    "step3_antonyms": [{"text": "Isolation / Vacuum", "correct": true}, {"text": "Setting", "correct": false}, {"text": "Background", "correct": false}, {"text": "Circumstances", "correct": false}],
+    "step4_clues": ["'In context' → considering all surrounding circumstances", "'Context clues' → words around an unknown word that hint at its meaning", "SAT: ALWAYS use context to determine word meaning"],
+    "simple_popup": "CONTEXT = the surrounding conditions that give meaning.\n'Context clues' = words/phrases around an unknown word.\n'In context' = considering the full situation.\nThe SAT tests context-dependent meaning constantly."
+  }
+]
