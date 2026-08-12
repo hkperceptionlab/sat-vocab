@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo } from "react";
+import Vocab1000 from "./Vocab1000";
 
 function shuffle(arr) {
   const a = [...arr];
@@ -195,8 +196,61 @@ function ReviewMode({ missedWords, onBack, dark }) {
   );
 }
 
+function HomeScreen({ onPick, dark, onToggleDark }) {
+  const bg = dark ? "#0f0f1a" : "#f8fafc";
+  const card = dark ? "#1e1e2e" : "#ffffff";
+  const text = dark ? "#e2e8f0" : "#1e293b";
+  const sub = dark ? "#94a3b8" : "#64748b";
+  const border = dark ? "#2d2d44" : "#e2e8f0";
+
+  const Card = ({ accent, emoji, title, count, desc, bullets, onClick }) => (
+    <button onClick={onClick} style={{
+      background: card, border: `1px solid ${border}`, borderRadius: 20, padding: 24,
+      cursor: "pointer", color: text, textAlign: "left", position: "relative", overflow: "hidden"
+    }}>
+      <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 4, background: accent }} />
+      <div style={{ fontSize: 30, marginBottom: 8 }}>{emoji}</div>
+      <div style={{ fontWeight: 800, fontSize: 19 }}>{title}</div>
+      <div style={{ fontSize: 13, color: sub, margin: "4px 0 12px" }}>{count} · {desc}</div>
+      <ul style={{ margin: 0, paddingLeft: 18, color: sub, fontSize: 13, lineHeight: 1.9 }}>
+        {bullets.map((b, i) => <li key={i}>{b}</li>)}
+      </ul>
+    </button>
+  );
+
+  return (
+    <div style={{ minHeight: "100vh", background: bg, color: text, fontFamily: "'Segoe UI',system-ui,sans-serif" }}>
+      <div style={{ maxWidth: 760, margin: "0 auto", padding: "48px 16px" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 32 }}>
+          <div>
+            <div style={{ fontWeight: 900, fontSize: 30, background: "linear-gradient(90deg,#6366f1,#ec4899)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+              SAT Vocabulary
+            </div>
+            <div style={{ color: sub, fontSize: 14, marginTop: 4 }}>공부할 방식을 고르세요</div>
+          </div>
+          <button onClick={onToggleDark} style={{ background: border, border: "none", borderRadius: 8, padding: "8px 14px", cursor: "pointer", color: text, fontSize: 14 }}>
+            {dark ? "☀️" : "🌙"}
+          </button>
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))", gap: 16 }}>
+          <Card accent="linear-gradient(90deg,#6366f1,#8b5cf6)" emoji="📚" title="1000 SAT Words" count="991단어"
+            desc="250개씩 4파트"
+            bullets={["파트별 순서 학습 (#1–250 …)", "플래시카드·객관식·빈칸·스펠링", "파트마다 오답만 다시 연습"]}
+            onClick={() => onPick("vocab1000")} />
+          <Card accent="linear-gradient(90deg,#10b981,#f59e0b)" emoji="🎯" title="4단계 심화 퀴즈" count="500단어"
+            desc="다의어 집중"
+            bullets={["Odd One Out / Context Match", "동의어·반의어 / Invisible Clue", "SAT 함정 어휘 훈련"]}
+            onClick={() => onPick("quiz4")} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
   const [dark, setDark] = useState(true);
+  const [appMode, setAppMode] = useState(null);
   const [wordBank, setWordBank] = useState([]);
   const [wordIndex, setWordIndex] = useState(0);
   const [step, setStep] = useState(0);
@@ -307,6 +361,9 @@ export default function App() {
     </span>
   );
 
+  if (appMode === null) return <HomeScreen onPick={setAppMode} dark={dark} onToggleDark={() => setDark(d => !d)} />;
+  if (appMode === "vocab1000") return <Vocab1000 onExit={() => setAppMode(null)} dark={dark} />;
+
   if (loading || !word) return (
     <div style={{ minHeight: "100vh", background: "#0f0f1a", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 16 }}>
       <div style={{ fontSize: 32 }}>⚡</div>
@@ -321,9 +378,12 @@ export default function App() {
     <div style={{ minHeight: "100vh", background: bg, color: text, fontFamily: "'Segoe UI',system-ui,sans-serif", transition: "all 0.3s" }}>
       {/* Header */}
       <div style={{ background: card, borderBottom: `1px solid ${border}`, padding: "12px 20px", display: "flex", alignItems: "center", justifyContent: "space-between", position: "sticky", top: 0, zIndex: 100 }}>
-        <div>
-          <span style={{ fontWeight: 800, fontSize: 18, background: "linear-gradient(90deg,#6366f1,#ec4899)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>SAT 750+</span>
-          <span style={{ color: sub, fontSize: 13, marginLeft: 8 }}>4-Step Vocab</span>
+        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <button onClick={() => setAppMode(null)} style={{ background: "none", border: `1px solid ${border}`, borderRadius: 8, padding: "6px 12px", cursor: "pointer", color: text, fontSize: 12, fontWeight: 600 }}>← 홈</button>
+          <div>
+            <span style={{ fontWeight: 800, fontSize: 18, background: "linear-gradient(90deg,#6366f1,#ec4899)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>SAT 750+</span>
+            <span style={{ color: sub, fontSize: 13, marginLeft: 8 }}>4-Step Vocab</span>
+          </div>
         </div>
         <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
           {missedWords.length > 0 && (
