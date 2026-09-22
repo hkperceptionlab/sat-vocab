@@ -226,7 +226,7 @@ function HomeScreen({ onPick, dark, onToggleDark }) {
             <div style={{ fontWeight: 900, fontSize: 30, background: "linear-gradient(90deg,#6366f1,#ec4899)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
               SAT Vocabulary
             </div>
-            <div style={{ color: sub, fontSize: 14, marginTop: 4 }}>공부할 방식을 고르세요</div>
+            <div style={{ color: sub, fontSize: 14, marginTop: 4 }}>Choose how you want to study</div>
           </div>
           <button onClick={onToggleDark} style={{ background: border, border: "none", borderRadius: 8, padding: "8px 14px", cursor: "pointer", color: text, fontSize: 14 }}>
             {dark ? "☀️" : "🌙"}
@@ -234,13 +234,13 @@ function HomeScreen({ onPick, dark, onToggleDark }) {
         </div>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))", gap: 16 }}>
-          <Card accent="linear-gradient(90deg,#6366f1,#8b5cf6)" emoji="📚" title="1000 SAT Words" count="991단어"
-            desc="250개씩 4파트"
-            bullets={["파트별 순서 학습 (#1–250 …)", "플래시카드·객관식·빈칸·스펠링", "파트마다 오답만 다시 연습"]}
+          <Card accent="linear-gradient(90deg,#6366f1,#8b5cf6)" emoji="📚" title="1000 SAT Words" count="991 words"
+            desc="4 parts of 250"
+            bullets={["Study part by part (#1–250 …)", "Flashcards · Multiple Choice · Fill-in-Blank · Spelling", "Each part re-practices only missed words"]}
             onClick={() => onPick("vocab1000")} />
-          <Card accent="linear-gradient(90deg,#10b981,#f59e0b)" emoji="🎯" title="4단계 심화 퀴즈" count="500단어"
-            desc="다의어 집중"
-            bullets={["Odd One Out / Context Match", "동의어·반의어 / Invisible Clue", "SAT 함정 어휘 훈련"]}
+          <Card accent="linear-gradient(90deg,#10b981,#f59e0b)" emoji="🎯" title="4-Step Deep Quiz" count="500 words"
+            desc="Focus on multi-meaning words"
+            bullets={["Odd One Out / Context Match", "Synonyms & Antonyms / Invisible Clue", "SAT trap vocabulary training"]}
             onClick={() => onPick("quiz4")} />
         </div>
       </div>
@@ -379,7 +379,7 @@ export default function App() {
       {/* Header */}
       <div style={{ background: card, borderBottom: `1px solid ${border}`, padding: "12px 20px", display: "flex", alignItems: "center", justifyContent: "space-between", position: "sticky", top: 0, zIndex: 100 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <button onClick={() => setAppMode(null)} style={{ background: "none", border: `1px solid ${border}`, borderRadius: 8, padding: "6px 12px", cursor: "pointer", color: text, fontSize: 12, fontWeight: 600 }}>← 홈</button>
+          <button onClick={() => setAppMode(null)} style={{ background: "none", border: `1px solid ${border}`, borderRadius: 8, padding: "6px 12px", cursor: "pointer", color: text, fontSize: 12, fontWeight: 600 }}>← Home</button>
           <div>
             <span style={{ fontWeight: 800, fontSize: 18, background: "linear-gradient(90deg,#6366f1,#ec4899)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>SAT 750+</span>
             <span style={{ color: sub, fontSize: 13, marginLeft: 8 }}>4-Step Vocab</span>

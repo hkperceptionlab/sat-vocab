@@ -10,9 +10,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'icons.svg'],
       manifest: {
-        name: 'SAT Quiz App',
-        short_name: 'SAT Quiz',
-        description: 'SAT 단어 퀴즈 앱',
+        name: 'SAT Vocabulary',
+        short_name: 'SAT Vocab',
+        description: 'Practice 991 SAT words in 4 parts, plus a 4-step deep quiz on 500 multi-meaning words.',
         theme_color: '#ffffff',
         background_color: '#ffffff',
         display: 'standalone',
