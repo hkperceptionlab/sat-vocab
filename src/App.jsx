@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
 import Vocab1000 from "./Vocab1000";
+import InstallPrompt from "./InstallPrompt";
 
 function shuffle(arr) {
   const a = [...arr];
@@ -243,6 +244,8 @@ function HomeScreen({ onPick, dark, onToggleDark }) {
             bullets={["Odd One Out / Context Match", "Synonyms & Antonyms / Invisible Clue", "SAT trap vocabulary training"]}
             onClick={() => onPick("quiz4")} />
         </div>
+
+        <InstallPrompt dark={dark} />
       </div>
     </div>
   );
