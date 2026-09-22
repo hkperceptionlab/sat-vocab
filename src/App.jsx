@@ -11,33 +11,6 @@ function shuffle(arr) {
   return a;
 }
 
-const MODEL = "claude-sonnet-4-20250514";
-let generatedBank = [];
-let generating = false;
-let genResolvers = [];
-
-async function generateMoreWords(startId, count = 8) {
-  if (generating) return new Promise(r => genResolvers.push(r));
-  generating = true;
-  const prompt = `Generate ${count} SAT vocabulary quiz entries starting from word #${startId}.
-Focus on HIGH-FREQUENCY SAT polysemous words. Base definitions strictly on Merriam-Webster.
-Return ONLY a valid JSON array, no markdown:
-[{"id":"006","word":"SANCTION","step1_options":[{"text":"Official permission","correct":true},{"text":"A penalty for breaking a rule","correct":true},{"text":"To officially authorize","correct":true},{"text":"To secretly hide information","correct":false}],"step1_incorrect":"To secretly hide information","step2_sentences":[{"sentence":"The UN imposed economic sanctions on the country.","answer":"A penalty/punishment","options":["Official approval","A penalty/punishment","To authorize"]},{"sentence":"The board sanctioned the new policy after debate.","answer":"To officially authorize","options":["Official approval","A penalty/punishment","To authorize"]},{"sentence":"The experiment had the full sanction of the ethics committee.","answer":"Official approval","options":["Official approval","A penalty/punishment","To authorize"]}],"step3_synonyms":[{"text":"Ratify","correct":true},{"text":"Penalize","correct":true},{"text":"Prohibit","correct":false},{"text":"Ignore","correct":false}],"step3_antonyms":[{"text":"Prohibit / Ban","correct":true},{"text":"Penalize","correct":false},{"text":"Authorize","correct":false},{"text":"Reward","correct":false}],"step4_clues":["'Economic sanctions' → penalties","'Sanctioned by law' → authorized","CAN mean both permission AND punishment"],"simple_popup":"SANCTION = permission OR punishment\\nSAT trap: 'sanctions' often = penalties\\n'Sanctioned' often = officially approved"}]`;
-  try {
-    const res = await fetch("https://api.anthropic.com/v1/messages", {
-      method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ model: MODEL, max_tokens: 6000, messages: [{ role: "user", content: prompt }] })
-    });
-    const data = await res.json();
-    const txt = data.content?.find(b => b.type === "text")?.text || "[]";
-    const clean = txt.replace(/```json|```/g, "").trim();
-    const words = JSON.parse(clean);
-    generatedBank = [...generatedBank, ...words];
-    genResolvers.forEach(r => r()); genResolvers = [];
-  } catch (e) { console.error(e); }
-  generating = false;
-}
-
 const STEPS = ["Odd One Out", "Context Match", "Synonym / Antonym", "Invisible Clue"];
 const SC = ["#6366f1", "#10b981", "#f59e0b", "#ec4899"];
 
@@ -287,29 +260,14 @@ export default function App() {
           all = [...all, ...data];
         } catch (e) { console.warn(`Could not load ${f}`); }
       }
-      if (all.length === 0) {
-        // fallback: generate with AI
-        setLoading(true);
-        await generateMoreWords(1, 10);
-        all = [...generatedBank];
-      }
       all = shuffle(all);
       setWordBank(all);
-      generatedBank = all;
       setLoading(false);
     }
     loadWords();
   }, []);
 
   const word = wordBank[wordIndex % Math.max(wordBank.length, 1)];
-
-  useEffect(() => {
-    if (wordBank.length > 0 && wordIndex >= wordBank.length - 3 && !generating) {
-      generateMoreWords(wordBank.length + 1, 8).then(() => {
-        setWordBank([...generatedBank]);
-      });
-    }
-  }, [wordIndex, wordBank.length]);
 
   useEffect(() => {
     setSelected(null); setRevealed(false);
