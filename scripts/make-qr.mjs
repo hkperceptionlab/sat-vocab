@@ -4,7 +4,7 @@ import QRCode from "qrcode";
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
 
-const URL_TO_ENCODE = process.argv[2] || "https://sat-quiz-app-tau.vercel.app";
+const URL_TO_ENCODE = process.argv[2] || "https://hkperceptionlab.github.io/sat-vocab/";
 const ROOT = fileURLToPath(new URL("../", import.meta.url));
 const out = join(ROOT, "qr-sat-vocab.png");
 

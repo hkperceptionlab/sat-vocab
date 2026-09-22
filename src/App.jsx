@@ -255,7 +255,7 @@ export default function App() {
       let all = [];
       for (const f of files) {
         try {
-          const res = await fetch(`/${f}`);
+          const res = await fetch(`${import.meta.env.BASE_URL}${f}`);
           const data = await res.json();
           all = [...all, ...data];
         } catch (e) { console.warn(`Could not load ${f}`); }

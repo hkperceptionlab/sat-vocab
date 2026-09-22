@@ -143,7 +143,7 @@ export default function Vocab1000({ onExit, dark }) {
   const inputBg = dark ? "#2d2d44" : "#f1f5f9";
 
   useEffect(() => {
-    fetch("/sat1000.json").then(r => r.json())
+    fetch(`${import.meta.env.BASE_URL}sat1000.json`).then(r => r.json())
       .then(d => { setWords(d); setLoading(false); })
       .catch(() => setLoading(false));
   }, []);
