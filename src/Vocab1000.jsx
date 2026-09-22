@@ -38,6 +38,38 @@ function saveStore(s) {
   try { localStorage.setItem(STORE_KEY, JSON.stringify(s)); } catch { /* quota */ }
 }
 
+// Leitner spacing. A word moves up a box each time it is recalled and comes
+// back that many days later; a miss drops it to box 0, due straight away.
+const BOX_DAYS = [0, 1, 3, 7, 16, 35];
+const MAX_BOX = BOX_DAYS.length - 1;
+const DAY = 86400000;
+// Leaving the missed list takes two correct answers in a row — the streak,
+// not the lifetime tally, which used to let a long-known word escape on one.
+const GRADUATE_STREAK = 2;
+const GRADUATE_BOX = 2;
+
+// Records written before spacing existed hold only { c, w }. The defaults read
+// those as box 0, due now, which is exactly what an unscheduled word should be.
+const statOf = (stats, id) => ({ c: 0, w: 0, box: 0, streak: 0, due: 0, ...(stats[id] || {}) });
+
+// `now` is passed in rather than read here: this runs during render, and
+// reading the clock there is impure.
+const dueLabel = (stat, now) => {
+  const ms = stat.due - now;
+  if (ms <= 0) return "due now";
+  const d = Math.ceil(ms / DAY);
+  return d === 1 ? "in 1 day" : `in ${d} days`;
+};
+
+// Hardest first: still flagged as missed, then the lowest box, then whatever
+// has been waiting longest.
+const reviewOrder = (list, store) => [...list].sort((a, b) => {
+  const am = store.missed.includes(a.id), bm = store.missed.includes(b.id);
+  if (am !== bm) return am ? -1 : 1;
+  const as = statOf(store.stats, a.id), bs = statOf(store.stats, b.id);
+  return as.box - bs.box || as.due - bs.due;
+});
+
 // Also blanks out inflected forms, e.g. "abase" → abased / abasing
 function blankOut(sentence, word) {
   const stem = word.length > 4 ? word.replace(/(e|y)$/i, "") : word;
@@ -99,6 +131,9 @@ export default function Vocab1000({ onExit, dark }) {
   const [typed, setTyped] = useState("");
   const [result, setResult] = useState({ correct: 0, wrong: [] });
   const [lastList, setLastList] = useState([]);
+  // One reference time per render pass. Reading the clock during render is
+  // impure, so it is captured here and refreshed from the answer handler.
+  const [now, setNow] = useState(() => Date.now());
 
   const bg = dark ? "#0f0f1a" : "#f8fafc";
   const card = dark ? "#1e1e2e" : "#ffffff";
@@ -126,13 +161,23 @@ export default function Vocab1000({ onExit, dark }) {
   );
 
   const record = useCallback((wordId, ok) => {
+    // Read the clock here, in the handler, and keep the updater below pure.
+    const at = Date.now();
+    setNow(at);
     setStore(prev => {
-      const st = { ...prev.stats };
-      const cur = st[wordId] || { c: 0, w: 0 };
-      st[wordId] = ok ? { ...cur, c: cur.c + 1 } : { ...cur, w: cur.w + 1 };
+      const cur = statOf(prev.stats, wordId);
+      const box = ok ? Math.min(cur.box + 1, MAX_BOX) : 0;
+      const entry = ok
+        ? { c: cur.c + 1, w: cur.w, box, streak: cur.streak + 1, due: at + BOX_DAYS[box] * DAY }
+        : { c: cur.c, w: cur.w + 1, box, streak: 0, due: at };
+      const st = { ...prev.stats, [wordId]: entry };
+
       let missed = prev.missed;
-      if (!ok && !missed.includes(wordId)) missed = [...missed, wordId];
-      if (ok && missed.includes(wordId) && st[wordId].c >= 2) missed = missed.filter(x => x !== wordId);
+      const flagged = missed.includes(wordId);
+      if (!ok && !flagged) missed = [...missed, wordId];
+      if (ok && flagged && entry.streak >= GRADUATE_STREAK && entry.box >= GRADUATE_BOX)
+        missed = missed.filter(x => x !== wordId);
+
       const next = { stats: st, missed };
       saveStore(next);
       return next;
@@ -173,7 +218,24 @@ export default function Vocab1000({ onExit, dark }) {
   const partStat = (list) => {
     const seen = list.filter(w => store.stats[w.id]).length;
     const miss = list.filter(w => store.missed.includes(w.id)).length;
-    return { seen, miss, pct: list.length ? Math.round(seen / list.length * 100) : 0 };
+    const due = list.filter(w => store.stats[w.id] && statOf(store.stats, w.id).due <= now).length;
+    return { seen, miss, due, pct: list.length ? Math.round(seen / list.length * 100) : 0 };
+  };
+
+  // Everything already studied whose next review has come around.
+  const dueWords = (list) =>
+    list.filter(w => store.stats[w.id] && statOf(store.stats, w.id).due <= now);
+
+  const startReview = (list, lbl) => startSession(reviewOrder(list, store), "mix", lbl);
+
+  // Five dots: how far up the Leitner boxes a word has climbed.
+  const BoxDots = ({ id }) => {
+    const { box } = statOf(store.stats, id);
+    return (
+      <span style={{ letterSpacing: 1, fontSize: 11, color: box >= GRADUATE_BOX ? "#10b981" : "#f59e0b" }}>
+        {"●".repeat(box)}{"○".repeat(MAX_BOX - box)}
+      </span>
+    );
   };
 
   if (loading) return (
@@ -185,6 +247,7 @@ export default function Vocab1000({ onExit, dark }) {
   /* ================= Part selection ================= */
   if (view === "parts") {
     const all = partStat(words);
+    const allDue = dueWords(words);
     return (
       <div style={{ minHeight: "100vh", background: bg, color: text, fontFamily: "'Segoe UI',system-ui,sans-serif" }}>
         <div style={{ background: card, borderBottom: `1px solid ${border}`, padding: "12px 20px", display: "flex", justifyContent: "space-between", alignItems: "center", position: "sticky", top: 0, zIndex: 100 }}>
@@ -194,9 +257,22 @@ export default function Vocab1000({ onExit, dark }) {
         </div>
 
         <div style={{ maxWidth: 720, margin: "0 auto", padding: "24px 16px" }}>
+          {allDue.length > 0 && (
+            <button onClick={() => startReview(allDue, `Review · ${allDue.length} due`)} style={{
+              width: "100%", textAlign: "left", cursor: "pointer", marginBottom: 18,
+              background: card, border: "2px solid #f59e0b", borderRadius: 16, padding: 18, color: text,
+            }}>
+              <div style={{ fontWeight: 800, color: "#f59e0b" }}>🔔 {allDue.length} words ready for review</div>
+              <div style={{ fontSize: 13, color: sub, marginTop: 4 }}>
+                Spaced out since you last saw them — hardest first. Tap to start.
+              </div>
+            </button>
+          )}
+
           <div style={{ fontWeight: 800, fontSize: 16, marginBottom: 4 }}>Choose a part to study</div>
           <div style={{ color: sub, fontSize: 13, marginBottom: 18 }}>
-            {words.length} words split into 4 parts of 250. Each part keeps its own missed-word list.
+            {words.length} words split into 4 parts of 250. Each part keeps its own missed-word list,
+            and words come back on a schedule that stretches as you get them right.
           </div>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(280px,1fr))", gap: 12 }}>
@@ -217,9 +293,12 @@ export default function Vocab1000({ onExit, dark }) {
                   <div style={{ background: border, borderRadius: 4, height: 7 }}>
                     <div style={{ width: `${st.pct}%`, height: "100%", borderRadius: 4, background: "linear-gradient(90deg,#6366f1,#10b981)" }} />
                   </div>
-                  <div style={{ display: "flex", justifyContent: "space-between", marginTop: 7, fontSize: 12 }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginTop: 7, fontSize: 12, gap: 8 }}>
                     <span style={{ color: sub }}>{st.seen}/{p.length} studied ({st.pct}%)</span>
-                    {st.miss > 0 && <span style={{ color: "#ef4444", fontWeight: 700 }}>Missed {st.miss}</span>}
+                    <span style={{ display: "flex", gap: 8 }}>
+                      {st.due > 0 && <span style={{ color: "#f59e0b", fontWeight: 700 }}>Due {st.due}</span>}
+                      {st.miss > 0 && <span style={{ color: "#ef4444", fontWeight: 700 }}>Missed {st.miss}</span>}
+                    </span>
                   </div>
                 </button>
               );
@@ -235,6 +314,7 @@ export default function Vocab1000({ onExit, dark }) {
     const sets = [];
     for (let i = 0; i < partWords.length; i += SET_SIZE) sets.push(partWords.slice(i, i + SET_SIZE));
     const st = partStat(partWords);
+    const partDue = dueWords(partWords);
     return (
       <div style={{ minHeight: "100vh", background: bg, color: text, fontFamily: "'Segoe UI',system-ui,sans-serif" }}>
         <div style={{ background: card, borderBottom: `1px solid ${border}`, padding: "12px 20px", display: "flex", justifyContent: "space-between", alignItems: "center", position: "sticky", top: 0, zIndex: 100 }}>
@@ -251,18 +331,46 @@ export default function Vocab1000({ onExit, dark }) {
             </div>
             <div style={{ fontSize: 13, color: sub, marginBottom: partMissed.length ? 14 : 0 }}>
               {partMissed.length
-                ? "Collects words you got wrong or didn't know. Get one right twice in a row and it drops off the list."
+                ? "Words you got wrong or didn't know. Two correct answers in a row clears one off the list."
                 : "No missed words yet. Start studying to build your list."}
             </div>
             {partMissed.length > 0 && (
-              <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-                <Btn color="#ef4444" onClick={() => startSession(partMissed, "flash", `Part ${part + 1} Missed · Flashcards`)}>
-                  Review with Flashcards
-                </Btn>
-                <Btn color="#ef4444" onClick={() => startSession(partMissed, "mix", `Part ${part + 1} Missed · Quiz`)}>
-                  Review with Quiz
-                </Btn>
-              </div>
+              <>
+                <div style={{ maxHeight: 210, overflowY: "auto", marginBottom: 14 }}>
+                  {reviewOrder(partMissed, store).map(w => {
+                    const s = statOf(store.stats, w.id);
+                    const ready = s.due <= now;
+                    return (
+                      <div key={w.id} style={{
+                        display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10,
+                        background: inputBg, borderRadius: 10, padding: "8px 12px", marginBottom: 6,
+                        borderLeft: `4px solid ${ready ? "#f59e0b" : border}`,
+                      }}>
+                        <span onClick={() => speak(w.word)} style={{ fontWeight: 700, fontSize: 14, cursor: "pointer" }}>
+                          {w.word} 🔊
+                        </span>
+                        <span style={{ display: "flex", alignItems: "center", gap: 10, whiteSpace: "nowrap" }}>
+                          <BoxDots id={w.id} />
+                          <span style={{ fontSize: 11, color: ready ? "#f59e0b" : sub }}>{dueLabel(s, now)}</span>
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+                  {partDue.length > 0 && (
+                    <Btn color="#f59e0b" onClick={() => startReview(partDue, `Part ${part + 1} · ${partDue.length} due`)}>
+                      Review {partDue.length} due now
+                    </Btn>
+                  )}
+                  <Btn color="#ef4444" onClick={() => startSession(reviewOrder(partMissed, store), "flash", `Part ${part + 1} Missed · Flashcards`)}>
+                    All missed · Flashcards
+                  </Btn>
+                  <Btn color="#ef4444" onClick={() => startReview(partMissed, `Part ${part + 1} Missed · Quiz`)}>
+                    All missed · Quiz
+                  </Btn>
+                </div>
+              </>
             )}
           </div>
 
